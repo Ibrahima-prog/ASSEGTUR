@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateRegularquestionsTable extends Migration
+class CreateFacultiesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,13 @@ class CreateRegularquestionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('regularquestions', function (Blueprint $table) {
+        Schema::create('faculties', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('category');
-            $table->text('enquestion');
-            $table->text('trquestion');
-            $table->text('enanswer');
-            $table->text('transwer');
+            $table->string('frname');
+            $table->string('trname');
+            $table->string('enname');
+            $table->string('slug');
+            
             $table->timestamps();
         });
     }
@@ -31,6 +31,6 @@ class CreateRegularquestionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('regularquestions');
+        Schema::dropIfExists('aboutus');
     }
 }

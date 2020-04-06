@@ -17,10 +17,18 @@ class CreateActivitiesTable extends Migration
             $table->increments('id');
             $table->string('entitle');
             $table->string('trtitle');
+            $table->string('frtitle');
+            $table->string('slug');
             $table->string('image');
             $table->string('status')->default(0);
             $table->text('enbody');
             $table->text('trbody');
+            $table->text('frbody');
+            $table->text('ensummary');
+            $table->text('trsummary');
+            $table->text('frsummary');
+            $table->text('images');
+
             $table->timestamps();
         });
     }

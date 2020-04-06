@@ -26,9 +26,10 @@
  
  	</div>
 
+	 <footer>
 
     @include('user/layouts/footer')    
-
+</footer>
  	@section('footer')
 
 </body>

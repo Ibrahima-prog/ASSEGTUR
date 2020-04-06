@@ -111,7 +111,6 @@
     <script src="/../../user/assets/plugins/jquery.min.js" type="text/javascript"></script>
     <script src="/../../user/assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
     <script src="/../../user/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
-    <script src="/../../user/assets/corporate/scripts/back-to-top.js" type="text/javascript"></script>
     <!-- END CORE PLUGINS -->
 
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->

@@ -195,7 +195,7 @@
                 <img src="BizPage/flags/red_flag.png" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">{{ Lang::get('app.OurMission') }}</a></h2>
+              <h2 class="title"><a href="/association/our-mission-vision">{{ Lang::get('app.OurMission') }}</a></h2>
               <p>
                  @if(App::getLocale() == 'tr') 
                 {!! \Illuminate\Support\Str::words($mission->trtext, 20 ,'  ...')  !!}
@@ -214,7 +214,7 @@
                 <img src="BizPage/flags/yellow_flag.png" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">{{ Lang::get('app.OurPlan') }} </a></h2>
+              <h2 class="title"><a href="/association/our-mission-vision">{{ Lang::get('app.OurPlan') }} </a></h2>
               <p>
                 @if(App::getLocale() == 'tr') 
                 {!! \Illuminate\Support\Str::words($plan->trtext, 20 ,'  ...')  !!}
@@ -233,7 +233,7 @@
                 <img src="BizPage/flags/green_flag.png" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">{{ Lang::get('app.OurVision') }}  </a></h2>
+              <h2 class="title"><a href="/association/our-mission-vision">{{ Lang::get('app.OurVision') }}  </a></h2>
               <p>
                 @if(App::getLocale() == 'tr') 
                 {!! \Illuminate\Support\Str::words($vision->trtext, 20 ,'  ...')  !!}

@@ -4,7 +4,7 @@
     <div id="logo" class="pull-left">
       <h1><a href="/" class="scrollto">ASSEGTUR</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="#intro"><img src="/img/logo.png" alt=""></a>-->
+      <a href="/"><img src="../../logo/logo." alt=""></a>
     </div>
 
     <nav id="nav-menu-container">

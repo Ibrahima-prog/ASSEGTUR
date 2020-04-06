@@ -18,6 +18,7 @@ class CreateBoardmembersTable extends Migration
             $table->string('name');
             $table->string('entitle');
             $table->string('trtitle');
+            $table->string('frtitle');
             $table->string('email')->nullable();
             $table->string('facebook')->nullable();
             $table->string('twitter')->nullable();

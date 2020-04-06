@@ -69,10 +69,10 @@ class RoutesController extends Controller
 
     public function register(){   
        
-        $someconditions = DB::table('conditions')->paginate(3);
-        $conditions = DB::table('conditions')->get();
+      //  $someconditions = DB::table('conditions')->paginate(3);
+      //  $conditions = DB::table('conditions')->get();
         $contacts = DB::table('settings')->first();
-        return view('user.register' , compact('contacts','conditions','someconditions'));
+        return view('user.register' , compact('contacts','someconditions'));
     }
 
     public function login(){   

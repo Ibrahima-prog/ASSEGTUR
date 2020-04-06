@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateConditionsTable extends Migration
+class CreatePlanTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,14 @@ class CreateConditionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('conditions', function (Blueprint $table) {
+        Schema::create('plan', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('encondition');
-            $table->text('trcondition');
+            $table->string('entitle');
+            $table->string('trtitle');
+            $table->string('frtitle');
+            $table->text('entext');
+            $table->text('trtext');
+            $table->text('frtext');
             $table->timestamps();
         });
     }
@@ -28,6 +32,6 @@ class CreateConditionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('conditions');
+        Schema::dropIfExists('plan');
     }
 }

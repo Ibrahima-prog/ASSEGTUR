@@ -17,8 +17,10 @@ class CreateHistoriesTable extends Migration
             $table->increments('id');
             $table->string('entitle');
             $table->string('trtitle');
+            $table->string('frtitle');
             $table->text('entext');
             $table->text('trtext');
+            $table->text('frtext');
             $table->timestamps();
         });
     }

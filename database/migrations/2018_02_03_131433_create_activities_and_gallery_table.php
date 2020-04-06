@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCommunitiesTable extends Migration
+class CreateActivitiesAndGalleryTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class CreateCommunitiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('communities', function (Blueprint $table) {
+        Schema::create('activities_and_gallery', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('entitle');
-            $table->string('trtitle');
-            $table->text('enabout');
-            $table->text('trabout');
+            $table->string('title');
+            $table->string('subtitle');
+            $table->string('slug');
+            $table->text('body');
+            
             $table->timestamps();
         });
     }
@@ -30,6 +31,6 @@ class CreateCommunitiesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('communities');
+        Schema::dropIfExists('activities_and_gallery');
     }
 }

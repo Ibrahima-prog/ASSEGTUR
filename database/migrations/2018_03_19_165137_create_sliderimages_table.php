@@ -17,6 +17,7 @@ class CreateSliderimagesTable extends Migration
               $table->increments('id');
             $table->string('entitle');
             $table->string('trtitle');
+            $table->string('frtitle');
             $table->string('image');
             $table->timestamps();
         });

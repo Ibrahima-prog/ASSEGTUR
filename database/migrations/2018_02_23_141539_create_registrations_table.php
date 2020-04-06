@@ -18,7 +18,6 @@ class CreateRegistrationsTable extends Migration
            
             $table->string('firstname');
             $table->string('gender');
-            $table->string('country');
             $table->string('address')->nullable();
             $table->string('level')->nullable();
             $table->string('institution');
