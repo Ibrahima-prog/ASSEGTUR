@@ -2,9 +2,9 @@
   <div class="container-fluid">
 
     <div id="logo" class="pull-left">
-      <h1><a href="/" class="scrollto">ASSEGTUR</a></h1>
+      <h1><a href="/" class="scrollto"><img src="../../logo/Layer_1_25percent_50_sans_ecrit.png" alt=""></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="/"><img src="../../logo/logo." alt=""></a>
+      {{-- <a href="/"></a> --}}
     </div>
 
     <nav id="nav-menu-container">

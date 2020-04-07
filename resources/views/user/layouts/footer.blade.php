@@ -5,7 +5,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>ASSEGTUR</h3>
+            <h3><a href="/" class="scrollto"><img src="../../logo/Layer_1_25percent_50_sans_ecrit.png" alt=""></a></h3>
             <p>@lang('app.AssociationDesEtudiantsGuinéensDelaTurquie')</p>
           </div>
 
