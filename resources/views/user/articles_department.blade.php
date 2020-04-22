@@ -11,10 +11,7 @@
 
   <!-- Theme styles START -->
   
-  <link href="/../../../user/assets/pages/css/components.css" rel="stylesheet">
-  <link href="/../../../user/assets/corporate/css/style.css" rel="stylesheet">
-  <link href="/../../../user/assets/corporate/css/style-responsive.css" rel="stylesheet">
-  <link href="/../../../user/assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
+
   <link href="/../../../user/assets/corporate/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
 
@@ -27,7 +24,42 @@
                 {{-- <h1>{{ Lang::get('app.AcademinArticles') }}</h1> --}}
             </div>
         </div>
-      <div class="container">
+        
+        <section id="team">
+          <div class="container">
+         
+            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <h3 style="margin-bottom: 30px">@lang('app.Articles')</h3> 
+              @foreach($articles as $article)
+
+
+             
+                  <h6><a href="/../../makaleBelgeler/{{ $article->file }}">@if(App::getLocale() == 'tr') {{ $article->trtitle }} @elseif (App::getLocale() == 'en') {{ $article->entitle }}
+                    @else {{ $article->frtitle }}  @endif</a></h6>
+                  
+                   <p style="font-size: 20px;font-weight: 600"><i style="color: #18d26e;font-size: 50px" class="ion-ios-calendar-outline"></i>   &emsp14; @lang('app.CreatedAt'): {{ $article->created_at }}</p> 
+                <p style="text-align: end;font-size: 20px;font-weight: 600">@lang('app.Author'): {{$article->author }}</p>  
+                  
+                  <p>@if(App::getLocale() == 'tr') {!! $article->trbody !!} @elseif (App::getLocale() == 'en') {!! $article->enbody !!}
+                    @else {!! $article->frbody !!} @endif</p>
+                 
+
+                  <a href="/../../makaleBelgeler/{{ $article->file }}" target="_blank"><button type="submit">{{ Lang::get('app.DownloadPDF') }} <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button></a>
+
+
+              
+
+              <hr class="blog-post-sep">
+
+      @endforeach
+              </header>
+           
+           
+            
+    
+          </div>
+        </section>
+      {{-- <div class="container">
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
@@ -79,7 +111,7 @@
           <!-- END CONTENT -->
         </div>
         <!-- END SIDEBAR & CONTENT -->
-      </div>
+      </div> --}}
     </div>
 
 @endsection
@@ -108,6 +140,12 @@
             Layout.initTwitter();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+          $("#academic").addClass("menu-active");
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

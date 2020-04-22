@@ -107,6 +107,12 @@
             Portfolio.init();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+          $("#activities").addClass("menu-active");
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

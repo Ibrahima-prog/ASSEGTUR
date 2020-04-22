@@ -26,7 +26,7 @@
                {{-- <h1>{{ Lang::get('app.AboutUs') }}</h1> --}}
             </div>
         </div>
-      <div class="container">
+      {{-- <div class="container">
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
@@ -44,7 +44,29 @@
             </div>
         </div>
         <!-- BEGIN SIDEBAR & CONTENT -->
-      </div>
+      </div> --}}
+
+      <section id="services">
+        <div class="container">
+  
+          <header class="section-header wow fadeInUp">
+            <h3>  @if(App::getLocale() == 'tr') {{ $aboutus->trtitle }} @elseif (App::getLocale() == 'en')  {{ $aboutus->entitle }}
+              @else {{$aboutus->frtitle}} @endif</h3>
+            <p>
+            
+            
+              @if(App::getLocale() == 'tr') {!! $aboutus->trtext !!} @elseif (App::getLocale() == 'en') {!! $aboutus->entext !!}
+              @else {!! $aboutus->frtext !!} @endif 
+                    </p>       
+         </header>
+      
+         
+  
+        
+  
+        </div>
+      </section>
+
 
       <div class="container">
           <section id="team">
@@ -116,6 +138,12 @@
             Layout.initTwitter();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+          $("#our").addClass("menu-active");
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

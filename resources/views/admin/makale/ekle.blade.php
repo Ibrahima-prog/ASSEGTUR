@@ -59,7 +59,7 @@
             <div class="box-body">
               <label>Select Department</label>
               <select class="select2 select2-hidden-accessible"  data-placeholder="Select a department" style="width: 100%;" data-select2-id="7" tabindex="-1" aria-hidden="true"
-              name="departments">
+              name="departments" required>
                   @foreach ($departments as $department)
                   <option value="{{$department->id}}">{{$department->trname}}</option>
              @endforeach
@@ -69,7 +69,7 @@
             <div class="box-body">
             <div class="form-group">
                   <label for="image">Ek Dosya Şeç (pdf)</label>  
-                  <input type="file" name="file" accept="application/pdf,application/vnd.ms-excel" id="file">
+                  <input type="file" name="file" accept="application/pdf,application/vnd.ms-excel" id="file" required>
                 </div>
               </div>
 

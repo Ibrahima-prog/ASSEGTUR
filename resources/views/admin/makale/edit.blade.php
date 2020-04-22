@@ -69,7 +69,7 @@
                 <div class="box-body">
                   <label>Select Department</label>
                   <select class="select2 select2-hidden-accessible"  data-placeholder="Select a department" style="width: 100%;" data-select2-id="7" tabindex="-1" aria-hidden="true"
-                  name="departments">
+                  name="departments" required>
                       @foreach ($departments as $department)
                       <option value="{{$department->id}}"
                         @foreach ($update->departments as $article)

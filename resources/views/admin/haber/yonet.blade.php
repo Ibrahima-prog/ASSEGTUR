@@ -48,14 +48,14 @@
                               <td>{{ $post->slug }}</td>
                               <td>{{ $post->created_at }}</td>
                         
-                             <td><a href="{{ route('admin.haber.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit"></span></a></td>
+                             <td><a  class="btn btn-success btn-block" href="{{ route('admin.haber.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit"> Düzenle</span></a></td>
                              
                               <td>
                               <form id="delete-form-{{ $post->id }}" method="get" action="{{ route('admin.haber.delete', $post->id) }}" style="display: none">
                                 {{ csrf_field() }}
                                 {{ method_field('DELETE') }}
                               </form>
-                              <a href="" onclick="
+                              <a  class="btn btn-danger btn-block" href="" onclick="
                               if(confirm('Bu haberi silmek istediğinizden emin misiniz?'))
                                   {
                                     event.preventDefault();
@@ -63,7 +63,7 @@
                                   }
                                   else{
                                     event.preventDefault();
-                                  }" ><span class="glyphicon glyphicon-trash"></span></a>
+                                  }" ><span class="glyphicon glyphicon-trash"> Sil</span></a>
                             </td>
                               </tr>
                         @endforeach

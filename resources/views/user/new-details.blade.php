@@ -9,12 +9,7 @@
   <!-- Page level plugin styles END -->
 
   <!-- Theme styles START -->
-  <link href="/../../user/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <link href="/../../user/assets/pages/css/components.css" rel="stylesheet">
-  <link href="/../../user/assets/corporate/css/style.css" rel="stylesheet">
-  <link href="/../../user/assets/corporate/css/style-responsive.css" rel="stylesheet">
-  <link href="/../../user/assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="/../../user/assets/corporate/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
 
@@ -29,7 +24,7 @@
                {{-- <h1>{{ Lang::get('app.News') }}</h1> --}}
             </div>
         </div>
-      <div class="container">
+      {{-- <div class="container">
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
@@ -99,7 +94,76 @@
           <!-- END CONTENT -->
         </div>
         <!-- END SIDEBAR & CONTENT -->
-      </div>
+      </div> --}}
+      <section id="team">
+        <div class="container">
+          
+          <div class="section-header wow fadeInUp" style="margin-bottom: 30px">
+            <h3>@lang('app.News')</h3></div>
+         
+            <div class="section-header wow fadeInUp">
+             
+              <p style="font-size: 30px;font-weight: 900"> @if(App::getLocale() == 'tr') {{$newsitem->trtitle}}@elseif (App::getLocale() == 'en'){{$newsitem->entitle}}@else{{$newsitem->frtitle}}@endif   </p>
+            
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6 wow fadeInUp">
+              <div class="member">
+                  
+                <img src="../../haberFotograflari/{{$newsitem->image}}" class="img-fluid" alt="">
+                <div class="member-info">
+                  <div class="member-info-content">
+                    
+                    <h4> @if(App::getLocale() == 'tr') 
+                      {{$newsitem->trtitle}}
+                      @elseif (App::getLocale() == 'en') 
+                      {{$newsitem->entitle}}
+                      @else
+                      {{$newsitem->frtitle}}
+                      @endif    
+                    </h4> 
+                    
+                    {{-- <span>Chief Executive Officer</span> --}}
+                    {{-- <div class="social">
+                      <a href=""><i class="fa fa-twitter"></i></a>
+                      <a href=""><i class="fa fa-facebook"></i></a>
+                      <a href=""><i class="fa fa-google-plus"></i></a>
+                      <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div> --}}
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            {{-- <div class="col-lg-9 col-md-6 wow fadeInUp">
+              <h4> @if(App::getLocale() == 'tr') {{$news->trtitle}}@elseif (App::getLocale() == 'en'){{$news->entitle}}@else{{$news->frtitle}}@endif   </h4>
+            </div> --}}
+            
+            <div class="col-lg-9 col-md-6 wow fadeInUp">
+              
+              <div>
+                @if(App::getLocale() == 'tr') 
+                {!! $newsitem->trbody  !!}
+                @elseif (App::getLocale() == 'en') 
+                {!! $newsitem->enbody  !!}
+                @else
+                {!! $newsitem->frbody  !!}
+                
+                @endif  
+              
+                    {{-- <a href="{{ route('newsDetails', $newsitem->slug) }}" class="more">{{ Lang::get('app.ReadMore') }} <i class="icon-angle-right"></i></a> --}}
+                               
+              </div>  
+              
+              
+            </div>
+            
+          </div>
+  
+        </div>
+      </section>
     </div>
 @endsection
 
@@ -124,6 +188,12 @@
             Layout.initUniform();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+          $("#news").addClass("menu-active");
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

@@ -50,7 +50,7 @@
                               <td>{{ $post->created_at }}</td>
                               <td>@if($post->status == 0)  <a href="{{ route('admin.etkinlik.gecti', $post->id) }}" title="Geçmiş EtKinlik" class="btn btn-info btn-block">Geçmiş Yap</a> @else <strong>Etkinlik Geçmiş</strong> @endif</td>
 
-                             <td><a class="btn btn-success btn-block" href="{{ route('admin.etkinlik.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit"></span> Düzenle</a></td>
+                             <td><a class="btn btn-success btn-block" href="{{ route('admin.etkinlik.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit">  Düzenle</span></a></td>
                              
                               <td>
                               <form id="delete-form-{{ $post->id }}" method="get" action="{{ route('admin.etkinlik.delete', $post->id) }}" style="display: none">
@@ -65,7 +65,7 @@
                                   }
                                   else{
                                     event.preventDefault();
-                                  }" ><span class="glyphicon glyphicon-trash"> </span> Sil</a>
+                                  }" ><span class="glyphicon glyphicon-trash">  Sil</span></a>
                             </td>
 
 

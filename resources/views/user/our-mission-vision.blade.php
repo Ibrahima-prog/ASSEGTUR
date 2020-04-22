@@ -28,7 +28,7 @@
                 {{-- <h1>{{ Lang::get('app.OurMissionAndVision') }}</h1> --}}
             </div>
         </div>
-      <div class="container">
+      {{-- <div class="container">
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
@@ -43,33 +43,7 @@
                   <!-- END LISTS -->
                 </div>
 
-              {{-- <div class="col-md-5 front-carousel">
-                <div id="myCarousel" class="carousel slide">
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="/../../user/assets/images/ab.jpg" alt="">
-                      <div class="carousel-caption">
-                        <p>AFROKONYA is a nonprofit association that regroups all African students living in Konya.</p>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="/../../user/assets/images/abt.jpg" alt="">
-                      <div class="carousel-caption">
-                        <p>Its headquarters is situated in Konya</p>
-                      </div>
-                    </div>
-                  
-                  </div>
-                  <!-- Carousel nav -->
-                  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                    <i class="fa fa-angle-left"></i>
-                  </a>
-                  <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                    <i class="fa fa-angle-right"></i>
-                  </a>
-                </div>                
-              </div> --}}
+            
 
 
               <div class="col-lg-10">
@@ -96,9 +70,72 @@
         <!-- BEGIN CAROUSEL -->            
     
                 <!-- END CAROUSEL -->
-      </div>
+      </div> --}}
     </div>
 
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>  @if(App::getLocale() == 'tr') {{ $mission->trtitle }} @elseif (App::getLocale() == 'en')  {{ $mission->entitle }}
+            @else {{$mission->frtitle}} @endif</h3>
+          <p>
+          
+          
+            @if(App::getLocale() == 'tr') {!! $mission->trtext !!} @elseif (App::getLocale() == 'en') {!! $mission->entext !!}
+            @else {!! $mission->frtext !!} @endif 
+                  </p>       
+       </header>
+    
+       
+
+      
+
+      </div>
+    </section>
+
+ <section id="services">
+        <div class="container">
+  
+          <header class="section-header wow fadeInUp">
+            <h3>  @if(App::getLocale() == 'tr') {{ $plan->trtitle }} @elseif (App::getLocale() == 'en')  {{ $plan->entitle }}
+              @else {{$plan->frtitle}} @endif</h3>
+            <p>
+            
+            
+              @if(App::getLocale() == 'tr') {!! $plan->trtext !!} @elseif (App::getLocale() == 'en') {!! $plan->entext !!}
+              @else {!! $plan->frtext !!} @endif 
+                    </p>       
+         </header>
+      
+         
+  
+        
+  
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+  
+          <header class="section-header wow fadeInUp">
+            <h3>  @if(App::getLocale() == 'tr') {{ $vision->trtitle }} @elseif (App::getLocale() == 'en')  {{ $vision->entitle }}
+              @else {{$vision->frtitle}} @endif</h3>
+            <p>
+            
+            
+              @if(App::getLocale() == 'tr') {!! $vision->trtext !!} @elseif (App::getLocale() == 'en') {!! $vision->entext !!}
+              @else {!! $vision->frtext !!} @endif 
+                    </p>       
+         </header>
+      
+         
+  
+        
+  
+        </div>
+      </section>
+      
 @endsection
 
 @section('footer')
@@ -125,6 +162,12 @@
             Layout.initTwitter();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+          $("#our").addClass("menu-active");
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

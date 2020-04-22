@@ -19,8 +19,10 @@
 		@include('user/layouts/navbar') 
 
 		
-		 @section('mainBody')
+			
 
+		 @section('mainBody')
+	
 		 @show
 
  

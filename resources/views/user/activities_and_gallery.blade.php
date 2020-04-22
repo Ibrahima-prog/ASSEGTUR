@@ -10,13 +10,13 @@
 
   <!-- Theme styles START -->
   <link href="/../user/assets/pages/css/components.css" rel="stylesheet">
-  <link href="/../user/assets/corporate/css/style.css" rel="stylesheet">
   <link href="/../user/assets/pages/css/portfolio.css" rel="stylesheet">
   <link href="/../user/assets/corporate/css/style-responsive.css" rel="stylesheet">
   <link href="/../user/assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="/../user/assets/corporate/css/custom.css" rel="stylesheet">
   <link href="/../../user/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
   <!-- Theme styles END -->
 
@@ -32,14 +32,7 @@
             </div>
         </div>
         
-      <div class="container">
-        <!-- BEGIN SIDEBAR & CONTENT -->
-        <div class="row margin-bottom-40">
-          <!-- BEGIN CONTENT -->
-          <div class="col-md-12 col-sm-12">
-           
-            <div class="content-page">
-                <div class="filter-v1">
+    
                   {{-- <ul class="mix-filter">
                     <li data-filter="all" class="filter active">{{ Lang::get('app.All') }}</li>
                     <li data-filter="category_1" class="filter ">{{ Lang::get('app.Upcomming') }}</li>
@@ -76,9 +69,9 @@
                             </figure>
               
                             <div class="portfolio-info">
-                            <h5><a href="{{ route('activities_and_gallery_summary',$activity->slug)}}">
-                              @if(App::getLocale() == 'tr') {{ $activity->trtitle }} @elseif (App::getLocale() == 'en') {{ $activity->entitle }}
-                              @else {{$activity->frtitle}} @endif</a></h5>
+                            <a href="{{ route('activities_and_gallery_summary',$activity->slug)}}">
+                              @if(App::getLocale() == 'tr') {{  \Illuminate\Support\Str::limit($activity->trtitle,30)  }} @elseif (App::getLocale() == 'en') {{  \Illuminate\Support\Str::limit($activity->entitle,30)  }}
+                              @else {{ \Illuminate\Support\Str::limit($activity->frtitle,30) }} @endif</a></h5>
                               {{-- <p> @if(App::getLocale() == 'tr') {!! $activity->trbody !!} @else {!! $activity->enbody !!} @endif</p> --}}
                             </div>
                           </div>
@@ -94,9 +87,9 @@
                             </figure>
               
                             <div class="portfolio-info">
-                              <h5><a href="{{ route('activities_and_gallery_summary',$activity->slug)}}">
-                                @if(App::getLocale() == 'tr') {{ $activity->trtitle }} @elseif (App::getLocale() == 'en') {{ $activity->entitle }}
-                                @else {{$activity->frtitle}} @endif</a></h5>
+                              <a href="{{ route('activities_and_gallery_summary',$activity->slug)}}">
+                                @if(App::getLocale() == 'tr') {{  \Illuminate\Support\Str::limit($activity->trtitle,30)  }} @elseif (App::getLocale() == 'en') {{  \Illuminate\Support\Str::limit($activity->entitle,30)  }}
+                                @else {{ \Illuminate\Support\Str::limit($activity->frtitle,30) }} @endif</a></h5>
                             </div>
                           </div>
                         </div>
@@ -105,15 +98,7 @@
               
                     </div>
                   </section>
-                   
-              </div>
-            </div>
-          </div>
-          <!-- END CONTENT -->
-        </div>
-        <!-- BEGIN SIDEBAR & CONTENT -->
-      </div>
-    </div>
+              
 
 
 @endsection
@@ -134,6 +119,13 @@
             Portfolio.init();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+        $("#activities").addClass("menu-active");
+          
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

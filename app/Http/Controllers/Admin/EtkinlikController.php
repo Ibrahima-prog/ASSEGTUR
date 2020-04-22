@@ -44,16 +44,14 @@ class EtkinlikController extends Controller
         $this->validate($request,[
             'entitle'=>'required',       
             'trtitle'=>'required',       
-            'enbody' => 'required',
-            'trbody' => 'required',
+            
             'slug' =>'required',
             'images' =>'required',
             'frsummary' =>'required',
             'trsummary' =>'required',
             'ensummary' =>'required',
-            'trsummary' =>'required',
-            'ensummary' =>'required',
-            'frbody' => 'required',
+            
+            
             'frtitle' => 'required'
             ]);
             $post = new activity;
@@ -120,14 +118,11 @@ class EtkinlikController extends Controller
             $post->entitle = $request->entitle;
             $post->frtitle = $request->frtitle;
             $post->trtitle = $request->trtitle;
-            $post->enbody = $request->enbody;
-            $post->frbody = $request->frbody;
-            $post->trbody = $request->trbody;
+            
             $post->frsummary = $request->frsummary;
             $post->trsummary = $request->trsummary;
             $post->ensummary = $request->ensummary;
-            $post->trsummary = $request->trsummary;
-            $post->ensummary = $request->ensummary;
+            
             $post->slug = $request->slug;
          
 
@@ -195,14 +190,13 @@ class EtkinlikController extends Controller
           $this->validate($request,[
             'entitle'=>'required',       
             'trtitle'=>'required',       
-            'enbody' => 'required',
-            'trbody' => 'required',
+            
             'slug' =>'required',
             
             'frsummary' =>'required',
             'ensummary' =>'required',
             'trsummary' =>'required',
-            'frbody' => 'required',
+            
             'frtitle' => 'required'
             ]);
 
@@ -306,9 +300,7 @@ class EtkinlikController extends Controller
                     'entitle' => $request->entitle,
                     
                     'trtitle' => $request->trtitle,
-                    'enbody' => $request->enbody,
                      
-                    'trbody' => $request->trbody, 
                     'image' => $imagename,
                     'slug' =>$request->slug,
                     'images' =>$request->images,
@@ -316,7 +308,7 @@ class EtkinlikController extends Controller
                     'trsummary' =>$request->trsummary,
                     'ensummary' =>$request->ensummary,
                     'frtitle' => $request->frtitle,
-                    'frbody' => $request->frbody
+                    
                  ]);
     
             return redirect('admin/etkinlik/yonet')->with('success','Değişiklikleriniz başarıyla kaydedildi');
@@ -329,9 +321,7 @@ class EtkinlikController extends Controller
                     'entitle' => $request->entitle,
                     
                     'trtitle' => $request->trtitle,
-                    'enbody' => $request->enbody,
                      
-                    'trbody' => $request->trbody, 
                     'image' => $imagename,
                     'slug' =>$request->slug,
                    
@@ -339,7 +329,7 @@ class EtkinlikController extends Controller
                     'ensummary' =>$request->ensummary,
                     'trsummary' =>$request->trsummary,
                     'frtitle' => $request->frtitle,
-                    'frbody' => $request->frbody
+                    
                  ]);
                  return redirect('admin/etkinlik/yonet')->with('success','Değişiklikleriniz başarıyla kaydedildi');
             }
@@ -447,9 +437,7 @@ class EtkinlikController extends Controller
                     'entitle' => $request->entitle,
                     
                     'trtitle' => $request->trtitle,
-                    'enbody' => $request->enbody,
                      
-                    'trbody' => $request->trbody, 
                     
                     'slug' =>$request->slug,
                     'images' =>$request->images,
@@ -457,7 +445,7 @@ class EtkinlikController extends Controller
                     'trsummary' =>$request->trsummary,
                     'ensummary' =>$request->ensummary,
                     'frtitle' => $request->frtitle,
-                    'frbody' => $request->frbody
+                    
                  ]);
                   }
     
@@ -471,9 +459,7 @@ class EtkinlikController extends Controller
                     'entitle' => $request->entitle,
                     
                     'trtitle' => $request->trtitle,
-                    'enbody' => $request->enbody,
-                     
-                    'trbody' => $request->trbody, 
+                    
                     
                     'slug' =>$request->slug,
                     
@@ -481,7 +467,7 @@ class EtkinlikController extends Controller
                     'trsummary' =>$request->trsummary,
                     'ensummary' =>$request->ensummary,
                     'frtitle' => $request->frtitle,
-                    'frbody' => $request->frbody
+                    
                  ]);
                  return redirect('admin/etkinlik/yonet')->with('success','Değişiklikleriniz başarıyla kaydedildi');
             }

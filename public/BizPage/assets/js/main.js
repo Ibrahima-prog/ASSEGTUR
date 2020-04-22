@@ -84,14 +84,14 @@
 
   // Header scroll class
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 5) {
       $('#header').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
     }
   });
 
-  if ($(window).scrollTop() > 100) {
+  if ($(window).scrollTop() > 5) {
     $('#header').addClass('header-scrolled');
   }
 
@@ -142,7 +142,7 @@
         bottom = top + $(this).outerHeight();
 
       if (cur_pos >= top && cur_pos <= bottom) {
-        main_nav.find('li').removeClass('menu-active menu-item-active');
+       // main_nav.find('li').removeClass('menu-active menu-item-active');
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('menu-active menu-item-active');
       }
     });

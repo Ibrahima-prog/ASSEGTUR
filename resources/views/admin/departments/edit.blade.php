@@ -33,7 +33,7 @@
                       
                           <input type="text" class="form-control" name="frname" id="name" placeholder="Enter category title"
                       
-                          value="{{$departments->frname}}">
+                          value="{{$departments->frname}}" required>
                     
                   
                         </div>
@@ -43,7 +43,7 @@
                       
                           <input type="text" class="form-control" name="trname" id="name" placeholder="Enter category title"
                       
-                          value="{{$departments->trname}}">
+                          value="{{$departments->trname}}" required>
                     
                   
                         </div>
@@ -53,7 +53,7 @@
                       
                           <input type="text" class="form-control" name="enname" id="name" placeholder="Enter category title"
                       
-                          value="{{$departments->enname}}">
+                          value="{{$departments->enname}}" required>
                     
                   
                         </div>
@@ -63,12 +63,12 @@
                       <div class="col-md-6">
                         <label for="title">URL</label>
                         <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug"
-                        value="{{$departments->slug}}">
+                        value="{{$departments->slug}}" required>
                       </div>
-                      <div class="col-md-6">
-                        <label>Fakülte</label>
+                      <div class="col-md-6" >
+                        <label >Fakülte</label>
                         <select class="select2 select2-hidden-accessible" data-placeholder="Select a State" style="width: 100%;" data-select2-id="7" tabindex="-1" aria-hidden="true"
-                        name="faculty">
+                        name="faculty" required>
                             @foreach ($faculties as $faculty)
                             <option value="{{$faculty->id}}" @foreach ($departments->faculties as $department)
                                @if  ($department->id == $faculty->id)  

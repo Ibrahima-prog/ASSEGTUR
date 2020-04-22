@@ -2,32 +2,42 @@
     <!-- BEGIN PRE-FOOTER -->
     <div class="footer-top">
       <div class="container">
+        <div class="col-md-12 footer-info" style="text-align: center">         
+           <a href="/" class="scrollto"><img src="../../logo/Layer_1_25percent_50_sans_ecrit.png" alt=""></a>
+        </div>
+        <div class="col-md-12 footer-info" style="text-align: center">
+          <h1>@lang('app.AssociationDesEtudiantsGuinéensDelaTurquie')</h1>
+        </div>
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3><a href="/" class="scrollto"><img src="../../logo/Layer_1_25percent_50_sans_ecrit.png" alt=""></a></h3>
-            <p>@lang('app.AssociationDesEtudiantsGuinéensDelaTurquie')</p>
-          </div>
 
-          {{-- <div class="col-lg-3 col-md-6 footer-links">
+          <div class=" col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="/">{{ Lang::get('app.Home') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="/association/our-history">{{ Lang::get('app.OurHistory') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="/association/about-us">{{ Lang::get('app.AboutUs') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="/association/our-mission-vision">{{ Lang::get('app.OurMissionAndVision') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a  href="/news">{{ Lang::get('app.News') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a  href="/activities_and_gallery">{{ Lang::get('app.activities_and_galleries') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a  href="/academic-works/article">{{ Lang::get('app.AcademicWorks') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i><a  href="/conctact-us">{{ Lang::get('app.ContactUs') }}</a></li>
+              
+              <li><i class="ion-ios-arrow-right"></i><a  href="/association/register">{{ Lang::get('app.Registration') }}</a></li>
             </ul>
-          </div> --}}
+          </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact" style="margin-left: auto">
+          <div class=" col-md-6 footer-contact" style="">
             <h4>@lang('app.ContactUs')</h4>
             <p>
-              {{-- A108 Adam Street <br>
-              New York, NY 535022<br>
+              <strong>@lang('app.Address'):</strong> {{$contacts->address}} <br>
+              {{-- New York, NY 535022<br>
               United States <br> --}}
-              <strong>Phone:</strong> {{$contacts->phoneone}}<br>
-              <strong>Email:</strong> {{$contacts->emailone}}<br>
+              <strong>@lang('app.Phone'):</strong> {{$contacts->phoneone}}<br>
+              <strong>@lang('app.email'):</strong> {{$contacts->emailone}}<br>
+               <a  href="/fr"><img src="../../user/assets/images/countries/france.png" alt="français"></a> &emsp14; &emsp14;
+               <a  href="/tr"><img src="../../user/assets/images/countries/tr.png" alt="Turkish"></a> &emsp14; &emsp14;
+              <a  href="/en"><img src="../../user/assets/images/countries/en.png" alt="English"></a> &emsp14; &emsp14;
             </p>
 
             <div class="social-links">

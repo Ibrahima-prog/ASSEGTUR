@@ -25,33 +25,33 @@
                       <div class="col-md-6">
                         <div class="form-group">
                       <label for="title"><img src="../../../../admin/images/countries/france.png" alt="English">FR - Bölüm başlığı</label>
-                      <input type="text" class="form-control" name="frname" id="name" placeholder="Enter category title">
+                      <input type="text" class="form-control" name="frname" id="name" placeholder="Enter category title" required>
                     </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
                       <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR - Bölüm başlığı</label>
-                      <input type="text" class="form-control" name="trname" id="name" placeholder="Enter category title">
+                      <input type="text" class="form-control" name="trname" id="name" placeholder="Enter category title" required>
                     </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
                       <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English">EN - Bölüm başlığı</label>
-                      <input type="text" class="form-control" name="enname" id="name" placeholder="Enter category title">
+                      <input type="text" class="form-control" name="enname" id="name" placeholder="Enter category title" required>
                     </div>
                       </div>
 
                       <div class="col-md-6">
                       <div class="form-group">
                         <label for="title">URL</label>
-                        <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug">
+                        <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" required>
                       </div>
                       </div>
                       <div class="col-md-6">
                       
                         <label>Fakülte</label>
                         <select class="select2 select2-hidden-accessible" data-placeholder="Select a faculty" style="width: 100%;" data-select2-id="7" tabindex="-1" aria-hidden="true"
-                        name="faculty">
+                        name="faculty" required>
                             @foreach ($faculties as $faculty)
                             <option value="{{$faculty->id}}">{{$faculty->trname}}</option>
                        @endforeach

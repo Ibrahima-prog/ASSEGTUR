@@ -23,9 +23,9 @@ Route::group([
 	Route::get('/association/our-history', 'RoutesController@ourhistory');
 	Route::get('/association/about-us', 'RoutesController@aboutus');
 	Route::get('/association/our-mission-vision', 'RoutesController@ourmissionvision');
-	Route::get('/association/register', 'RoutesController@register');
+	Route::get('/association/register', 'RoutesController@register')->name('register');
 	Route::get('/association/login', 'RoutesController@login');
-	Route::post('/association/register', 'RoutesController@registermember')->name('registermember');
+	Route::post('/association/registermember', 'RoutesController@registermember')->name('registermember');
 	Route::get('/association/faq', 'RoutesController@faq');
 	Route::get('/gallery', 'RoutesController@gallery');
 	Route::get('/news', 'RoutesController@news');

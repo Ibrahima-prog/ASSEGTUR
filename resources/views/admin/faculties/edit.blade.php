@@ -28,24 +28,24 @@
                         <div class="col-md-6">
                       <label for="title"><img src="../../../../admin/images/countries/france.png" alt="English">FR - Fakülte başlığı</label>
                       <input type="text" class="form-control" name="frname" id="name" placeholder="Enter category title"
-                      value="{{$faculties->frname}}">
+                      value="{{$faculties->frname}}" required>
                     </div>
                     <div class="col-md-6">
                       <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR - Fakülte başlığı</label>
                       <input type="text" class="form-control" name="trname" id="name" placeholder="Enter category title"
-                      value="{{$faculties->trname}}">
+                      value="{{$faculties->trname}}" required>
                     </div>
                     <div class="col-md-6">
                       <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English">EN - Fakülte başlığı</label>
                       <input type="text" class="form-control" name="enname" id="name" placeholder="Enter category title"
-                      value="{{$faculties->enname}}">
+                      value="{{$faculties->enname}}" required>
                     </div>
 
 
                       <div class="col-md-6">
                         <label for="title">URL</label>
                         <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug"
-                        value="{{$faculties->slug}}">
+                        value="{{$faculties->slug}}" required>
                       </div>
  
 

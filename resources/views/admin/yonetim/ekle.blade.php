@@ -70,7 +70,7 @@
               <div class="col-lg-6">
                 <div class="form-group">
                   <label for="title">E-Mail Adresi</label>
-                  <input type="email" class="form-control" id="email" name="email" placeholder="E-Mail Adresi">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="E-Mail Adresi" required>
                 </div>
               </div>
 

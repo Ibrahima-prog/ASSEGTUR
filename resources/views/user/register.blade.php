@@ -30,10 +30,10 @@
   <div class="main">
     <div class="page-head">
             <div class="container">
-              
+            
             </div>
         </div>
-      <div class="container">
+      {{-- <div class="container">
         <h1>{{ Lang::get('app.becomeMember') }}</h1>
         @if(session('success'))
                <div class="alert alert-success">
@@ -78,7 +78,7 @@
                             <option value="Kız">{{ Lang::get('app.Female') }}</option>
                           </select>
                         </div>
-                      </div>
+                      </div> --}}
 {{-- 
                       <div class="form-group">
                         <label for="lastname" class="col-lg-4 control-label">{{ Lang::get('app.selectcountry') }} <span class="require">*</span></label>
@@ -147,7 +147,7 @@
                         </div>
                       </div> --}}
 
-                      <div class="form-group">
+                      {{-- <div class="form-group">
                         <label for="firstname" class="col-lg-4 control-label">{{ Lang::get('app.homeAddress') }}</label>
                         <div class="col-lg-8">
                          <input type="text" name="address" class="form-control" placeholder="{{ Lang::get('app.homeAddressText') }}">
@@ -205,7 +205,7 @@
                       </div>
                     </div>
                   </form>
-                </div>
+                </div> --}}
                 {{-- <div class="col-md-4 col-sm-4 ">
 
                    
@@ -255,15 +255,92 @@
                       </div>
                   </div>
                 </div> --}}
-              </div>
+              {{-- </div>
             </div>
-          </div>
+          </div> 
           <!-- END CONTENT -->
         </div>
         <!-- END SIDEBAR & CONTENT -->
       </div>
-    </div>
+    </div>--}}
+    <div class="box-body">
+      @if(session('success'))
+      <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <h4><i class="icon fa fa-check"></i> @lang('app.Success')!</h4>
+        {{ session('success') }}  @endif
+      </div>
+      </div>
+        <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h3>{{ Lang::get('app.RegisterMessage') }}</h3>
+          
+          {{-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> --}}
+        </div>
+        <div class="form">
+          <div class="php-email-form">
+          <form action="{{ route('registermember') }}" method="post" role="form" >
+            {{ csrf_field() }}
+           <h4>{{ Lang::get('app.YourPersonalDetails') }}</h4> 
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="{{ Lang::get('app.fullname') }}" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" name="address" class="form-control" id="name" placeholder="{{ Lang::get('app.homeAddress') }}" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" name="institution" class="form-control" id="name" placeholder="{{ Lang::get('app.UniversityInstitution') }}" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" name="department" class="form-control" id="name" placeholder="{{ Lang::get('app.department') }}" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="number" name="phone" class="form-control" id="name" placeholder="{{ Lang::get('app.Phone') }}" data-rule="minlen:2" data-msg="Please enter at least 2 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="{{ Lang::get('app.Email') }}" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                
+                  <select name="gender" class="form-control" required>
+                    <option value="">{{ Lang::get('app.selectGender') }}</option>
+                    <option value="Erkek">{{ Lang::get('app.Male') }}</option></option>
+                    <option value="Kız">{{ Lang::get('app.Female') }}</option>
+                  </select>
+                
+              </div>
+              <div class="form-group col-md-6">
+               
+                   <select name="level" class="form-control" required>
+                      <option value="">{{ Lang::get('app.selectEducation') }}</option>
+                      <option value="Lise">{{ Lang::get('app.Highschool') }}</option>
+                      <option value="Lisans">{{ Lang::get('app.Bachelor') }}</option>
+                      <option value="Yüksek Lisans">{{ Lang::get('app.Masters') }}</option>
+                      <option value="Doktora">{{ Lang::get('app.php') }}</option>
+                    </select>
 
+                
+              </div>
+            </div>
+           
+            {{-- <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div> --}}
+            <div class="text-center"><button type="submit">{{ Lang::get('app.Register') }}</button></div>
+          </form></div>
+        </div>
+      </div>
+      </section>
 @endsection
 
 @section('footer')
@@ -290,6 +367,12 @@
             Layout.initTwitter();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+          $("#register").addClass("menu-active");
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

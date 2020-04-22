@@ -23,15 +23,15 @@
 
     <div class="row contact-info">
 
-      {{-- <div class="col-md-4">
+      <div class="col-md-4">
         <div class="contact-address">
           <i class="ion-ios-location-outline"></i>
-          <h3>Address</h3>
-          <address>A108 Adam Street, NY 535022, USA</address>
+          <h3>@lang('app.Address')</h3>
+          <address>{{$contacts->address}}</address>
         </div>
-      </div> --}}
+      </div>
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="contact-phone">
           <i class="ion-ios-telephone-outline"></i>
           <h3>@lang('app.phonenumber')</h3>
@@ -39,7 +39,7 @@
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="contact-email">
           <i class="ion-ios-email-outline"></i>
           <h3>Email</h3>
@@ -54,4 +54,12 @@
   </div>
 </section> 
 </main>
+@endsection
+@section('footer')
+<script type="text/javascript">
+  $(document).ready(function() {
+    
+      $("#contactus").addClass("menu-active");
+  });
+</script>
 @endsection

@@ -7,13 +7,14 @@ return [
     'Home' => 'Accueil',
     'OurAssociation' => 'Notre Association',
     'OurHistory' => 'Notre Histoire',
-    'AboutUs' => 'A Propos de nous',
+    'AboutUs' => "ASSEGTUR",
     'OurMissionAndVision' => 'Notre Mission, Notre Plan et Notre Vision',
     'Register' => "S'enregistrer",
     'FAQs' => 'FAQs',
     'Gallery' => 'Gallery',
     'News' => 'Journal',
     'Activities' => 'Nos Activités',
+    'RecentActivities' => 'Nos Activités Récentes',
    
     'AcademicWorks' => 'Travaux Academiques',
     'Articles' =>'Articles',
@@ -91,6 +92,7 @@ return [
     'php' => 'Doctorat',
     'UniversityInstitution' => "Nom de l'université/l'institution",
     'department' => 'Départment',
+    'Success' => 'Vos Informations ont été enregistrées avec succès',
 
 
 
@@ -116,12 +118,18 @@ return [
     'All' => 'Tout',
     'Upcomming' => 'Future Activités',
     'PastActivities' => 'Activités Passées',
+    'Summary' => "Résumé de l'évènement",
+    'Images' => "Gallerıe",
 
     //ARTICLES PAGE
     'AcademinArticles' => 'Articles Académiques',
     'LatestArticles' => 'Derniers Articles',
     'ReadMore' => 'Lire la suite',
     'DownloadPDF' => 'Télécharger le PDF',
+    'CreatedAt' => 'Date de publication',
+    'Author' => 'Auteur',
+    'Departments' => 'Departements',
+    'Faculties' => 'Facultés',
 
      //AKTAT PAGE
 
@@ -130,7 +138,7 @@ return [
 
     //AKTAT PAGE
     
-    'afrokonyaAddress' => 'Afrokonya Address',
+    'Address' => 'Addresse',
 
     'OurContacts' => 'Our Contacts',
     'Email' => 'Email',

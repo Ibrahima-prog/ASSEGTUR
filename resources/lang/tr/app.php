@@ -7,13 +7,14 @@ return [
     'Home' => 'Anasayfa',
     'OurAssociation' => 'Derneğimiz',
     'OurHistory' => 'Tarihçesi',
-    'AboutUs' => 'Hakkımızda',
+    'AboutUs' => 'ASSEGTUR',
     'OurMissionAndVision' => 'Misyonumuz, Planımız ve Vizyonumuz',
     'Register' => 'Şimdi üye ol',
     'FAQs' => 'FAQs',
     'Gallery' => 'Galeri',
     'News' => 'Haber',
     'Activities' => 'Faaliyetler',
+    'RecentActivities' => 'Son Faaliyetler',
     'All'=>'Tüm',
     'AcademicWorks' => 'Akademik Çalışmalar',
     'Articles' =>'Makaleler',
@@ -84,6 +85,7 @@ return [
     'php' => 'PhD',
     'UniversityInstitution' => 'Üniversite / Kurum Adı',
     'department' => 'Bölümü',
+    'Success' => 'Bilgileriniz başarıyla kaydedildi',
 
 
     //FAQs PAGE
@@ -103,12 +105,18 @@ return [
     'All' => 'Tüm',
     'Upcomming' => 'Gelen Etkinlikler',
     'PastActivities' => 'Geçmiş Etkinlikler',
+    'Summary' => 'Faaliyetin özeti',
+    'Images' => 'Galeri',
 
     //ARTICLES PAGE
     'AcademinArticles' => 'AKADEMİK MAKALELER',
     'LatestArticles' => 'En son makaleler',
     'ReadMore' => 'Fazla Oku',
     'DownloadPDF' => 'PDF İndir',
+    'CreatedAt' => 'Yayın tarihi',
+    'Author' => 'Yazar',
+    'Departments' => 'Bölümler',
+    'Faculties' => 'Fakülteler',
 
      //AKTAT PAGE
 
@@ -126,7 +134,7 @@ return [
     'phonenumber' => 'Telefon',
     'subject' => 'Konu',
     'message' => 'Mesaj',
-    'afrokonyaAddress' => 'Afrokonya\'nın Adresi',
+    'Address' => 'Adres',
 
     // ABOUT US
 

@@ -31,7 +31,26 @@
           
             </div>
         </div>
-      <div class="container">
+        <section id="team">
+          <div class="container">
+            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <h3>   @if(App::getLocale() == 'tr') {{ $slug->trtitle }} @elseif (App::getLocale() == 'en') {{ $slug->entitle }}
+                @else {{$slug->frtitle}} @endif </h3>
+                <p style="font-size: 30px;font-weight: 900">@lang('app.Summary') </p>
+              
+                <p>
+                  @if(App::getLocale() == 'tr') {!!$slug->trsummary!!} @elseif (App::getLocale() == 'en') {!!$slug->ensummary!!}
+                  @else {!! $slug->frsummary !!} @endif  
+                </p>
+              
+              </header>
+            
+           
+            
+    
+          </div>
+        </section>
+      {{-- <div class="container">
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
@@ -51,10 +70,12 @@
           
           <!-- END CONTENT -->
         </div>
-      </div>
+      </div> --}}
                 <section id="portfolio" class="section-bg">
       
                     <div class="container">
+                      <div class="section-header wow fadeInUp" style="margin-bottom: 30px">
+                        <h3> @lang('app.Images')</h3></div>
                       <div class="row portfolio-container">
       
             
@@ -110,6 +131,12 @@
              Layout.initTwitter();
              Portfolio.init();
          });
+     </script>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          
+            $("#activities").addClass("menu-active");
+        });
      </script>
      <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection

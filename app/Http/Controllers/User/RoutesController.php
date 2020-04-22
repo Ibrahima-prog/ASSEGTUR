@@ -26,15 +26,20 @@ class RoutesController extends Controller
     {    
         $sliderimages = DB::table('sliderimages')->get();
         $slider1 = DB::table('slider1')->get();
+        $faculties=DB::table('faculties')->get();
 
+        $history=$history = DB::table('histories')->first();
         $aboutus = DB::table('aboutus')->first();
         $mission = DB::table('mitions')->first();
         $plan = DB::table('plan')->first();
         $vision = DB::table('vitions')->first();
         $news = DB::table('news')->orderBy('created_at','DESC')->paginate(3);
+        $pastactivities = DB::table('activities')->where('status', '1')->orderBy('created_at','DESC')->paginate(3);
+
         $activities = DB::table('activities')->where('status','0')->orderBy('created_at','DESC')->paginate(3);
         $contacts = DB::table('settings')->first();
-        return view('user.home', compact('contacts','haberler','sliderimages','aboutus','mission','vision','news','activities','slider1','plan'));
+        return view('user.home', compact('faculties','pastactivities','contacts','haberler','sliderimages','aboutus','mission','vision','news','activities','slider1','plan'
+    ,'history'));
     }
 
     public function conctact(){   
@@ -203,10 +208,9 @@ class RoutesController extends Controller
 
             'name' => 'required',
             'gender' => 'required',
-            
             'institution' => 'required',
             'department' => 'required',
-            'email' => 'required|email',
+            'email' => 'required|email'
 
         ]);
 
@@ -215,7 +219,6 @@ class RoutesController extends Controller
 
         $newregistration->firstname = $request->name;
         $newregistration->gender = $request->gender;
-        
         $newregistration->address =$request->address;
         $newregistration->level = $request->level;
         $newregistration->institution = $request->institution;
@@ -226,11 +229,12 @@ class RoutesController extends Controller
         $result = $newregistration->save();
 
          if ($result){
-                    
-                      return redirect('/association/register')->with('success','Your registration has been successfully saved. Check your email soon for comfirmation');
-                 }else{
-                 return redirect('/association/register')->with('error', "Oups, Your registration could not be saved.");
-            }
+                  //  dd($result);
+            return redirect('/association/register')->with('success','Informations enregistrées avec succès.');
+        }else{
+        return redirect('/association/register')->with('error', "Oups, un petit probleme est survenu");
+   }
+        
 
     }
      

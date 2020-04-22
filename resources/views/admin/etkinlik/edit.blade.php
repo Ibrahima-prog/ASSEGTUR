@@ -61,7 +61,7 @@
                 <div class="col-lg-6 col-md-6">
                 <div class="form-group">
                   <label for="title"> slug</label>
-                  <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" value="{{ $update->slug }}">
+                  <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" value="{{ $update->slug }}" required>
                 </div>
               </div>
             </div>
@@ -98,18 +98,7 @@
                  <!-- /. tools -->
                </div>
                <!-- /.box-header -->
-              <div class="box-body pad">
-                 <label for="title"><img src="../../../../admin/images/countries/en.png" alt="Turkçe"> EN - Metni</label>
-                 <textarea name="enbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor1" required> {{ $update->enbody }}</textarea>
-               </div>
-                <div class="box-body pad">
-                 <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkçe"> TR - Metni</label>
-                 <textarea name="trbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor2" required> {{ $update->trbody }}</textarea>
-               </div>
-               <div class="box-body pad">
-                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Metni</label>
-                <textarea name="frbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor3" required> {{ $update->frbody }}</textarea>
-              </div>
+              
               <div class="box-body pad">
                 <label for="title"><img src="../../../../admin/images/countries/france.png" alt="Turkçe"> FR-Özet</label>
                 <textarea name="frsummary" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor4" required> {{ $update->frsummary }}</textarea>
@@ -143,33 +132,7 @@
 @section('footer')
 <script src="{{ asset('admin/plugins/select2/select2.full.min.js') }}"></script>
 <script src="{{ asset('admin/ckeditor/ckeditor.js') }}"></script>
-<script>
-    $(function () {
-      // Replace the <textarea id="editor1"> with a CKEditor
-      // instance, using default configuration.
-      CKEDITOR.replace('editor1');
-      //bootstrap WYSIHTML5 - text editor
-      $(".textarea").wysihtml5();
-    });
-</script>
-<script>
-    $(function () {
-      // Replace the <textarea id="editor1"> with a CKEditor
-      // instance, using default configuration.
-      CKEDITOR.replace('editor2');
-      //bootstrap WYSIHTML5 - text editor
-      $(".textarea").wysihtml5();
-    });
-</script>
-<script>
-  $(function () {
-    // Replace the <textarea id="editor1"> with a CKEditor
-    // instance, using default configuration.
-    CKEDITOR.replace('editor3');
-    //bootstrap WYSIHTML5 - text editor
-    $(".textarea").wysihtml5();
-  });
-</script>
+
 <script>
   $(function () {
     // Replace the <textarea id="editor1"> with a CKEditor

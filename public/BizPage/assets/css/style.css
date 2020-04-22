@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
   .back-to-top {
     bottom: 15px;
   }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
   height: 72px;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
 }
 
 #header #logo {
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
   #header #logo h1 {
     font-size: 28px;
   }
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
   #intro h2 {
     font-size: 28px;
   }
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
   #nav-menu-container {
     display: none;
   }
@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -576,6 +576,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   padding-bottom: 15px;
 }
+.section-header h6 {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
 
 .section-header h3::before {
   content: '';
@@ -601,8 +610,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header p {
   text-align: center;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   color: #333;
+}
+.section-header a {
+  /* text-align: center; */
+  /* padding-bottom: 30px; */
+  color: #333;
+}
+.section-header a:hover {
+  color: #18d26e;
 }
 
 /* Section with background
@@ -758,6 +775,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box {
   margin-bottom: 30px;
+  margin-left: auto;
+}
+#services  .primary {
+  margin: auto;
 }
 
 #services .icon {
@@ -772,7 +793,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title {
-  margin-left: 60px;
+  margin-left: 20px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1055,6 +1076,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
+.portfolio-info a{
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 /* Clients Section
 --------------------------------*/
 #clients {
@@ -1286,13 +1313,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1500px) {
   #contact .contact-address, #contact .contact-phone, #contact .contact-email {
     padding: 20px 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1500px) {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;

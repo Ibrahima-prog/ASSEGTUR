@@ -10,10 +10,7 @@
   <!-- Page level plugin styles END -->
 
   <!-- Theme styles START -->
-  <link href="/../../../user/assets/pages/css/components.css" rel="stylesheet">
-  <link href="/../../../user/assets/corporate/css/style.css" rel="stylesheet">
-  <link href="/../../../user/assets/corporate/css/style-responsive.css" rel="stylesheet">
-  <link href="/../../../user/assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
+
   <link href="/../../../user/assets/corporate/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
 
@@ -26,7 +23,26 @@
                 {{-- <h1>{{ Lang::get('app.AcademinArticles') }}</h1> --}}
             </div>
         </div>
-      <div class="container">
+
+        <section id="team">
+          <div class="container">
+         
+            <header class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <h3 style="margin-bottom: 30px">@lang('app.Faculties')</h3> 
+                @foreach ($faculties as $faculty)
+              <h6>   <a href="{{route('departments_by_faculty',$faculty->slug)}}">
+                    @if(App::getLocale() == 'tr') {{ $faculty->trname }} @elseif (App::getLocale() == 'en') {{ $faculty->enname }}
+                    @else {{$faculty->frname}} @endif </a> </h6>
+                
+               @endforeach
+              </header>
+           
+           
+            
+    
+          </div>
+        </section>
+      {{-- <div class="container">
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN CONTENT -->
@@ -48,44 +64,7 @@
                    
                 </div>
                   @endforeach
-                  {{-- @foreach ($departments as $department)
-                  <div class="row">
-                  <h2><a href="{{route('ArticlesByDepartment',$department->slug)}}"> {{ $department->name }} </a></h2>
-                    
-                  <hr class="blog-post-sep">
-
                    
-                </div>
-                  @endforeach --}}
-                  
-        
-          {{-- @foreach($articles as $article)
-
-
-                  <div class="row">
-                      <h2><a>@if(App::getLocale() == 'tr') {{ $article->trtitle }} @else {{ $article->entitle }} @endif</a></h2>
-                      <ul class="blog-info">
-                        <li><i class="fa fa-calendar"></i> {{ $article->created_at }}</li>
-                      </ul>
-                      <p>@if(App::getLocale() == 'tr') {!! $article->trbody !!} @else {!! $article->enbody !!} @endif</p>
-                     
-
-                      <a href="/../../makaleBelgeler/{{ $article->file }}" target="_blank"><button type="submit">{{ Lang::get('app.DownloadPDF') }} <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button></a>
-
-
-                  </div>
-
-                  <hr class="blog-post-sep">
-
-          @endforeach
-                        
-
-                  <div class="row pull-right" style="margin: 15px;">
-                     {{ $articles->links() }}
-                  </div>
-
-                </div> --}}
-                <!-- END RIGHT SIDEBAR -->    
    
               </div>
             </div>
@@ -93,7 +72,7 @@
           <!-- END CONTENT -->
         </div>
         <!-- END SIDEBAR & CONTENT -->
-      </div>
+      </div> --}}
     </div>
 
 @endsection
@@ -122,6 +101,12 @@
             Layout.initTwitter();
         });
     </script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+        
+          $("#academic").addClass("menu-active");
+      });
+   </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 @endsection
 

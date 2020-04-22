@@ -58,7 +58,7 @@
                 <div class="col-lg-6 col-md-6">
                   <div class="form-group">
                   <label for="slug"> slug</label>
-                  <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug">
+                  <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" required>
                 </div>
                 </div>
                 
@@ -74,7 +74,7 @@
                 <div class="form-group" >
                   <label for="images">Imajleri Şeç</label>  
            
-                  <input type="file" name="images[]" id="images" class="custom-file-input"  accept="image/x-png,image/gif,image/jpeg,image/jpg,image/svg,image/png" multiple="multiple" >
+                  <input type="file" name="images[]" id="images" class="custom-file-input"  accept="image/x-png,image/gif,image/jpeg,image/jpg,image/svg,image/png" multiple="multiple" required="true">
                 </div>
 
             </div>
@@ -93,30 +93,19 @@
                  <!-- /. tools -->
                </div>
                <!-- /.box-header -->
-               <div class="box-body pad">
-                 <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Metni</label>
-                 <textarea name="enbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor1" required> </textarea>
-               </div>
-                <div class="box-body pad">
-                 <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkçe"> TR - Metni</label>
-                 <textarea name="trbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor2" required> </textarea>
-               </div>
-               <div class="box-body pad">
-                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="Français"> FR - Metni</label>
-                <textarea name="frbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor3" required> </textarea>
-              </div>
+              
                 <!-- /.box-header -->
                 <div class="box-body pad">
                   <label for="title"><img src="../../../../admin/images/countries/france.png" alt="English">FR-Özet</label>
-                  <textarea name="frsummary" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor4" required> </textarea>
+                  <textarea name="frsummary" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor4" required ></textarea>
                 </div>
                 <div class="box-body pad">
                   <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English">EN-Özet</label>
-                  <textarea name="ensummary" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor5" required> </textarea>
+                  <textarea name="ensummary" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor5" required></textarea>
                 </div>
                 <div class="box-body pad">
                   <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR-Özet</label>
-                  <textarea name="trsummary" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor6" required> </textarea>
+                  <textarea name="trsummary" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor6" required></textarea>
                 </div>
              </div>
 
@@ -139,33 +128,7 @@
 @section('footer')
 <script src="{{ asset('admin/plugins/select2/select2.full.min.js') }}"></script>
 <script src="{{ asset('admin/ckeditor/ckeditor.js') }}"></script>
-<script>
-    $(function () {
-      // Replace the <textarea id="editor1"> with a CKEditor
-      // instance, using default configuration.
-      CKEDITOR.replace('editor1');
-      //bootstrap WYSIHTML5 - text editor
-      $(".textarea").wysihtml5();
-    });
-</script>
-<script>
-    $(function () {
-      // Replace the <textarea id="editor1"> with a CKEditor
-      // instance, using default configuration.
-      CKEDITOR.replace('editor2');
-      //bootstrap WYSIHTML5 - text editor
-      $(".textarea").wysihtml5();
-    });
-</script>
-<script>
-  $(function () {
-    // Replace the <textarea id="editor1"> with a CKEditor
-    // instance, using default configuration.
-    CKEDITOR.replace('editor3');
-    //bootstrap WYSIHTML5 - text editor
-    $(".textarea").wysihtml5();
-  });
-</script>
+
 <script>
   $(function () {
     // Replace the <textarea id="editor1"> with a CKEditor
