@@ -15,7 +15,7 @@
           
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Fakülte</h3>
+              <h3 class="box-title">Faculté</h3>
             </div>
         
             
@@ -28,21 +28,21 @@
                       
 
                         <div class="col-md-6">
-                      <label for="title"><img src="../../../../admin/images/countries/france.png" alt="English">FR - Fakülte başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/france.png" alt="English">FR - Nom</label>
                       <input type="text" class="form-control" name="frname" id="name" placeholder="Enter category title" required>
                     </div>
                     <div class="col-md-6">
-                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR - Fakülte başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR -  başlığı</label>
                       <input type="text" class="form-control" name="trname" id="name" placeholder="Enter category title" required>
                     </div>
                     <div class="col-md-6">
-                      <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English">EN - Fakülte başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English">EN - Name</label>
                       <input type="text" class="form-control" name="enname" id="name" placeholder="Enter category title" required>
                     </div>
 
 
                       <div class="col-md-6">
-                        <label for="title">URL</label>
+                        <label for="title">Lien</label>
                         <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" required>
                       
   
@@ -61,8 +61,8 @@
                   <!-- /.card-body -->
 
                   <div class="box-footer">
-                    <input type="submit" class="btn btn-primary" value="Kaydet">
-                    <a href='{{ route('faculties.index') }}' class="btn btn-warning">Geri Dön</a>
+                    <input type="submit" class="btn btn-primary" value="Enregistrer">
+                    <a href='{{ route('faculties.index') }}' class="btn btn-warning">Retourner</a>
                   </div>
 
 

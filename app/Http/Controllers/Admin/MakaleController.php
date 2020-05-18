@@ -37,10 +37,13 @@ class MakaleController extends Controller
     {    
         $departments=departments::all();
         return view('admin.makale.ekle',compact('departments'));
+        
     }
 
     public function save(Request $request)
     {
+     //  dd($request);
+        
     //   return $request->all();
         $this->validate($request,[
             'author'=>'required',
@@ -81,7 +84,7 @@ class MakaleController extends Controller
             
             
             $result = $post->save();
-            
+           
             if ($result){
                 $post->departments()->sync($request->departments) ;
                     

@@ -33,11 +33,11 @@
                         <thead>
                         <tr>
                           <th>S.No</th>
-                          <th>Haber Başlığı</th>
-                          <th>Haber url</th>  
-                          <th>Tariği</th>
-                          <th>Düzenle</th>
-                          <th>Sil</th>
+                          <th>Titre</th>
+                          <th> Lien</th>  
+                          <th>Date</th>
+                          <th>Editer</th>
+                          <th>Supprimer</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -48,7 +48,7 @@
                               <td>{{ $post->slug }}</td>
                               <td>{{ $post->created_at }}</td>
                         
-                             <td><a  class="btn btn-success btn-block" href="{{ route('admin.haber.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit"> Düzenle</span></a></td>
+                             <td><a  class="btn btn-success btn-block" href="{{ route('admin.haber.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit"> Editer</span></a></td>
                              
                               <td>
                               <form id="delete-form-{{ $post->id }}" method="get" action="{{ route('admin.haber.delete', $post->id) }}" style="display: none">
@@ -76,7 +76,7 @@
                   </div>
 
                   <div class="box-footer">
-              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Geri Dön</a>
+              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Retourner</a>
             </div>
       </div>
 

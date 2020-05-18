@@ -14,12 +14,12 @@
             <div class="inner">
               <h3>KY</h3>
 
-              <p>Kullanıcı Yönet</p>
+              <p>Gerer les admins</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kullanici.yonet') }}" class="small-box-footer">  Kullanıcı Yönet <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kullanici.yonet') }}" class="small-box-footer"> Gerer <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -30,12 +30,12 @@
             <div class="inner">
               <h3>KE</h3>
 
-              <p>Kullanıcı Ekle</p>
+              <p>Ajouter des admins</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kullanici.ekle') }}" class="small-box-footer">Kullanıcı Ekle <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kullanici.ekle') }}" class="small-box-footer">Ajouter<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->

@@ -3,12 +3,14 @@
 @section('content')
 <div class="container">
     <div class="row" style="padding: 15% 0">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-3"> 
+            
             <div class="panel panel-default">
                 
                 <div class="panel-heading">
-                 <img src="../../user/assets/images/afrokonya.png" alt="Afrokonya Association" height="150">
-                 <br>AFROKONYA ADMİN GİRİŞİ</div>
+                    <div class=""> <img src="../../logo/Layer_1_2100_1000.png" alt="Afrokonya Association" height="150"></div>
+
+                 Panneau D'administration</div>
 
 
                 <div class="panel-body">

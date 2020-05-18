@@ -14,12 +14,12 @@
             <div class="inner">
               <h3>TM</h3>
 
-              <p>Tariğimiz Metini</p>
+              <p>Notre Histoire</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kurumsal.tarigi') }}" class="small-box-footer"> Tariğimiz Metini <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kurumsal.tarigi') }}" class="small-box-footer"> Histoire <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
                <!-- ./col -->
@@ -29,12 +29,12 @@
             <div class="inner">
               <h3>KM</h3>
 
-              <p>Kakkımızda Metini</p>
+              <p>A propos de nous</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kurumsal.hakkimizda') }}" class="small-box-footer"> Kakkımızda Metini <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kurumsal.hakkimizda') }}" class="small-box-footer"> A propos de nous <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -45,12 +45,12 @@
             <div class="inner">
               <h3>MM</h3>
 
-              <p>Misyon Metini</p>
+              <p>Notre mission</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kurumsal.misyon') }}" class="small-box-footer">Misyon Metini <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kurumsal.misyon') }}" class="small-box-footer">Notre mission<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -60,16 +60,16 @@
             <div class="inner">
               <h3>VM</h3>
 
-              <p>Visyon Metini</p>
+              <p>Notre Vision</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kurumsal.visyon') }}" class="small-box-footer">Visyon Metini <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kurumsal.visyon') }}" class="small-box-footer">Notre Vision <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
-        <div class="col-md-4 col-xs-6">
+        {{-- <div class="col-md-4 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
@@ -82,7 +82,7 @@
             </div>
             <a href="{{ route('admin.kurumsal.sikcasorulansorular') }}" class="small-box-footer">Sıkça Sorulan Soruları <i class="fa fa-arrow-circle-right"></i></a>
           </div>
-        </div>
+        </div> --}}
 
         <!-- ./col -->
       </div>

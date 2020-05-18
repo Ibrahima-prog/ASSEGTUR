@@ -66,7 +66,7 @@ return [
 
     //REGISTER PAGE
     'becomeMember' => 'Deviens un membre',
-    'RegisterMessage' => "Enregistres toi et deviens membre de l'assegtur.",
+    'RegisterMessage' => "Enregistrez vous et devenez membre de l'assegtur.",
     'YourPersonalDetails' => 'Tes informations personnelles',
     'Conditions' => 'Conditions to be a member',
     'MoreDetails' => 'Plus de détails',

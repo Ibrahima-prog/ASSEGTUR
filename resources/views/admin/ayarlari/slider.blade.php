@@ -11,7 +11,7 @@
    
   
       <div class="callout callout-info">
-        <h4>Slider Fotoğrafları</h4>
+        <h4>Photos du slider</h4>
       </div>
 
        <div class="row">
@@ -20,7 +20,7 @@
             <div class="box-header">
               <i class="fa fa-database"></i>
 
-              <h3 class="box-title">Operasyonlar</h3>
+              <h3 class="box-title">Operations</h3>
             </div>
             <!-- /.box -->
           </div>
@@ -37,7 +37,7 @@
                           <div class="col-md-6">
                             <div class="box box-solid">
                               <div class="box-header with-border">
-                                <h3 class="box-title">Eklenmiş Fotografları</h3>
+                                <h3 class="box-title">Photos ajoutées</h3>
                               </div>
                               <!-- /.box-header -->
                               <div class="box-body">
@@ -86,12 +86,12 @@
                            <div class="col-md-6">
 
                             <div class="callout callout-info">
-                              <h4>Slider Fotoğraf Ekle</h4>
+                              <h4>Ajouter des photos au Slider</h4>
                             </div>
 
                              <div class="box box-primary">
                                 <div class="box-header with-border">
-                                  <h3 class="box-title">Birinci Slider Fotoğraf EKle</h3>
+                                  <h3 class="box-title">Première photo du slider</h3>
                                 </div>
 
                                    <form class="form-horizontal" method="POST" action="{{ route('admin.ayarlari.slider.save1') }}" enctype="multipart/form-data" required="true">
@@ -99,13 +99,13 @@
 
                                               <div class="col-lg-4">
                                                 <div class="box-body">
-                                                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Başlığı</label>
+                                                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Titre</label>
                                                 <input type="text" class="form-control" id="title" name="frtitle" placeholder="Başlığı" required="true" >
                                                </div>
                                            </div>
                                             <div class="col-lg-4">
                                             <div class="box-body">
-                                            <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Başlığı</label>
+                                            <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Title</label>
                                             <input type="text" class="form-control" id="title" name="entitle" placeholder="Başlığı" required="true" >
                                            </div>
                                        </div>
@@ -118,7 +118,7 @@
                                        </div>
                            
                                         <div class="box-body">
-                                          <label for="title">Resim Şeç - (1700, 850)</label>
+                                          <label for="title">Choisir image - (1700, 850)</label>
                                             <input type="file" name="image" id="image" accept="image/x-png,image/gif,image/jpeg,image/jpg,image/svg,image/png" multiple="multiple" required="true">
                                         </div>
                                              
@@ -132,12 +132,12 @@
                             </div>
                             <div class="col-md-6">
                                <div class="callout callout-info">
-                                    <h4>Slider Fotoğraf Ekle</h4>
+                                    <h4>Ajouter des photos au Slider</h4>
                                   </div>
 
                                    <div class="box box-primary">
                                       <div class="box-header with-border">
-                                        <h3 class="box-title">Slider Fotoğraf(lar) EKle</h3>
+                                        <h3 class="box-title">Ajouter le reste des photos ici</h3>
                                       </div>
 
                                          <form class="form-horizontal" method="POST" action="{{ route('admin.ayarlari.slider.save') }}" enctype="multipart/form-data" required="true">
@@ -145,13 +145,13 @@
 
                                                     <div class="col-lg-4">
                                                       <div class="box-body">
-                                                      <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Başlığı</label>
+                                                      <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Titre</label>
                                                       <input type="text" class="form-control" id="title" name="frtitle" placeholder="Başlığı" required="true" >
                                                      </div>
                                                  </div>
                                                   <div class="col-lg-4">
                                                   <div class="box-body">
-                                                  <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Başlığı</label>
+                                                  <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Title</label>
                                                   <input type="text" class="form-control" id="title" name="entitle" placeholder="Başlığı" required="true" >
                                                  </div>
                                              </div>
@@ -164,7 +164,7 @@
                                              </div>
                                  
                                               <div class="box-body">
-                                                <label for="title">Resim(ler) Şeç - (1700, 850)</label>
+                                                <label for="title">Choisir image(S) - (1700, 850)</label>
                                                   <input type="file" name="images[]" id="image" accept="image/x-png,image/gif,image/jpeg,image/jpg,image/svg,image/png" multiple="multiple" required="true">
                                               </div>
                                                    
@@ -180,7 +180,7 @@
                            @foreach($slider1 as $image)
 
                            <div class="col-sm-3">
-                             first
+                             Première image du slider
                              <img class="img-responsive" src="../../slider1/{{ $image->image }}" alt="{{ $image->trtitle }}">
                                 <div class="box-body pad table-responsive">
                                  
@@ -192,7 +192,7 @@
                           
                         @foreach($slider as $image)
 
-                        <div class="col-sm-3"> Sliders
+                        <div class="col-sm-3"> le reste des images du slider
                           <img class="img-responsive" src="../../sliderFotograflari/{{ $image->image }}" alt="{{ $image->trtitle }}">
                              <div class="box-body pad table-responsive">
         				              <table class="table table-bordered text-center">

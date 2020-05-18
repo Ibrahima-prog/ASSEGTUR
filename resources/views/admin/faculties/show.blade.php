@@ -19,12 +19,12 @@
   <!-- Main content -->
   <section class="content">
     <div class="callout callout-info">
-          <h4>Faculties </h4>
+          <h4>Facultés </h4>
         </div>
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title">Faculties</h3>
+          <h3 class="box-title">Facultés</h3>
           <a class='col-lg-offset-5 btn btn-success pull-right' href="{{ route('faculties.create') }}">Add new</a>
           <div class="box-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -34,7 +34,7 @@
         <div class="box-body">
           <div class="box">
                       <div class="box-header">
-                        <h3 class="box-title">Faculties</h3>
+                        <h3 class="box-title">Facultés</h3>
                       </div>
                       <!-- /.box-header -->
                       <div class="box-body">
@@ -42,11 +42,11 @@
                           <thead>
                           <tr>
                             <th>S.No</th>
-                            <th>Name</th>
-                            <th>Slug</th>
+                            <th>Nome</th>
+                            <th>Lien</th>
                             
-                            <th>Edit</th>
-                            <th>Delete</th>
+                            <th>Editer</th>
+                            <th>Supprimer</th>
                           </tr>
                           </thead>
                           <tbody>
@@ -56,7 +56,7 @@
                                 <td>{{ $faculty->trname }}</td>
                                 <td>{{ $faculty->slug }}</td>
   
-                               <td><a class="btn btn-success btn-block" href="{{ route('faculties.edit', $faculty->id) }}"><span class="glyphicon glyphicon-edit"></span> Edit</a></td>
+                               <td><a class="btn btn-success btn-block" href="{{ route('faculties.edit', $faculty->id) }}"><span class="glyphicon glyphicon-edit"></span> Editer</a></td>
                                
                                 <td>
                                 <form id="delete-form-{{ $faculty->id }}" method="POST" action="{{ route('faculties.destroy', $faculty->id) }}" style="display: none">
@@ -71,7 +71,7 @@
                                     }
                                     else{
                                       event.preventDefault();
-                                    }" ><span class="glyphicon glyphicon-trash"> </span> Sil</a>
+                                    }" ><span class="glyphicon glyphicon-trash"> </span> Supprimer</a>
                               </td>
   
   
@@ -86,7 +86,7 @@
                     </div>
   
                     <div class="box-footer">
-                      <a href='{{ route('admin.makale') }}' class="btn btn-warning">Geri Dön</a>
+                      <a href='{{ route('admin.makale') }}' class="btn btn-warning">Retourner</a>
                                   </div>
         </div>
         <!-- /.box-body -->

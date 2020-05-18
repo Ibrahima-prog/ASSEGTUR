@@ -14,7 +14,7 @@
             <div class="inner">
               <h3>DY</h3>
 
-              <p>Duyruları Yönet</p>
+              <p>Gerer</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>

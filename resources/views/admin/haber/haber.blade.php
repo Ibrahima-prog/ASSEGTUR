@@ -14,12 +14,12 @@
             <div class="inner">
               <h3>HY</h3>
 
-              <p>Haberleri Yönet</p>
+              <p>Gerer les nouvelles</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.haber.yonet') }}" class="small-box-footer">  Haberleri Yönet <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.haber.yonet') }}" class="small-box-footer">  Gerer les nouvelles<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -30,12 +30,12 @@
             <div class="inner">
               <h3>HE</h3>
 
-              <p>Haber Ekle</p>
+              <p>Ajojuter une nouvelle</p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.haber.ekle') }}" class="small-box-footer">Haber Ekle <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.haber.ekle') }}" class="small-box-footer">Ajojuter une nouvelle <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -43,7 +43,7 @@
 
       
          <div class="box-footer">
-              <a href='{{ route('admin.anasayfa') }}' class="btn btn-success">Geri Dön</a>
+              <a href='{{ route('admin.anasayfa') }}' class="btn btn-success">Retourner</a>
             </div>
 
       </section>

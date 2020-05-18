@@ -9,15 +9,15 @@
 
 @section('mainBody')
     <div class="callout callout-info">
-        <h4>Web Site Genel Ayarları</h4>
+        <h4>Réglages du site</h4>
       </div>
   <div class="row">     
         <div class="col-md-8 col-md-offset-2">
           <div class="nav-tabs-custom">
 
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#information" data-toggle="tab">İletişim Bilgileri</a></li>
-              <li><a href="#contact" data-toggle="tab">Düzeltme Formu</a></li>
+              <li class="active"><a href="#information" data-toggle="tab">Informations de contact</a></li>
+              <li><a href="#contact" data-toggle="tab">Formulaire de correction</a></li>
             </ul>
 
             <div class="tab-content">
@@ -29,7 +29,7 @@
                   <!-- timeline time label -->
                   <li class="time-label">
                         <span class="bg-blue">
-                          SEO AYARLARI
+                          SEO
                         </span>
                   </li>
                   <!-- /.timeline-label -->
@@ -46,7 +46,7 @@
         
                   <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a>Keywords</a></h3>
+                      <h3 class="timeline-header"><a>Mots clés</a></h3>
                       <div class="timeline-body">
                       {{ $ayarlar->keywords }}
                       </div>
@@ -59,7 +59,7 @@
                   <!-- timeline time label -->
                   <li class="time-label">
                         <span class="bg-green">
-                         SOSYAL MEDİA
+                         Réseaux sociaux
                         </span>
                   </li>
                   <!-- /.timeline-label -->
@@ -123,13 +123,13 @@
 
                   <li class="time-label">
                         <span class="bg-blue">
-                         İRTİBAT HATLARI
+                          LIGNES DE CONTACT
                         </span>
                   </li>
 
                   <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Telefon 1</a></h3>
+                      <h3 class="timeline-header"><a> Telephone 1</a></h3>
                       <div class="timeline-body">
                      {{ $ayarlar->phoneone }}
                       </div>
@@ -138,7 +138,7 @@
 
                    <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Telefon 2</a></h3>
+                      <h3 class="timeline-header"><a> Telephone 2</a></h3>
                       <div class="timeline-body">
                      {{ $ayarlar->phonetwo }}
                       </div>
@@ -165,7 +165,7 @@
 
                    <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Adres</a></h3>
+                      <h3 class="timeline-header"><a> Adresse</a></h3>
                       <div class="timeline-body">
                      {{ $ayarlar->address }}
                       </div>
@@ -188,7 +188,7 @@
                   {{ csrf_field() }}
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Website Description</label>
+                    <label for="inputName" class="col-sm-2 control-label">Description du site</label>
 
                     <div class="col-sm-10">
                       <textarea class="form-control" name="description" id="inputExperience" placeholder="Description" rows="5">{{ $ayarlar->description }}</textarea>
@@ -196,7 +196,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Website Keywords</label>
+                    <label for="inputName" class="col-sm-2 control-label">Mots clés du site</label>
 
                     <div class="col-sm-10">
                       <textarea class="form-control" name="keywords" id="inputExperience" placeholder="Keywords" rows="5">{{ $ayarlar->keywords }}</textarea>
@@ -205,7 +205,7 @@
                   </div>
 
                    <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Facebook Linki</label>
+                    <label for="inputName" class="col-sm-2 control-label">Lien Facebook</label>
 
                     <div class="col-sm-10">
                       <input type="text" name="facebook" class="form-control" id="facebook" placeholder="Facebook Linki" value="{{ $ayarlar->facebook }}">
@@ -213,7 +213,7 @@
                   </div>
 
                     <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Instagram Linki</label>
+                    <label for="inputName" class="col-sm-2 control-label">Lien Instagram</label>
 
                     <div class="col-sm-10">
                       <input type="text" name="instagram" class="form-control" id="instagram" placeholder="Instagram Linki" value="{{ $ayarlar->instagram }}">
@@ -221,7 +221,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Twitter Linki</label>
+                    <label for="inputName" class="col-sm-2 control-label">Lien Twitter</label>
 
                     <div class="col-sm-10">
                       <input type="text" name="twitter" class="form-control" id="twitter" placeholder="Twitter Linki" value="{{ $ayarlar->twitter }}">
@@ -229,7 +229,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Youtube Linki</label>
+                    <label for="inputName" class="col-sm-2 control-label">Lien Youtube</label>
 
                     <div class="col-sm-10">
                       <input type="text" name="youtube" class="form-control" id="youtube" placeholder="Youtube Linki" value="{{ $ayarlar->youtube }}">
@@ -237,7 +237,7 @@
                   </div>
 
                     <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Googleplus Linki</label>
+                    <label for="inputName" class="col-sm-2 control-label">Lien Googleplus</label>
 
                     <div class="col-sm-10">
                       <input type="text" name="googleplus" class="form-control" id="googleplus" placeholder="Googleplus Linki" value="{{ $ayarlar->googleplus }}">
@@ -245,7 +245,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Telefon 1</label>
+                    <label for="inputName" class="col-sm-2 control-label">Telephone 1</label>
 
                     <div class="col-sm-10">
                       <input type="text" name="phoneone" class="form-control" id="phoneone" placeholder="Telefon 1" value="{{ $ayarlar->phoneone }}">
@@ -253,7 +253,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Telefon 2</label>
+                    <label for="inputName" class="col-sm-2 control-label">Telephone 2</label>
 
                     <div class="col-sm-10">
                       <input type="text" name="phonetwo" class="form-control" id="phonetwo" placeholder="Telefon 2" value="{{ $ayarlar->phonetwo }}">
@@ -276,7 +276,7 @@
                   </div>
 
                       <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Adres</label>
+                    <label for="inputName" class="col-sm-2 control-label">Adresse</label>
 
                      <div class="col-sm-10">
                       <textarea class="form-control" name="address" id="inputExperience" placeholder="Adres" rows="4">{{ $ayarlar->address }}</textarea>
@@ -286,7 +286,7 @@
           
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="submit" class="btn btn-success btn-block">Kaydet</button>
+                      <button type="submit" class="btn btn-success btn-block">Enregistrer</button>
                     </div>
                   </div>
                 </form>

@@ -9,7 +9,7 @@
 
 @section('mainBody')
       <div class="callout callout-info">
-        <h4>Mevcut Admin Kullanıcılar</h4>
+        <h4>Les Admins</h4>
       </div>
     <section class="content">
 
@@ -22,14 +22,14 @@
 
 	              <h3 class="profile-username text-center">{{ $user->name }}</h3>
 
-	              <p class="text-muted text-center">Tüm hakları bu kullanıcıya verildi</p>
+	              <p class="text-muted text-center">Tous droits réservés</p>
 
 	              <ul class="list-group list-group-unbordered">
 	                <li class="list-group-item">
 	                  <b>Email</b> <a>{{ $user->email }}</a>
 	                </li>
 	                <li class="list-group-item">
-	                  <b>Oluşturulma Tarihi:</b> <a>{{ $user->created_at }}</a>
+	                  <b>Date de création:</b> <a>{{ $user->created_at }}</a>
 	                </li>
 	              </ul>
        
@@ -46,7 +46,7 @@
                       else{
                         event.preventDefault();
                       }" >
-                      <span class="glyphicon glyphicon-trash"></span><b> Sil</b></a>
+                      <span class="glyphicon glyphicon-trash"></span><b> Supprimer</b></a>
 	            </div>
 	            <!-- /.box-body -->
 	          </div>
@@ -58,7 +58,7 @@
 	    <div class="row">
 	        <div class="col-md-3">
         	    <div class="box-footer">
-		         <a href='{{ route('admin.kullanici') }}' class="btn btn-info"> Geri Dön</a>
+		         <a href='{{ route('admin.kullanici') }}' class="btn btn-info"> Retourner</a>
 		      </div>
 	        </div>
 	    </div>

@@ -17,7 +17,7 @@
         
         <div class="box box-primary">
           <div class="box-header with-border">
-            <h3 class="box-title">HABER EKLE</h3>
+            <h3 class="box-title">Ajouter une nouvelle</h3>
           </div>
       
           <!-- /.box-header -->
@@ -35,14 +35,14 @@
               
               <div class="col-md-6">
                 <div class="form-group">
-                    <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Haber Başlığı</label>
+                    <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Titre</label>
                     <input type="text" class="form-control" id="title" name="frtitle" placeholder="Haber Başlığı" required>
                   </div>  
               </div>
                 
                 <div class="col-md-6">
                   <div class="form-group">
-                      <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Haber Başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Title</label>
                       <input type="text" class="form-control" id="title" name="entitle" placeholder="Haber Başlığı" required>
                     </div>  
                 </div>
@@ -62,7 +62,7 @@
 
                 <div class="col-md-6">
                    <div class="form-group">
-                      <label for="title"> URL</label>
+                      <label for="title"> Lien</label>
                       <input type="text" class="form-control" id="slug" name="slug" placeholder="Haber Url" required>
                     </div>  
                 </div>
@@ -71,7 +71,7 @@
 
             <div class="box-body">
             <div class="form-group">
-                  <label for="image">Imaji Şeç</label>  
+                  <label for="image">Ajouter une image</label>  
                   <input type="file" name="image" id="image" accept="image/x-png,image/gif,image/jpeg,image/jpg,image/svg,image/png" required="true">
                 </div>
               </div>
@@ -79,8 +79,8 @@
             
             <div class="box">
              <div class="box-header">
-               <h3 class="box-title">Haber
-                 <small>Metni</small>
+               <h3 class="box-title">Nouvelle
+                 <small>Contenu</small>
                </h3>
                <!-- tools box -->
                <div class="pull-right box-tools">
@@ -92,22 +92,22 @@
                <!-- /.box-header -->
 
                <div class="box-body pad">
-                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Duyuru Metni</label>
+                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Contenu</label>
                <textarea name="frbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor1" required> </textarea>
              </div>
                <div class="box-body pad">
-                  <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Duyuru Başlığı</label>
+                  <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Content</label>
                  <textarea name="enbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor2" required> </textarea>
                </div>
                 <div class="box-body pad">
-                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Duyuru Metni</label>
+                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR -  Metni</label>
                  <textarea name="trbody" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor3" required> </textarea>
                </div>
              </div>
 
              <div class="box-footer">
-              <input type="submit" class="btn btn-primary" value="Kaydet">
-              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Geri Dön</a>
+              <input type="submit" class="btn btn-primary" value="Enregister">
+              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Retourner</a>
             </div>
           </form>
         </div>

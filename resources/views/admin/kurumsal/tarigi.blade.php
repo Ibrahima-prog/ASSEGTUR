@@ -20,7 +20,7 @@
         
         <div class="box box-primary">
           <div class="box-header with-border">
-            <h3 class="box-title">Tariğimiz Metin</h3>
+            <h3 class="box-title">Notre Histoire</h3>
           </div>
       
           <!-- /.box-header -->
@@ -41,19 +41,19 @@
 
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Metin Başlığı</label>
+                  <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Titre</label>
                   <input type="text" class="form-control" id="frtitle" name="frtitle" placeholder="Post Title" value="@if ($post) {{ $post->frtitle }} @endif">
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Metin Başlığı</label>
+                  <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Title</label>
                   <input type="text" class="form-control" id="entitle" name="entitle" placeholder="Post Title" value="@if ($post) {{ $post->entitle }} @endif">
                 </div>
               </div>
                <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Metin Başlığı</label>
+                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR -  Başlık</label>
                   <input type="text" class="form-control" id="trtitle" name="trtitle" placeholder="Post Title" value="@if ($post) {{ $post->trtitle }} @endif">
                 </div>
               </div>
@@ -66,7 +66,7 @@
             
             <div class="box">
              <div class="box-header">
-               <h3 class="box-title">METİN
+               <h3 class="box-title">Contenu
                </h3>
                <!-- tools box -->
                <div class="pull-right box-tools">
@@ -78,11 +78,11 @@
                <!-- /.box-header -->
 
                <div class="box-body pad">
-                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Metin</label>
+                <label for="title"><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Contenu</label>
                  <textarea name="frtext" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor0">@if ($post) {{ $post->frtext }} @endif </textarea>
                </div>
                <div class="box-body pad">
-                <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Metin</label>
+                <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Content</label>
                  <textarea name="entext" style="width: 100%; height: 500px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="editor1">@if ($post) {{ $post->entext }} @endif </textarea>
                </div>
                  <div class="box-body pad">
@@ -92,8 +92,8 @@
              </div>
 
              <div class="box-footer">
-              <input type="submit" class="btn btn-primary" value="Kaydet">
-              <a href='{{ route('admin.kurumsal') }}' class="btn btn-warning">Geri Dön</a>
+              <input type="submit" class="btn btn-primary" value="Enregister">
+              <a href='{{ route('admin.kurumsal') }}' class="btn btn-warning">Retourner</a>
             </div>
           </form>
         </div>

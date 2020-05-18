@@ -35,11 +35,11 @@
                         <thead>
                         <tr>
                           <th>S.No</th>
-                          <th>Etkinlik Başlığı</th>
-                          <th>Tariği</th>
-                          <th>Durum</th>
-                          <th>Düzenle</th>
-                          <th>Sil</th>
+                          <th>Nom</th>
+                          <th>Date</th>
+                          <th>Statut</th>
+                          <th>editer</th>
+                          <th>supprimer</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -48,9 +48,9 @@
                               <td>{{ $loop->index + 1 }}</td>
                               <td>{{ $post->trtitle }}</td>
                               <td>{{ $post->created_at }}</td>
-                              <td>@if($post->status == 0)  <a href="{{ route('admin.etkinlik.gecti', $post->id) }}" title="Geçmiş EtKinlik" class="btn btn-info btn-block">Geçmiş Yap</a> @else <strong>Etkinlik Geçmiş</strong> @endif</td>
+                              <td>@if($post->status == 0)  <a href="{{ route('admin.etkinlik.gecti', $post->id) }}" title="Geçmiş EtKinlik" class="btn btn-info btn-block">Activité passée</a> @else <strong>Etkinlik Geçmiş</strong> @endif</td>
 
-                             <td><a class="btn btn-success btn-block" href="{{ route('admin.etkinlik.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit">  Düzenle</span></a></td>
+                             <td><a class="btn btn-success btn-block" href="{{ route('admin.etkinlik.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit">  editer</span></a></td>
                              
                               <td>
                               <form id="delete-form-{{ $post->id }}" method="get" action="{{ route('admin.etkinlik.delete', $post->id) }}" style="display: none">
@@ -65,7 +65,7 @@
                                   }
                                   else{
                                     event.preventDefault();
-                                  }" ><span class="glyphicon glyphicon-trash">  Sil</span></a>
+                                  }" ><span class="glyphicon glyphicon-trash">  supprimer</span></a>
                             </td>
 
 
@@ -80,7 +80,7 @@
                   </div>
 
                   <div class="box-footer">
-              <a href='{{ route('admin.etkinlik') }}' class="btn btn-warning">Geri Dön</a>
+              <a href='{{ route('admin.etkinlik') }}' class="btn btn-warning">Retourner</a>
             </div>
       </div>
       <!-- /.box-body -->

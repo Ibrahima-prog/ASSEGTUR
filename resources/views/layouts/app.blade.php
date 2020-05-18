@@ -8,8 +8,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Mimars Yapı') }}</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../../user/assets/images/afrokonya.png">
+    <title>ASSEGTUR | Panneau D'administration</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../logo/icone_test.png">
     <!-- Styles -->
     <link href="{{ asset('admin/admin.css') }}" rel="stylesheet">
     

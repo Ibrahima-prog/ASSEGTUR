@@ -13,7 +13,7 @@
 
             <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Bölümler</h3>
+                  <h3 class="box-title">Départements</h3>
                 </div>
             
 
@@ -24,32 +24,32 @@
                   <div class="box-body">
                       <div class="col-md-6">
                         <div class="form-group">
-                      <label for="title"><img src="../../../../admin/images/countries/france.png" alt="English">FR - Bölüm başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/france.png" alt="English">FR - Nom</label>
                       <input type="text" class="form-control" name="frname" id="name" placeholder="Enter category title" required>
                     </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR - Bölüm başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR - Adı</label>
                       <input type="text" class="form-control" name="trname" id="name" placeholder="Enter category title" required>
                     </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                      <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English">EN - Bölüm başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/en.png" alt="English">EN - Name</label>
                       <input type="text" class="form-control" name="enname" id="name" placeholder="Enter category title" required>
                     </div>
                       </div>
 
                       <div class="col-md-6">
                       <div class="form-group">
-                        <label for="title">URL</label>
+                        <label for="title">Lien</label>
                         <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" required>
                       </div>
                       </div>
                       <div class="col-md-6">
                       
-                        <label>Fakülte</label>
+                        <label>Faculté</label>
                         <select class="select2 select2-hidden-accessible" data-placeholder="Select a faculty" style="width: 100%;" data-select2-id="7" tabindex="-1" aria-hidden="true"
                         name="faculty" required>
                             @foreach ($faculties as $faculty)
@@ -73,8 +73,8 @@
 
 
                   <div class="box-footer">
-                    <input type="submit" class="btn btn-primary" value="Kaydet">
-                    <a href='{{ route('departments.index') }}' class="btn btn-warning">Geri Dön</a>
+                    <input type="submit" class="btn btn-primary" value="Enregister">
+                    <a href='{{ route('departments.index') }}' class="btn btn-warning">Retourner</a>
                   </div>
 
                 </form>

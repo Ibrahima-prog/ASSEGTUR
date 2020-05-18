@@ -3,11 +3,11 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>ASSEGTUR</title>
-  <meta content="" name="descriptison">
+  <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/../../BizPage/assets/img/favicon.png" rel="icon">
+  <link href="/../../logo/icone_test.png" rel="icon">
   <link href="/../../BizPage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->

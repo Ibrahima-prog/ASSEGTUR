@@ -3,7 +3,8 @@
     <div class="pull-right">
       <b>ASSEGTUR ADMIN PANEL</a>
     </div>
-    <strong>Copyright &copy; 2020 <a href="mailto:ibrhimsorycamara77@gmail.com">Ibrahima Sory Camara.</a> </strong> All Rights Reserved.
+    <strong>Copyright &copy; 2020 ASSEGTUR</strong> All Rights Reserved.
+    <strong>Designed by:<a href="mailto:ibrhimsorycamara77@gmail.com">Ibrahima Sory Camara</a> </strong>
   </footer>
 
   <div class="control-sidebar-bg"></div>

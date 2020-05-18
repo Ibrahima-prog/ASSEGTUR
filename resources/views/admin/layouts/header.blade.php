@@ -12,7 +12,7 @@
     
       <!-- Sidebar toggle button-->
       <a class="sidebar-toggle" data-toggle="offcanvas" role="button">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Navigation</span>
       </a>
 
       <div class="navbar-custom-menu">
@@ -24,7 +24,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
              
-             PROFİL
+             Profile
             </a>
 
             <ul class="dropdown-menu">
@@ -41,13 +41,13 @@
               <!-- Menu Footer-->
           <li class="user-footer">
                 <div class="pull-left">
-                  <a class="btn btn-default btn-flat" href="{{ route('admin.kullanici.sifredegistir') }}">Şifreyi Değiştir</a>
+                  <a class="btn btn-default btn-flat" href="{{ route('admin.kullanici.sifredegistir') }}">Changer de mot de passe</a>
                 </div>
                 <div class="pull-right">
                       <a class="btn btn-default btn-flat" href="#"
                           onclick="event.preventDefault();
                                    document.getElementById('logout-form').submit();">
-                         Çıkış yap
+                         Se deconnecter
                       </a>
 
                       <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
