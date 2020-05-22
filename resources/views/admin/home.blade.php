@@ -9,18 +9,33 @@
       <!-- Small boxes (Stat box) -->
       <div class="row">
 
+        <div class="col-lg-4 col-xs-6 ">
+          <!-- small box -->
+          <div class="small-box bg-red">
+            <div class="inner">
+              <h3>Slider</h3>
+
+              <p></p>
+            </div>
+            <div class="icon">
+              <i class="ion-settings"></i>
+            </div>
+            <a href="{{ route('admin.ayarlari.slider') }}" class="small-box-footer"> Gestion <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+
         <div class="col-lg-4 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-aqua">
+          <div class="small-box bg-yellow">
             <div class="inner">
-              <h3>EK</h3>
+              <h3>Les Activités</h3>
 
-              <p>ETKİNLİK</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-information"></i>
             </div>
-            <a href="{{ route('admin.etkinlik') }}" class="small-box-footer">ETKİNLİK METİNLER <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.etkinlik') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
@@ -28,30 +43,30 @@
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>KM</h3>
+              <h3>Textes De Présentation</h3>
 
-              <p>KURUMSAL</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-information"></i>
             </div>
-            <a href="{{ route('admin.kurumsal') }}" class="small-box-footer">KURUMSAL METİNLER <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kurumsal') }}" class="small-box-footer">Gestion<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
 
        <!-- ./col -->
            <div class="col-lg-4 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-yellow">
+          <div class="small-box bg-red">
             <div class="inner">
-              <h3>YK</h3>
+              <h3>Bureau Exécutif</h3>
 
-              <p>YÖNETİM KURULU</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-android-people"></i>
             </div>
-            <a href="{{ route('admin.yonetim') }}" class="small-box-footer">YÖNETİM KURULU BİLGİLERİ <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.yonetim') }}" class="small-box-footer">Gestion<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -59,22 +74,22 @@
           <!-- ./col -->
           <div class="col-lg-4 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-aqua">
+          <div class="small-box bg-yellow">
             <div class="inner">
-              <h3>ÖK</h3>
+              <h3>Membres De L'ASSEGTUR</h3>
 
-              <p>ÖN KAYIT BİLGİLERİ</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-android-done-all"></i>
             </div>
-            <a href="{{ route('admin.onkayit') }}" class="small-box-footer">ÖN KAYIT BİLGİLERİ YÖNET <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.onkayit') }}" class="small-box-footer">Gestion<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
 
         <!-- ./col -->
-        <div class="col-lg-4 col-xs-6">
+        {{-- <div class="col-lg-4 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
@@ -92,7 +107,7 @@
 
 
         <!-- ./col -->
-          {{-- <div class="col-lg-4 col-xs-6">
+          <div class="col-lg-4 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
@@ -144,30 +159,30 @@
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>HB</h3>
+              <h3>Journal</h3>
 
-              <p>HABERLER</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-android-clipboard"></i>
             </div>
-            <a href="{{ route('admin.haber.yonet') }}" class="small-box-footer">HABERLERİ YÖNET <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.haber.yonet') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
                       <!-- ./col -->
           <div class="col-lg-4 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-yellow">
+          <div class="small-box bg-red">
             <div class="inner">
-              <h3>MA</h3>
+              <h3>Thèses Et Articles</h3>
 
-              <p>MAKALELER</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-social-designernews"></i>
             </div>
-            <a href="{{ route('admin.makale') }}" class="small-box-footer">MAKALELER YÖNET <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.makale') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -193,33 +208,34 @@
 
         <div class="col-lg-4 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-green">
+          <div class="small-box bg-yellow">
             <div class="inner">
-              <h3>KU</h3>
+              <h3>Administrateurs</h3>
 
-              <p>KULLANICI</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-person-stalker"></i>
             </div>
-            <a href="{{ route('admin.kullanici') }}" class="small-box-footer">KULLANICILARI YÖNET <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kullanici') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
         <div class="col-lg-4 col-xs-6 ">
           <!-- small box -->
-          <div class="small-box bg-yellow">
+          <div class="small-box bg-green">
             <div class="inner">
-              <h3>AYR</h3>
+              <h3>Réglages Du Site</h3>
 
-              <p>AYARLARI</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-settings"></i>
             </div>
-            <a href="{{ route('admin.kullanici.sifredegistir') }}" class="small-box-footer"> ŞİFREYİ AYARLARIMI <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.ayarlari.genelayarlari') }}" class="small-box-footer"> Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
+       
         <!-- ./col -->
 
         <!-- ./col -->

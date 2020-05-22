@@ -14,7 +14,18 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">Menu rapide</li>
-          
+
+        <li class="treeview {{ str_contains(request()->url(), '/slider') ? 'active' : '' }}">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Slider</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ route('admin.ayarlari.slider') }}"><i class="fa fa-hand-o-right"></i> Les Photos Du Slider</a></li>        
+          </ul>
+        </li>
 
          <li class="treeview {{ str_contains(request()->url(), '/etkinlik') ? 'active' : '' }}">
           <a href="#">
@@ -124,13 +135,13 @@
         </li>
         <li class="treeview {{ str_contains(request()->url(), '/ayarlari') ? 'active' : '' }}">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Régşages</span>
+            <i class="fa fa-dashboard"></i> <span>Réglages</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ route('admin.ayarlari.slider') }}"><i class="fa fa-hand-o-right"></i> Les Photos Du Slider</a></li>        
+            {{-- <li><a href="{{ route('admin.ayarlari.slider') }}"><i class="fa fa-hand-o-right"></i> Les Photos Du Slider</a></li>         --}}
             <li><a href="{{ route('admin.ayarlari.genelayarlari') }}"><i class="fa fa-hand-o-right"></i> Les Réglages Du Sites</a></li>        
           </ul>
         </li>

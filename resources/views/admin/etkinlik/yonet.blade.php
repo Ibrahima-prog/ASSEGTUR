@@ -80,7 +80,7 @@
                   </div>
 
                   <div class="box-footer">
-              <a href='{{ route('admin.etkinlik') }}' class="btn btn-warning">Retourner</a>
+              <a href='{{ route('admin.etkinlik') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
       </div>
       <!-- /.box-body -->

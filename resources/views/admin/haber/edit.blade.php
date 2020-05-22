@@ -52,7 +52,7 @@
 
                 <div class="col-md-6">
                    <div class="form-group">
-                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Başlık</label>
                       <input type="text" class="form-control" id="trtitle" name="trtitle" placeholder="Haber Başlığı" value="{{ $update->trtitle }}" required>
                     </div>  
                 </div>
@@ -118,7 +118,7 @@
 
              <div class="box-footer">
               <input type="submit" class="btn btn-primary" value="Enregister">
-              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Retourner</a>
+              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
           </form>
         </div>

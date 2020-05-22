@@ -15,8 +15,8 @@
     <!-- Default box -->
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title">Makaleri</h3>
-        <a class='col-lg-offset-5 btn btn-success pull-right' href="{{ route('admin.makale.ekle') }}">Makale Ekle</a>
+        <h3 class="box-title">Thèses Et Articles</h3>
+        <a class='col-lg-offset-5 btn btn-success pull-right' href="{{ route('admin.makale.ekle') }}">Ajouter Une Thèse/Article</a>
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
             <i class="fa fa-minus"></i></button>
@@ -25,7 +25,7 @@
       <div class="box-body">
         <div class="box">
                     <div class="box-header">
-                      <h3 class="box-title">Mevcut Makaler</h3>
+                      <h3 class="box-title">Thèses Et Articles</h3>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
@@ -33,11 +33,11 @@
                         <thead>
                         <tr>
                           <th>S.No</th>
-                          <th>Makale Başlığı</th>
-                          <th>Makale EK Dosya İsmi</th>
-                          <th>Tariği</th>
-                          <th>Düzenle</th>
-                          <th>Sil</th>
+                          <th>Titre</th>
+                          <th>Nom du PDF</th>
+                          <th>Date</th>
+                          <th>Editer</th>
+                          <th>Supprimer</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -48,7 +48,7 @@
                               <td>{{ $post->file }}</td>
                               <td>{{ $post->created_at }}</td>
                         
-                             <td><a class="btn btn-success btn-block" href="{{ route('admin.makale.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit"> Düzenle</span></a></td>
+                             <td><a class="btn btn-success btn-block" href="{{ route('admin.makale.duzenle', $post->id) }}"><span class="glyphicon glyphicon-edit"> Editer</span></a></td>
                              
                               <td>
                               <form id="delete-form-{{ $post->id }}" method="get" action="{{ route('admin.makale.delete', $post->id) }}" style="display: none">
@@ -76,7 +76,7 @@
                   </div>
 
                   <div class="box-footer">
-              <a href='{{ route('admin.makale') }}' class="btn btn-warning">Geri Dön</a>
+              <a href='{{ route('admin.makale') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
       </div>
 

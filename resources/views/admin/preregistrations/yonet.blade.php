@@ -15,7 +15,7 @@
     <!-- Default box -->
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title">Tüm kayıt Listesi</h3>
+        <h3 class="box-title">Listes De Tous Les Membres</h3>
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
             <i class="fa fa-minus"></i></button>
@@ -29,14 +29,14 @@
                         <thead>
                         <tr>
                           <th>S.No</th>
-                          <th>Name</th>
-                          <th>Gender</th>  
+                          <th>Nom et Prenom</th>
+                          <th>Sexe</th>  
                           {{-- <th>Country</th>  --}}
-                          <th>Phone Number</th>
+                          <th>Télephone</th>
                           <th>Email</th>
                           {{-- <th>Onayla</th> --}}
-                          <th>Detayları | İrtibat</th>
-                          <th>Sil</th>
+                          <th>Informations Personnelles</th>
+                          <th>Supprimer</th>
 
                         </tr>
                         </thead>
@@ -62,7 +62,7 @@
 
                             </td> --}}
 
-                             <td><a href="{{ route('admin.onkayi.detaylari', $registration->id) }}" class="btn btn-block btn-primary"><span class="glyphicon glyphicon-eye-open"></span> Detayları | İrtibat</a></td>
+                             <td><a href="{{ route('admin.onkayi.detaylari', $registration->id) }}" class="btn btn-block btn-primary"><span class="glyphicon glyphicon-eye-open"></span> Informations Personnelles</a></td>
                              
                               <td>
                               <form id="delete-form-{{ $registration->id }}" method="get" action="{{ route('admin.onkayi.delete', $registration->id) }}" style="display: none">
@@ -77,7 +77,7 @@
                                   }
                                   else{
                                     event.preventDefault();
-                                  }" class="btn btn-block btn-danger" ><span class="glyphicon glyphicon-trash" ></span> Kaydı Sil</a>
+                                  }" class="btn btn-block btn-danger" ><span class="glyphicon glyphicon-trash" ></span> Supprimer</a>
                             </td>
                               </tr>
                         @endforeach
@@ -90,12 +90,12 @@
                   </div>
 
                   <div class="box-footer">
-              <a href='{{ route('admin.onkayit') }}' class="btn btn-warning">Geri Dön</a>
+              <a href='{{ route('admin.onkayit') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
       </div>
       <!-- /.box-body -->
       <div class="box-footer">
-        AFROKONYA ÜYE LİSTESİ
+        Liste Des Membres De L'ASSEGTUR
       </div>
       <!-- /.box-footer-->
     </div>

@@ -34,6 +34,7 @@ return [
     'Email' => 'Email',
     'Newsletter' => 'Messagerie',
     'SubscribMessage' => 'Abonnes toi à la messagerie pour ne rien rater!',
+    'usefullinks'=>'Lıens Utıles',
 
     // HOMEPAGE
 
@@ -63,6 +64,7 @@ return [
     'PresentationVideo' => 'Presentation Video',
     'OurUniversities' => 'Institutions',
     'UniversityText' => 'UniversityText',
+    'language'=>'Langue',
 
     //REGISTER PAGE
     'becomeMember' => 'Deviens un membre',
@@ -78,9 +80,9 @@ return [
 
     'fullname' => 'Nom et Prénom',
     'fullnameText' => 'Ton nom et prénom',
-    'selectGender' => 'Ton genre',
-    'Male' => 'Mâle',
-    'Female' => 'Femmelle',
+    'selectGender' => 'Sexe',
+    'Male' => 'Homme',
+    'Female' => 'Femme',
     'selectcountry' => 'Selectionnes un Pays',
     'homeAddress' => 'Ton Addresse',
     'homeAddressText' => 'Entres ton addresse',

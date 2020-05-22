@@ -58,7 +58,7 @@
 	    <div class="row">
 	        <div class="col-md-3">
         	    <div class="box-footer">
-		         <a href='{{ route('admin.kullanici') }}' class="btn btn-info"> Retourner</a>
+		         <a href='{{ route('admin.kullanici') }}' class="btn btn-info"> Retourner en arrière</a>
 		      </div>
 	        </div>
 	    </div>

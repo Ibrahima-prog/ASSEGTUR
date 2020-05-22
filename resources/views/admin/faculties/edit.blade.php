@@ -31,7 +31,7 @@
                       value="{{$faculties->frname}}" required>
                     </div>
                     <div class="col-md-6">
-                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR - başlığı</label>
+                      <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="English">TR - Adı</label>
                       <input type="text" class="form-control" name="trname" id="name" placeholder="Enter category title"
                       value="{{$faculties->trname}}" required>
                     </div>
@@ -63,7 +63,7 @@
 
                   <div class="box-footer">
                     <input type="submit" class="btn btn-primary" value="Enregistrer">
-                    <a href='{{ route('faculties.index') }}' class="btn btn-warning">Retourner</a>
+                    <a href='{{ route('faculties.index') }}' class="btn btn-warning">Retourner en arrière</a>
                   </div>
 
 

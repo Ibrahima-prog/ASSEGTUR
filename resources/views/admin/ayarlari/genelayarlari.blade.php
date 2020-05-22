@@ -17,7 +17,7 @@
 
             <ul class="nav nav-tabs">
               <li class="active"><a href="#information" data-toggle="tab">Informations de contact</a></li>
-              <li><a href="#contact" data-toggle="tab">Formulaire de correction</a></li>
+              <li><a href="#contact" data-toggle="tab">Informations sur le site</a></li>
             </ul>
 
             <div class="tab-content">

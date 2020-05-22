@@ -51,7 +51,7 @@
 
                  <div class="col-lg-6 col-md-6">
                   <div class="form-group">
-                    <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkçe"> TR -  Başlığı</label>
+                    <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkçe"> TR -  Adı</label>
                     <input type="text" class="form-control" id="trtitle" name="trtitle" placeholder="etkinlik Başlığı" required>
                   </div> 
                 </div>
@@ -111,7 +111,7 @@
 
              <div class="box-footer">
               <input type="submit" class="btn btn-primary" value="Enregistrer">
-              <a href='{{ route('admin.etkinlik') }}' class="btn btn-warning">Retourner</a>
+              <a href='{{ route('admin.etkinlik') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
           </form>
         </div>

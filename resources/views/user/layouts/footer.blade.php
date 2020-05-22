@@ -12,7 +12,7 @@
 
 
           <div class=" col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>@lang('app.usefullinks')</h4>
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="/">{{ Lang::get('app.Home') }}</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="/association/our-history">{{ Lang::get('app.OurHistory') }}</a></li>
@@ -64,7 +64,8 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <a href="mailto:ibrhimsorycamara77@gmail.com"><strong>Ibrahima Sory Camara</strong></a> .@lang('app.AllRightsReserved')
+         Copyright &copy; 2020 <strong>ASSEGTUR</strong> All Rights Reserved <br>
+        Designed by:<a href="mailto:ibrhimsorycamara77@gmail.com"><strong> Ibrahima Sory Camara</strong></a>
       </div>
       <div class="credits">
         <!--

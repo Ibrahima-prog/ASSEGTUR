@@ -76,7 +76,7 @@
                   </div>
 
                   <div class="box-footer">
-              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Retourner</a>
+              <a href='{{ route('admin.haber') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
       </div>
 

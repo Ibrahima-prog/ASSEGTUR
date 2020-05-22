@@ -33,6 +33,7 @@ return [
     'Email' => 'E-posta',
     'Newsletter' => 'Haber Bülteni',
     'SubscribMessage' => 'Bültenimize abone olun ve derneğimizle ilgili en son haberler ve güncellemelerden haberdar olun!',
+    'usefullinks'=>'Kullanışlı Bağlantılar',
 
     // HOMEPAGE
 
@@ -56,6 +57,7 @@ return [
     'PresentationVideo' => 'Tanıtım Video',
     'OurUniversities' => 'Kurumlar',
     'UniversityText' => 'Konya\'daki bulunan Üniversite ve okullarımız. Butun üyelerimiz bu kurumlarının öğrencisidir.',
+    'language'=>'Dil',
 
     //REGISTER PAGE
 

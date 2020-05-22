@@ -90,7 +90,7 @@
 
              <div class="box-footer">
               <input type="submit" class="btn btn-primary" value="Enregister">
-              <a href='{{ route('admin.kurumsal') }}' class="btn btn-warning">Retourner</a>
+              <a href='{{ route('admin.kurumsal') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
           </form>
         </div>

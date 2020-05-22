@@ -29,25 +29,25 @@
               @if(session('error'))
                     <div class="alert alert-danger alert-dismissible">
                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                      <h4><i class="icon fa fa-ban"></i> Beklenmeyen bir hata oluştu!</h4>
+                      <h4><i class="icon fa fa-ban"></i> Une Erreur S'est Potentielement Produite, Veuillez Vérifier S'il Vous Plait</h4>
                       {{ session('error') }}
                     </div>
               @elseif(session('success'))
                   <div class="alert alert-success alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    <h4><i class="icon fa fa-check"></i> Başarı!</h4>
+                    <h4><i class="icon fa fa-check"></i> Succès!</h4>
                     {{ session('success') }}
                   </div>
               @elseif(session('warning'))
                 <div class="alert alert-warning alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <h4><i class="icon fa fa-warning"></i> Uyari!</h4>
+                  <h4><i class="icon fa fa-warning"></i> Attention!</h4>
                    {{ session('warning') }}
                 </div>
               @elseif(session('info'))
                  <div class="alert alert-info alert-dismissible">
                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                      <h4><i class="icon fa fa-info"></i> Alert!</h4>
+                      <h4><i class="icon fa fa-info"></i> Alerte!</h4>
                       {{ session('info') }}
                     </div>
               @endif 

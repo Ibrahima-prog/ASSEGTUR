@@ -53,7 +53,7 @@
               </div>
                <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR -  Başlığı</label>
+                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR -  Başlık</label>
                   <input type="text" class="form-control" id="trtitle" name="trtitle" placeholder="Metin Başlığı" value="@if ($post) {{ $post->trtitle }} @endif">
                 </div>
               </div>
@@ -91,7 +91,7 @@
 
              <div class="box-footer">
               <input type="submit" class="btn btn-primary" value="Enregister">
-              <a href='{{ route('admin.kurumsal') }}' class="btn btn-warning">Retourner</a>
+              <a href='{{ route('admin.kurumsal') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
           </form>
         </div>

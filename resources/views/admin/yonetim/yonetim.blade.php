@@ -12,14 +12,14 @@
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
-              <h3>PY</h3>
+              <h3>Gestion Des Membres Du Bureau</h3>
 
-              <p>Yonetim Yönet</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.yonetim.yonet') }}" class="small-box-footer">  Yonetim Yönet <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.yonetim.yonet') }}" class="small-box-footer">  Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -28,14 +28,14 @@
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
-              <h3>PE</h3>
+              <h3>Ajouter Des Membres Du Bureau</h3>
 
-              <p>Yonetim Ekle</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.yonetim.ekle') }}" class="small-box-footer">Yonetim Ekle <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.yonetim.ekle') }}" class="small-box-footer">Gestion<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -43,7 +43,7 @@
 
       
          <div class="box-footer">
-              <a href='{{ route('admin.anasayfa') }}' class="btn btn-success">Geri Dön</a>
+              <a href='{{ route('admin.anasayfa') }}' class="btn btn-success">Retourner an arrière</a>
             </div>
 
       </section>

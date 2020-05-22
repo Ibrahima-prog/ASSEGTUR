@@ -38,6 +38,7 @@
                     @else {{ $article->frtitle }}  @endif</a></h6>
                   
                    <p style="font-size: 20px;font-weight: 600"><i style="color: #18d26e;font-size: 50px" class="ion-ios-calendar-outline"></i>   &emsp14; @lang('app.CreatedAt'): {{ $article->created_at }}</p> 
+                   <p style="font-size: 20px;font-weight: 600">@lang('app.language'): {{$article->language }}</p>  
                 <p style="text-align: end;font-size: 20px;font-weight: 600">@lang('app.Author'): {{$article->author }}</p>  
                   
                   <p>@if(App::getLocale() == 'tr') {!! $article->trbody !!} @elseif (App::getLocale() == 'en') {!! $article->enbody !!}

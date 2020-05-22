@@ -110,9 +110,9 @@ class AyarlariController extends Controller
             }
                   
             if ( $result) {
-                return redirect('admin/ayarlari/slider')->with('success','Fotoğraf(lar)ı başarıyla eklendi');
+                return redirect('admin/slider')->with('success','Fotoğraf(lar)ı başarıyla eklendi');
              }else{
-                  return redirect('admin/ayarlari/slider')->with('error', "Oups, Fotoğraf(lar)ı eklenemedi");
+                  return redirect('admin/slider')->with('error', "Oups, Fotoğraf(lar)ı eklenemedi");
         }
     }
 
@@ -125,7 +125,7 @@ class AyarlariController extends Controller
        File::delete($location);
 
        sliderimage::where('id',$id)->delete();
-       return redirect('admin/ayarlari/slider')->with('success','Fotoğraf(lar)ı başarıyla silindi');
+       return redirect('admin/slider')->with('success','Fotoğraf(lar)ı başarıyla silindi');
     }
 
     public function saveslider1(Request $request)
@@ -155,9 +155,9 @@ class AyarlariController extends Controller
             }
                   
             if ( $result) {
-                return redirect('admin/ayarlari/slider')->with('success','Fotoğraf(lar)ı başarıyla eklendi');
+                return redirect('admin/slider')->with('success','Fotoğraf(lar)ı başarıyla eklendi');
              }else{
-                  return redirect('admin/ayarlari/slider')->with('error', "Oups, Fotoğraf(lar)ı eklenemedi");
+                  return redirect('admin/slider')->with('error', "Oups, Fotoğraf(lar)ı eklenemedi");
         }
     }
 
@@ -170,6 +170,6 @@ class AyarlariController extends Controller
        File::delete($location);
 
        slider1::where('id',$id)->delete();
-       return redirect('admin/ayarlari/slider')->with('success','Fotoğraf(lar)ı başarıyla silindi');
+       return redirect('admin/slider')->with('success','Fotoğraf(lar)ı başarıyla silindi');
     }
 }

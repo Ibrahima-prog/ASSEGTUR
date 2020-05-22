@@ -59,7 +59,7 @@
           <div class="row">
           <div class="col-md-6 col-md-offset-3">
               <div class="box-footer">
-             <a href='{{ route('admin.anasayfa') }}' class="btn btn-info">Retourner</a>
+             <a href='{{ route('admin.anasayfa') }}' class="btn btn-info">Retourner en arrière</a>
           </div>
           </div>
       </div>

@@ -12,14 +12,14 @@
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>KY</h3>
+              <h3>Gestion Des Administeurs</h3>
 
-              <p>Gerer les admins</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kullanici.yonet') }}" class="small-box-footer"> Gerer <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kullanici.yonet') }}" class="small-box-footer"> Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -28,14 +28,14 @@
           <!-- small box -->
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>KE</h3>
+              <h3>Ajouter des administrateurs</h3>
 
-              <p>Ajouter des admins</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.kullanici.ekle') }}" class="small-box-footer">Ajouter<i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.kullanici.ekle') }}" class="small-box-footer">Gestion<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->

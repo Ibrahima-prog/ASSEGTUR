@@ -8,8 +8,8 @@
           <div class="nav-tabs-custom">
 
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#information" data-toggle="tab">Bilgileri</a></li>
-              <li><a href="#contact" data-toggle="tab">İrtibata Geç</a></li>
+              <li class="active"><a href="#information" data-toggle="tab">Les Informations</a></li>
+              {{-- <li><a href="#contact" data-toggle="tab">İrtibata Geç</a></li> --}}
             </ul>
 
             <div class="tab-content">
@@ -23,7 +23,7 @@
                   <!-- timeline time label -->
                   <li class="time-label">
                         <span class="bg-blue">
-                         Kişisel Bilgileri
+                         Informations personnelles
                         </span>
                   </li>
                   <!-- /.timeline-label -->
@@ -31,7 +31,7 @@
 
                   <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a>Adı ve Soyadı</a></h3>
+                      <h3 class="timeline-header"><a>Nom et Prénom</a></h3>
                       <div class="timeline-body">
                        {{ $details->firstname }}
                       </div>
@@ -40,7 +40,7 @@
  				
  				          <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a>Cinsiyet</a></h3>
+                      <h3 class="timeline-header"><a>Sexe</a></h3>
                       <div class="timeline-body">
                        {{ $details->gender }}
                       </div>
@@ -58,7 +58,7 @@
              
                   <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Ev Adresi</a></h3>
+                      <h3 class="timeline-header"><a> Addersse</a></h3>
                       <div class="timeline-body">
                        {{ $details->address }}
                       </div>
@@ -67,7 +67,7 @@
 
                     <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Eğitim Seviye</a></h3>
+                      <h3 class="timeline-header"><a> Niveau d'étude</a></h3>
                       <div class="timeline-body">
                        {{ $details->level }}
                       </div>
@@ -76,7 +76,7 @@
 
                    <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Üniversite/Okul</a></h3>
+                      <h3 class="timeline-header"><a> Université/Lycée</a></h3>
                       <div class="timeline-body">
                        {{ $details->institution }}
                       </div>
@@ -87,7 +87,7 @@
 
                    <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Bölüm </a></h3>
+                      <h3 class="timeline-header"><a> Departement </a></h3>
                       <div class="timeline-body">
                        {{ $details->department }}
                       </div>
@@ -97,7 +97,7 @@
 
                    <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Telefon Numarası</a></h3>
+                      <h3 class="timeline-header"><a> Télephone</a></h3>
                       <div class="timeline-body">
                        {{ $details->phone }}
                       </div>
@@ -106,7 +106,7 @@
 
                     <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> E-posta</a></h3>
+                      <h3 class="timeline-header"><a> E-mail</a></h3>
                       <div class="timeline-body">
                        {{ $details->email }}
                       </div>
@@ -115,7 +115,7 @@
 
                    <li>
                     <div class="timeline-item">
-                      <h3 class="timeline-header"><a> Kayıt Tarihi</a></h3>
+                      <h3 class="timeline-header"><a> Date D'enregistrement</a></h3>
                       <div class="timeline-body">
                        {{ $details->created_at }}
                       </div>
@@ -131,7 +131,7 @@
               </div>
               <!-- /.tab-pane -->
 
-              <div class="tab-pane" id="contact">
+              {{-- <div class="tab-pane" id="contact">
                 <form class="form-horizontal"  method="POST" action="{{ route('admin.onkayi.email.gonder') }}">
 
                 	{{ csrf_field() }}
@@ -165,7 +165,7 @@
                     </div>
                   </div>
                 </form>
-              </div>
+              </div> --}}
               <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->

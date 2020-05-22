@@ -191,11 +191,11 @@ Route::group(['namespace' => 'Admin'], function(){
 	Route::get('/admin/ayarlari/genelayarlari', 'AyarlariController@index')->name('admin.ayarlari.genelayarlari');
 	Route::post('admin/ayarlari/genelayarlari/save', 'AyarlariController@save')->name('admin.ayarlari.genelayarlari.save');
 
-	Route::get('/admin/ayarlari/slider', 'AyarlariController@slider')->name('admin.ayarlari.slider');
-	Route::post('admin/ayarlari/slider/save', 'AyarlariController@saveslider')->name('admin.ayarlari.slider.save');
-	Route::get('/admin/ayarlari/delete/{id?}', 'AyarlariController@deletslider')->name('admin.ayarlari.slider.delete');
-	Route::post('admin/ayarlari/slider/save1', 'AyarlariController@saveslider1')->name('admin.ayarlari.slider.save1');
-	Route::get('/admin/ayarlari/delete1/{id?}', 'AyarlariController@deletslider1')->name('admin.ayarlari.slider.delete1');
+	Route::get('/admin/slider', 'AyarlariController@slider')->name('admin.ayarlari.slider');
+	Route::post('admin/slider/save', 'AyarlariController@saveslider')->name('admin.ayarlari.slider.save');
+	Route::get('/admin/slider/delete/{id?}', 'AyarlariController@deletslider')->name('admin.ayarlari.slider.delete');
+	Route::post('admin/slider/save1', 'AyarlariController@saveslider1')->name('admin.ayarlari.slider.save1');
+	Route::get('/admin/slider/delete1/{id?}', 'AyarlariController@deletslider1')->name('admin.ayarlari.slider.delete1');
 	
 });
 

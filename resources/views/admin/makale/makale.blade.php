@@ -12,14 +12,14 @@
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-              <h3>MY</h3>
+              <h3>Gestion Des Thèses et Articles</h3>
 
-              <p>Makaleleri Yönet</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.makale.yonet') }}" class="small-box-footer">  Makaleleri Yönet <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.makale.yonet') }}" class="small-box-footer"> Gestion<i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -28,14 +28,14 @@
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-              <h3>ME</h3>
+              <h3>Ajouter une Thèse ou un Article</h3>
 
-              <p>Makale Ekle</p>
+              <p></p>
             </div>
             <div class="icon">
               <i class="ion-arrow-shrink"></i>
             </div>
-            <a href="{{ route('admin.makale.ekle') }}" class="small-box-footer">Makale Ekle <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="{{ route('admin.makale.ekle') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -43,7 +43,7 @@
 
       
          <div class="box-footer">
-              <a href='{{ route('admin.anasayfa') }}' class="btn btn-success">Geri Dön</a>
+              <a href='{{ route('admin.anasayfa') }}' class="btn btn-success">Retourner en arrière</a>
             </div>
 
       </section>

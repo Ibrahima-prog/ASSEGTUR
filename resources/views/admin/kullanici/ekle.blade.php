@@ -32,7 +32,7 @@
                             
 
                             <div class="col-md-10 col-md-offset-1">
-                              <label for="title">Noom et prenom</label>
+                              <label for="title">Nom et prenom</label>
                                 <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required placeholder="Adı Soyadı" autofocus>
 
                                 @if ($errors->has('name'))
@@ -99,7 +99,7 @@
             <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <div class="box-footer">
-                 <a href='{{ route('admin.kullanici') }}' class="btn btn-info">Retourner</a>
+                 <a href='{{ route('admin.kullanici') }}' class="btn btn-info">Retourner en arrière</a>
               </div>
             </div>
         </div>

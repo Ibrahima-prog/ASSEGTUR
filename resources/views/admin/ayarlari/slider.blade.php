@@ -112,7 +112,7 @@
 
                                         <div class="col-lg-4">
                                             <div class="box-body">
-                                            <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Başlığı</label>
+                                            <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Başlık</label>
                                             <input type="text" class="form-control" id="title" name="trtitle" placeholder="Başlığı" required="true" >
                                            </div>
                                        </div>
@@ -123,8 +123,8 @@
                                         </div>
                                              
                                      <div class="box-footer">
-                                        <input type="submit" class="btn btn-primary" value="Değiştir">
-                                        <a href='{{ route('admin.gallery.yonet') }}' class="btn btn-warning">Geri Dön</a>
+                                        <input type="submit" class="btn btn-primary" value="Changer">
+                                        <a href='{{ route('admin.anasayfa') }}' class="btn btn-warning">Retourner en arrière</a>
                                       </div>
                                       </form>
                               </div>
@@ -158,7 +158,7 @@
 
                                               <div class="col-lg-4">
                                                   <div class="box-body">
-                                                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Başlığı</label>
+                                                  <label for="title"><img src="../../../../admin/images/countries/tr.png" alt="Turkish"> TR - Başlık</label>
                                                   <input type="text" class="form-control" id="title" name="trtitle" placeholder="Başlığı" required="true" >
                                                  </div>
                                              </div>
@@ -169,8 +169,8 @@
                                               </div>
                                                    
                                            <div class="box-footer">
-                                              <input type="submit" class="btn btn-primary" value="Kaydet">
-                                              <a href='{{ route('admin.gallery.yonet') }}' class="btn btn-warning">Geri Dön</a>
+                                              <input type="submit" class="btn btn-primary" value="Enregistrer">
+                                              <a href='{{ route('admin.anasayfa') }}' class="btn btn-warning">Retourner en arrière</a>
                                             </div>
                                             </form>
                                     </div>

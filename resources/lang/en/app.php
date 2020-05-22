@@ -33,6 +33,7 @@ return [
     'Email' => 'Email',
     'Newsletter' => 'Newsletter',
     'SubscribMessage' => 'Subscribe to our newsletter and stay up to date with the latest news and updates about our association!',
+    'usefullinks'=>'Useful Lınks',
 
     // HOMEPAGE
 
@@ -62,6 +63,7 @@ return [
     'PresentationVideo' => 'Presentation Video',
     'OurUniversities' => 'Institutions',
     'UniversityText' => 'UniversityText',
+    'language'=>'Language',
 
     //REGISTER PAGE
     'becomeMember' => 'Become a member',
@@ -77,9 +79,9 @@ return [
 
     'fullname' => 'Full Name',
     'fullnameText' => 'Your Full Name',
-    'selectGender' => 'Select a Gender',
-    'Male' => 'Male',
-    'Female' => 'Female',
+    'selectGender' => 'Sex',
+    'Male' => 'Man',
+    'Female' => 'Woman',
     'selectcountry' => 'Select a Country',
     'homeAddress' => 'Home Address',
     'homeAddressText' => 'Enter your home address',

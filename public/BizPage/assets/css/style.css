@@ -576,6 +576,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   padding-bottom: 15px;
 }
+#testimonials a {
+  color: #333;
+}
+#testimonials a:hover {
+  color: #18d26e;
+}
 .section-header h6 {
   font-size: 32px;
   color: #111;

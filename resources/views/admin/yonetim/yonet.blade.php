@@ -11,7 +11,7 @@
     
 
       <div class="callout callout-info">
-        <h4> Yönetimi Üyeleri Bilgileri</h4>
+        <h4>Informations Sur Les Membres Du Bureau</h4>
       </div>
 
   
@@ -26,15 +26,15 @@
 
 		              <ul class="list-group list-group-unbordered">
 		                <li class="list-group-item">
-		                  <b>Adı Soyadı</b> <a>{{ $person->name }}</a>
+		                  <b>Nom Et Prenom</b> <a>{{ $person->name }}</a>
 		                </li>
 		                <li class="list-group-item">
-		                  <b>Görevi:</b> <a>{{ $person->trtitle }}</a>
+		                  <b>Fonction:</b> <a>{{ $person->trtitle }}</a>
 		                </li>
 
 		              </ul>
 
-		              <a href="{{ route('admin.yonetim.duzenle', $person->id) }}" class="btn btn-primary btn-block "><b>Düzenle</b></a>
+		              <a href="{{ route('admin.yonetim.duzenle', $person->id) }}" class="btn btn-primary btn-block "><b>Editer</b></a>
 		               
 		               <form id="delete-form-{{ $person->id }}" method="get" action="{{ route('admin.yonetim.delete', $person->id) }}" style="padding-top: 10px;">
                                 {{ csrf_field() }}
@@ -48,7 +48,7 @@
                                   }
                                   else{
                                     event.preventDefault();
-                                  }" ><span class="glyphicon glyphicon-trash"></span><b> Sil</b></a>
+                                  }" ><span class="glyphicon glyphicon-trash"></span><b> Supprimer</b></a>
 
 		             
 		            </div>

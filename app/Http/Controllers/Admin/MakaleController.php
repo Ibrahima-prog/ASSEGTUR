@@ -55,6 +55,7 @@ class MakaleController extends Controller
             'trbody' => 'required',
             'departments'=>'required',
             'file'=>'required',
+            'language'=>'required',
             ]);
 
         $post = new articles;
@@ -81,6 +82,7 @@ class MakaleController extends Controller
             $post->trtitle = $request->trtitle;
             $post->enbody = $request->enbody;
             $post->trbody = $request->trbody;
+            $post->language = $request->language;
             
             
             $result = $post->save();
@@ -135,6 +137,7 @@ class MakaleController extends Controller
             'trtitle'=>'required',       
             'enbody' => 'required',
             'trbody' => 'required',
+            'language'=>'required',
             
             
             ]);
@@ -177,6 +180,7 @@ else{
                      'trtitle' => $request->trtitle,
                      'enbody' => $request->enbody,
                      'trbody' => $request->trbody,
+                     'language' => $request->language,
 
                   ]);
                   $update->departments()->sync($request->departments) ;

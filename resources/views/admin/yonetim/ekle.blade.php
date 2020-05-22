@@ -18,7 +18,7 @@
         
         <div class="box box-primary">
           <div class="box-header with-border">
-            <h3 class="box-title">Yönetim Kurulu Üye EKle</h3>
+            <h3 class="box-title">Editer Les Membres du bureau</h3>
           </div>
       
           <!-- /.box-header -->
@@ -37,7 +37,7 @@
             
               <div class="col-lg-12">
                 <div class="form-group">
-                  <label for="title">Adı Soyadı</label>
+                  <label for="title">Nom Et Prenom</label>
                   <input type="text" class="form-control" id="name" name="name" placeholder="Adı Soyadı" required>
                 </div>
               </div>
@@ -45,13 +45,13 @@
 
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Görev</label>
+                  <label><img src="../../../../admin/images/countries/france.png" alt="français"> FR - Fonction</label>
                    <input type="text" class="form-control" id="frtitle" name="frtitle" placeholder="Görev" required>
                 </div>
             </div> 
               <div class="col-lg-6">
                     <div class="form-group">
-                      <label><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Görev</label>
+                      <label><img src="../../../../admin/images/countries/en.png" alt="English"> EN - Role</label>
                        <input type="text" class="form-control" id="entitle" name="entitle" placeholder="Görev" required>
                     </div>
                 </div> 
@@ -69,7 +69,7 @@
              
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title">E-Mail Adresi</label>
+                  <label for="title">E-Mail </label>
                   <input type="email" class="form-control" id="email" name="email" placeholder="E-Mail Adresi" required>
                 </div>
               </div>
@@ -79,7 +79,7 @@
             
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title">Facebook Linki</label>
+                  <label for="title">Lien Facebook</label>
                   <input type="text" class="form-control" id="facebook" name="facebook" placeholder="Facebook Sosyal Media Linki">
                 </div>
               </div>
@@ -88,7 +88,7 @@
            
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title">Twitter Linki</label>
+                  <label for="title">Lien Twitter</label>
                   <input type="text" class="form-control" id="twitter" name="twitter" placeholder="Twitter Sosyal Media Linki">
                 </div>
               </div>
@@ -96,7 +96,7 @@
            
               <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="title">İnstagram Linki</label>
+                  <label for="title">Lien Instagram </label>
                   <input type="text" class="form-control" id="instagram" name="instagram" placeholder="İnstagram Sosyal Media Linki">
                 </div>
               </div>
@@ -104,7 +104,7 @@
             
              <div class="col-lg-6">
                 <div class="form-group">
-                  <label for="image">Imaji Şeç - (262,262)</label>  
+                  <label for="image">Choisir Une Photo</label>  
                   <input type="file" name="image" id="image" accept="image/x-png,image/gif,image/jpeg,image/jpg,image/svg,image/png" required>
                 </div>
               </div>
@@ -112,8 +112,8 @@
            </div>
 
              <div class="box-footer">
-              <input type="submit" class="btn btn-primary" value="Kaydet">
-              <a href='{{ route('admin.yonetim') }}' class="btn btn-warning">Geri Dön</a>
+              <input type="submit" class="btn btn-primary" value="Enregistrer">
+              <a href='{{ route('admin.yonetim') }}' class="btn btn-warning">Retourner en arrière</a>
             </div>
           </form>
         </div>

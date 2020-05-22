@@ -27,7 +27,7 @@ class RoutesController extends Controller
         $sliderimages = DB::table('sliderimages')->get();
         $slider1 = DB::table('slider1')->get();
         $faculties=DB::table('faculties')->get();
-
+        $boardmembers = DB::table('boardmembers')->get();
         $history=$history = DB::table('histories')->first();
         $aboutus = DB::table('aboutus')->first();
         $mission = DB::table('mitions')->first();
@@ -39,7 +39,7 @@ class RoutesController extends Controller
         $activities = DB::table('activities')->where('status','0')->orderBy('created_at','DESC')->paginate(3);
         $contacts = DB::table('settings')->first();
         return view('user.home', compact('faculties','pastactivities','contacts','haberler','sliderimages','aboutus','mission','vision','news','activities','slider1','plan'
-    ,'history'));
+    ,'history','boardmembers'));
     }
 
     public function conctact(){   
