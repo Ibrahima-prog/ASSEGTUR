@@ -24,7 +24,7 @@
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title">Facultés</h3>
+          <h3 class="box-title">Les Facultés</h3>
           <a class='col-lg-offset-5 btn btn-success pull-right' href="{{ route('faculties.create') }}">Add new</a>
           <div class="box-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -53,7 +53,7 @@
                            @foreach ($faculties as $faculty)
                               <tr>
                                 <td>{{ $loop->index + 1 }}</td>
-                                <td>{{ $faculty->trname }}</td>
+                                <td>{{ $faculty->frname }}</td>
                                 <td>{{ $faculty->slug }}</td>
   
                                <td><a class="btn btn-success btn-block" href="{{ route('faculties.edit', $faculty->id) }}"><span class="glyphicon glyphicon-edit"></span> Editer</a></td>

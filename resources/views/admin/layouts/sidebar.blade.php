@@ -104,7 +104,9 @@
         </li>
 
 
-        <li class="treeview {{ str_contains(request()->url(), '/makale') ? 'active' : '' }}">
+        <li class="treeview {{ str_contains(request()->url(), '/makale') ? 'active' : '' }}
+          {{ str_contains(request()->url(), '/departments') ? 'active' : '' }}
+          {{ str_contains(request()->url(), '/faculties') ? 'active' : '' }}">
           <a href="{{ route('admin.makale') }}">
             <i class="fa fa-dashboard"></i> <span>Thèses Et Articles</span>
             <span class="pull-right-container">

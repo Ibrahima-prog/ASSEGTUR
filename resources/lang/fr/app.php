@@ -4,29 +4,33 @@ return [
 
     // NAVBAR
 
-    'Home' => 'Accueil',
-    'OurAssociation' => 'Notre Association',
+    'Home' => 'Accueıl',
+    'Home2' => 'Accueil',
+    'OurAssociation' => 'Notre Assocıatıon',
     'OurHistory' => 'Notre Histoire',
+    'OurHistory2' => 'Notre Hıstoıre',
     'AboutUs' => "ASSEGTUR",
-    'OurMissionAndVision' => 'Notre Mission, Notre Plan et Notre Vision',
+    'OurMissionAndVision' => 'Notre Mıssion, Notre Plan et Notre Vision',
     'Register' => "S'enregistrer",
     'FAQs' => 'FAQs',
     'Gallery' => 'Gallery',
     'News' => 'Journal',
-    'Activities' => 'Nos Activités',
-    'RecentActivities' => 'Nos Activités Récentes',
-   
-    'AcademicWorks' => 'Travaux Academiques',
-    'Articles' =>'Articles',
-    'Announces' =>'Annonnces',
+    'Activities' => 'Nos Actıvıtés',
+    'RecentActivities' => 'Nos Actıvıtés Récentes',
+
+    'AcademicWorks' => 'Travaux Academıques',
+    'AcademicWorks2' => 'Travaux Academiques',
+    'Articles' => 'Articles',
+    'Announces' => 'Annonnces',
     'Communities' => 'Communautés',
     'SuAKTAT' => 'SÜ AKTAT',
     'ContactUs' => 'Contact',
-    'activities_and_galleries'=>'Activités et Galleries',
+    'activities_and_galleries' => 'Actıvıtés et Gallerıes',
+    'activities_and_galleries2' => 'Activités et Galleries',
 
     //FOOTER
 
-    'AssociationDesEtudiantsGuinéensDelaTurquie'=>'Association Des Etudiants Guinéens De la Turquie',
+    'AssociationDesEtudiantsGuinéensDelaTurquie' => 'Association Des Etudiants Guinéens De la Turquie',
     'AllRightsReserved' => 'Tous Droits Réservés',
     'OurContacts' => 'Nos contacts',
     'Subscribe' => "s'abonner",
@@ -34,12 +38,13 @@ return [
     'Email' => 'Email',
     'Newsletter' => 'Messagerie',
     'SubscribMessage' => 'Abonnes toi à la messagerie pour ne rien rater!',
-    'usefullinks'=>'Lıens Utıles',
+    'usefullinks' => 'Lıens Utıles',
 
     // HOMEPAGE
 
     'Login' => 'se connecter',
-    'Registration' => 'Enregistrement',
+    'Registration' => 'Enregıstrement',
+    'Registration2' => 'Enregistrement',
     'AboutUsText' => '1',
     'OurMission' => 'Notre Mission',
     'OurMissionText' => '2',
@@ -54,21 +59,21 @@ return [
     'Unity' => 'Unity',
     'UnityText' => 'Afrokonya\s main aim is to unite African students in Konya and to work hand in hand for the general interest.',
     'Solidarity' => 'Solidarity',
-     'SolidarityText' => 'Our association works so hard to see the African student’s community in Konya live hand in hand',
+    'SolidarityText' => 'Our association works so hard to see the African student’s community in Konya live hand in hand',
     'Progress' => 'Progress',
     'ProgressText' => 'The progress of the association and Africa is of great importance for our association.',
-    'UpcommingActivities' => 'Futures Activités',
+    'UpcommingActivities' => 'Futures Actıvıtés',
     'UpcommingActivitiesMessage' => ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ',
     'PresentationVideo' => 'Presentation Video',
     'OurUniversities' => 'Institutions',
     'UniversityText' => 'UniversityText',
-    'language'=>'Langue',
+    'language' => 'Langue',
 
     //REGISTER PAGE
     'becomeMember' => 'Deviens un membre',
-    'RegisterMessage' => "Enregistrez vous et devenez membre de l'assegtur.",
+    'RegisterMessage' => "Enregıstrez vous et devenez membre de l'assegtur.",
     'YourPersonalDetails' => 'Tes informations personnelles',
     'Conditions' => 'Conditions to be a member',
     'MoreDetails' => 'Plus de détails',
@@ -111,15 +116,15 @@ return [
     'Membership' => 'Membership',
     'Others' => 'Others',
 
-     //NEWS PAGE
+    //NEWS PAGE
 
     'RecentNews' => 'Nouvelles récentes',
 
-     //ACTIVITIES PAGE
+    //ACTIVITIES PAGE
 
     'All' => 'Tout',
-    'Upcomming' => 'Future Activités',
-    'PastActivities' => 'Activités Passées',
+    'Upcomming' => 'Future Actıvıtés',
+    'PastActivities' => 'Actıvıtés Passées',
     'Summary' => "Résumé de l'évènement",
     'Images' => "Gallerıe",
 
@@ -133,13 +138,13 @@ return [
     'Departments' => 'Departements',
     'Faculties' => 'Facultés',
 
-     //AKTAT PAGE
+    //AKTAT PAGE
 
     'AktatCommunity' => 'AKTAT COMMUNITY',
     'aktatYonetim' => 'Community Board',
 
     //AKTAT PAGE
-    
+
     'Address' => 'Addresse',
 
     'OurContacts' => 'Our Contacts',
@@ -156,6 +161,6 @@ return [
 
     // ABOUT US
 
-    'ExecutiveBoard' => 'Notre bureau éxécutif',
+    'ExecutiveBoard' => 'Notre bureau éxécutıf',
 
 ];

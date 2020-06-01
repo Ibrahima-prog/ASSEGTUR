@@ -44,7 +44,7 @@
                          @foreach ($posts as $post)
                             <tr>
                               <td>{{ $loop->index + 1 }}</td>
-                              <td>{{ $post->trtitle }}</td>
+                              <td>{{ $post->frtitle }}</td>
                               <td>{{ $post->file }}</td>
                               <td>{{ $post->created_at }}</td>
                         

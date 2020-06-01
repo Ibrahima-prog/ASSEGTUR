@@ -5,8 +5,11 @@ return [
     // NAVBAR
 
     'Home' => 'Home',
-    'OurAssociation' => 'Our Association',
+    'Home2' => 'Home',
+    'OurAssociation' => 'Our Assocıatıon',
+    'OurAssociation2' => 'Our Association',
     'OurHistory' => 'Our History',
+    'OurHistory2' => 'Our Hıstory',
     'AboutUs' => 'ASSEGTUR',
     'OurMissionAndVision' => 'Our Mission, Our Plan and Our Vision',
     'Register' => 'Register',
@@ -14,15 +17,17 @@ return [
     'Gallery' => 'Gallery',
     'News' => 'News',
     'Activities' => 'Our Activities',
-    'RecentActivities' => 'Our Recent Activities',
+    'RecentActivities' => 'Our Recent Actıvıtıes',
     'All'=>'All',
-    'AcademicWorks' => 'Academic Works',
+    'AcademicWorks' => 'Academıc Works',
+    'AcademicWorks2' => 'Academic Works',
     'Articles' =>'Articles',
     'Announces' =>'Announces',
     'Communities' => 'Communities',
     'SuAKTAT' => 'SÜ AKTAT',
     'ContactUs' => 'Contact Us',
-    'activities_and_galleries'=>'Activities And Galleries',
+    'activities_and_galleries'=>'Actıvıtıes And Gallerıes',
+    'activities_and_galleries2'=>'Activities And Galleries',
 
     //FOOTER
     'AssociationDesEtudiantsGuinéensDelaTurquie'=>'Association Of Guinean Students In Turkey',
@@ -38,7 +43,8 @@ return [
     // HOMEPAGE
 
     'Login' => 'Log in',
-    'Registration' => 'Registration',
+    'Registration' => 'Regıstratıon',
+    'Registration2' => 'Registration',
     'AboutUsText' => '1',
     'OurMission' => 'Our Mission',
     'OurMissionText' => '2',
@@ -56,7 +62,7 @@ return [
      'SolidarityText' => 'Our association works so hard to see the African student’s community in Konya live hand in hand',
     'Progress' => 'Progress',
     'ProgressText' => 'The progress of the association and Africa is of great importance for our association.',
-    'UpcommingActivities' => 'Upcomming Activities',
+    'UpcommingActivities' => 'Upcommıng Actıvıtıes',
     'UpcommingActivitiesMessage' => ' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ',
@@ -67,7 +73,7 @@ return [
 
     //REGISTER PAGE
     'becomeMember' => 'Become a member',
-    'RegisterMessage' => 'Register and become a full member.',
+    'RegisterMessage' => 'Regıster and become a full member.',
     'YourPersonalDetails' => 'Your Personal Details',
     'Conditions' => 'Conditions to be a member',
     'MoreDetails' => 'More Details',
@@ -118,7 +124,7 @@ return [
 
     'All' => 'All',
     'Upcomming' => 'Upcomming',
-    'PastActivities' => 'Past Activities',
+    'PastActivities' => 'Past Actıvıtıes',
     'Summary' => 'Summary of the event',
     'Images' => 'Gallery',
     //ARTICLES PAGE
@@ -155,6 +161,6 @@ return [
 
     // ABOUT US
 
-    'ExecutiveBoard' => 'Our Executive Board',
+    'ExecutiveBoard' => 'Our Executıve Board',
 
 ];

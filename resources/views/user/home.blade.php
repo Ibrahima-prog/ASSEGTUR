@@ -102,7 +102,7 @@
       <div class="container">
 
         <header class="section-header wow fadeInUp">
-          <h3><a href="/association/our-history">@lang('app.OurHistory')</a></h3>
+          <h3><a href="/association/our-history">@lang('app.OurHistory2')</a></h3>
           <p>
             @if(App::getLocale() == 'tr') 
            {!! \Illuminate\Support\Str::words($history->trtext, 80 ,'  ...')  !!}
@@ -216,7 +216,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3><a  href="/academic-works/article">@lang('app.AcademicWorks')</a></h3>
+          <h3><a  href="/academic-works/article">@lang('app.AcademicWorks2')</a></h3>
         </header>
 
         <div class="owl-carousel testimonials-carousel">

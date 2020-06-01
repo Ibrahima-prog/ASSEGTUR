@@ -15,7 +15,7 @@
     <!-- Default box -->
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title">Haberleri</h3>
+        <h3 class="box-title">Journal</h3>
         <a class='col-lg-offset-5 btn btn-success pull-right' href="{{ route('admin.haber.ekle') }}">Haber Ekle</a>
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -25,7 +25,7 @@
       <div class="box-body">
         <div class="box">
                     <div class="box-header">
-                      <h3 class="box-title">Mevcut haberler</h3>
+                      <h3 class="box-title">Les Articles</h3>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
@@ -44,7 +44,7 @@
                          @foreach ($posts as $post)
                             <tr>
                               <td>{{ $loop->index + 1 }}</td>
-                              <td>{{ $post->trtitle }}</td>
+                              <td>{{ $post->frtitle }}</td>
                               <td>{{ $post->slug }}</td>
                               <td>{{ $post->created_at }}</td>
                         

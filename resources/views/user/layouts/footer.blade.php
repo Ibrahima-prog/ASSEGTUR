@@ -14,16 +14,16 @@
           <div class=" col-md-6 footer-links">
             <h4>@lang('app.usefullinks')</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="/">{{ Lang::get('app.Home') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="/">{{ Lang::get('app.Home2') }}</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="/association/our-history">{{ Lang::get('app.OurHistory') }}</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="/association/about-us">{{ Lang::get('app.AboutUs') }}</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="/association/our-mission-vision">{{ Lang::get('app.OurMissionAndVision') }}</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a  href="/news">{{ Lang::get('app.News') }}</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a  href="/activities_and_gallery">{{ Lang::get('app.activities_and_galleries') }}</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a  href="/academic-works/article">{{ Lang::get('app.AcademicWorks') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a  href="/activities_and_gallery">{{ Lang::get('app.activities_and_galleries2') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a  href="/academic-works/article">{{ Lang::get('app.AcademicWorks2') }}</a></li>
               <li><i class="ion-ios-arrow-right"></i><a  href="/conctact-us">{{ Lang::get('app.ContactUs') }}</a></li>
               
-              <li><i class="ion-ios-arrow-right"></i><a  href="/association/register">{{ Lang::get('app.Registration') }}</a></li>
+              <li><i class="ion-ios-arrow-right"></i><a  href="/association/register">{{ Lang::get('app.Registration2') }}</a></li>
             </ul>
           </div>
 

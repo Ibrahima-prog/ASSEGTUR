@@ -38,6 +38,36 @@
             <a href="{{ route('admin.makale.ekle') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
+
+        <div class="col-md-6 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>Les Départements</h3>
+
+              <p></p>
+            </div>
+            <div class="icon">
+              <i class="ion-arrow-shrink"></i>
+            </div>
+            <a href="{{ route('departments.index') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>Les Facultés</h3>
+
+              <p></p>
+            </div>
+            <div class="icon">
+              <i class="ion-arrow-shrink"></i>
+            </div>
+            <a href="{{ route('faculties.index') }}" class="small-box-footer">Gestion <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
         <!-- ./col -->
       </div>
 

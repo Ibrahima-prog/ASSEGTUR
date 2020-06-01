@@ -133,7 +133,9 @@ Route::group(['namespace' => 'Admin'], function(){
 	Route::get('/admin/onkayi/saatlarvekosullari/delete/{id?}', 'Registrations@deletesaatvekosul')->name('admin.saatlarvekosullari.delete');
 	// Galleries Sistemi
 	Route::resource('/admin/departments', 'DepartmentController');
+	//Route::get('/admin/departments', 'DepartmentController@index')->name('admin.makale.departments');
 	Route::resource('/admin/faculties', 'FacultiesController');
+	//Route::get('/admin/faculties', 'FacultiesController@index')->name('admin.makale.faculties');
 	
 
 	

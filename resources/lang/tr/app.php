@@ -5,8 +5,11 @@ return [
     // NAVBAR
 
     'Home' => 'Anasayfa',
+    'Home2' => 'Anasayfa',
     'OurAssociation' => 'Derneğimiz',
+    'OurAssociation2' => 'Derneğimiz',
     'OurHistory' => 'Tarihçesi',
+    'OurHistory2' => 'Tarihçesi',
     'AboutUs' => 'ASSEGTUR',
     'OurMissionAndVision' => 'Misyonumuz, Planımız ve Vizyonumuz',
     'Register' => 'Şimdi üye ol',
@@ -17,12 +20,14 @@ return [
     'RecentActivities' => 'Son Faaliyetler',
     'All'=>'Tüm',
     'AcademicWorks' => 'Akademik Çalışmalar',
+    'AcademicWorks2' => 'Akademik Çalışmalar',
     'Articles' =>'Makaleler',
     'Announces' =>'Duyurular',
     'Communities' => 'Topluluklar',
     'SuAKTAT' => 'SÜ AKTAT',
     'ContactUs' => 'İletişim',
     'activities_and_galleries'=>'Faaliyetler Ve Galeriler',
+    'activities_and_galleries2'=>'Faaliyetler Ve Galeriler',
 
     //FOOTER
     'AssociationDesEtudiantsGuinéensDelaTurquie'=>"Türkiye'deki Gineli Öğrenciler Birliği",
@@ -39,6 +44,7 @@ return [
 
     'Login' => 'Giriş',
     'Registration' => 'Şimdi üye ol',
+    'Registration2' => 'Şimdi üye ol',
     'OurMission' => 'Misyonumuz',
     'OurPlan' => 'Planımız',
     'OurVision' => 'Vizyonumuz',

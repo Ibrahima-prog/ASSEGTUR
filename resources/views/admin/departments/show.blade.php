@@ -34,7 +34,7 @@
         <div class="box-body">
           <div class="box">
                       <div class="box-header">
-                        <h3 class="box-title">Départements</h3>
+                        <h3 class="box-title">Les Départements</h3>
                       </div>
                       <!-- /.box-header -->
                       <div class="box-body">
@@ -53,7 +53,7 @@
                            @foreach ($departments as $department)
                               <tr>
                                 <td>{{ $loop->index + 1 }}</td>
-                                <td>{{ $department->trname }}</td>
+                                <td>{{ $department->frname }}</td>
                                 <td>{{ $department->slug }}</td>
   
                                <td><a class="btn btn-success btn-block" href="{{ route('departments.edit', $department->id) }}"><span class="glyphicon glyphicon-edit"></span> Editer</a></td>

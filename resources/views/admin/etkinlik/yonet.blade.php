@@ -17,7 +17,7 @@
     <!-- Default box -->
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title">Etkilikler</h3>
+        <h3 class="box-title">Activités</h3>
         <a class='col-lg-offset-5 btn btn-success pull-right' href="{{ route('admin.etkinlik.ekle') }}">Yeni / Ekle</a>
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -27,7 +27,7 @@
       <div class="box-body">
         <div class="box">
                     <div class="box-header">
-                      <h3 class="box-title">Mevcut Etkinlikler</h3>
+                      <h3 class="box-title">Nos Activités</h3>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
@@ -46,7 +46,7 @@
                          @foreach ($posts as $post)
                             <tr>
                               <td>{{ $loop->index + 1 }}</td>
-                              <td>{{ $post->trtitle }}</td>
+                              <td>{{ $post->frtitle }}</td>
                               <td>{{ $post->created_at }}</td>
                               <td>@if($post->status == 0)  <a href="{{ route('admin.etkinlik.gecti', $post->id) }}" title="Geçmiş EtKinlik" class="btn btn-info btn-block">Activité passée</a> @else <strong>Etkinlik Geçmiş</strong> @endif</td>
 
