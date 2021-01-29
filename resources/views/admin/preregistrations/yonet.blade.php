@@ -19,6 +19,8 @@
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
             <i class="fa fa-minus"></i></button>
+            <a href="{{ route('admin.upload') }}" class="btn ">
+              </span> Upload</a>
         </div>
       </div>
       <div class="box-body">
@@ -28,7 +30,7 @@
                       <table id="example1" class="table table-bordered table-striped">
                         <thead>
                         <tr>
-                          <th>S.No</th>
+                          <th>S.No</th>  
                           <th>Nom et Prenom</th>
                           <th>Sexe</th>  
                           {{-- <th>Country</th>  --}}

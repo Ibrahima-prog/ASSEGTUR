@@ -96,7 +96,7 @@ class AyarlariController extends Controller
                     $imagename = $image->getClientOriginalName();
                     $location = public_path('sliderFotograflari/' . $imagename);
 
-                    Image::make($image)->resize(1700, 850)->save($location);
+                    Image::make($image)->save($location);
 
                     $newimage = new sliderimage;
                     $newimage->frtitle = $request->frtitle;
@@ -138,7 +138,7 @@ class AyarlariController extends Controller
                     $imagename = $image->getClientOriginalName();
                     $location = public_path('slider1/' . $imagename);
 
-                    Image::make($image)->resize(1700, 850)->save($location);
+                    Image::make($image)->save($location);
                     $delimage = slider1::where('id', 0)->first();  
                     $delimagename = $delimage->image;
                     $dellocation = public_path('slider1/' . $delimagename);

@@ -38,7 +38,7 @@ class RoutesController extends Controller
 
         $activities = DB::table('activities')->where('status','0')->orderBy('created_at','DESC')->paginate(3);
         $contacts = DB::table('settings')->first();
-        return view('user.home', compact('faculties','pastactivities','contacts','haberler','sliderimages','aboutus','mission','vision','news','activities','slider1','plan'
+        return view('user.home', compact('faculties','pastactivities','contacts','sliderimages','aboutus','mission','vision','news','activities','slider1','plan'
     ,'history','boardmembers'));
     }
 
@@ -110,7 +110,7 @@ class RoutesController extends Controller
 
     public function news(){
 
-       $news = DB::table('news')->orderBy('created_at','DESC')->paginate(4);
+       $news = DB::table('news')->orderBy('created_at','DESC')->get();
        $newsTitles = DB::table('news')->orderBy('created_at','DESC')->get();
        $contacts = DB::table('settings')->first();
        return view('user.news' , compact('contacts','news','newsTitles'));

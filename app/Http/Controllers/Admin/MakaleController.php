@@ -44,7 +44,7 @@ class MakaleController extends Controller
     {
      //  dd($request);
         
-    //   return $request->all();
+     //   return $request->all();
         $this->validate($request,[
             'author'=>'required',
             'entitle'=>'required',     

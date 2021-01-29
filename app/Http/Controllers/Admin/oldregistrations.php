@@ -4,14 +4,14 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Model\admin\lol;
+
 use App\Model\admin\registration;
 use App\Model\admin\condition;
-use App\Imports\Membersimport;
+
 use DB;
 use Mail;
 use Redirect;
-use Excel;
+
 class Registrations extends Controller
 {
     public function __construct()
@@ -24,31 +24,6 @@ class Registrations extends Controller
         return view('admin.preregistrations.onkayi');
     }
     
-    public function upload()
-    {   
-        
-        return view('admin.preregistrations.upload');
-    }
-    public function saveUpload(Request $request)
-    {//$try=new registration;
-      // dd($try->get());
-       // dd(new lol);
-     //   return $request->all();
-      $file=$request->file('file');
-      Excel::import(new Membersimport,$file);//->;
-        
-            
-           // $result = $try->save();
-           
-            
-                      return redirect('admin/onkayi/yonet')->with('success','Makale başarıyla kaydedildi');
-                 
-            
-
-
-
-            
-    }
 
     public function yonet()
     {   

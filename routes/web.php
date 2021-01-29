@@ -119,6 +119,9 @@ Route::group(['namespace' => 'Admin'], function(){
 
 
 	// On kayit Sistemi
+	Route::get('/admin/onkayit/upload', 'Registrations@upload')->name('admin.upload');
+	Route::post('/admin/onkayit/upload/save', 'Registrations@saveUpload')->name('admin.upload.save');
+
 	Route::get('/admin/onkayit', 'Registrations@index')->name('admin.onkayit');
 	Route::get('/admin/onkayi/yonet', 'Registrations@yonet')->name('admin.onkayi.yonet');
 	Route::get('/admin/onkayi/detaylari/{id?}', 'Registrations@detaylari')->name('admin.onkayi.detaylari');
