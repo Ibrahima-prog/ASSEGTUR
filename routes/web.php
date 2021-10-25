@@ -13,11 +13,12 @@
 
 Route::group([
 				'namespace' => 'User', 
-				'prefix' => LaravelLocalization::setLocale(),
-				'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
+				//'prefix' => LaravelLocalization::setLocale(),
+				//'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
 ], function(){
 	
 	Route::get('/', 'RoutesController@index');
+	Route::get('/fr', 'RoutesController@index');
 	Route::get('/conctact-us', 'RoutesController@conctact');
 	Route::post('conctact', 'RoutesController@sendEmail')->name('conctact.sendEmail');
 	Route::get('/association/our-history', 'RoutesController@ourhistory');

@@ -1,0 +1,109 @@
+				@font-face {
+					font-family: 'gta-expanded-bold';
+					src: url('../fonts/4497GTA-Expanded-Bold.woff2') format('woff2'),
+						url('../fonts/4497GTA-Expanded-Bold.woff') format('woff');
+					font-display: auto;
+				}
+
+				.gta-expanded-bold{font-family: 'gta-expanded-bold' !important;}
+
+						@font-face {
+					font-family: 'gta-regular';
+					src: url('../fonts/229Gta-regular.woff2') format('woff2'),
+						url('../fonts/229Gta-regular.woff') format('woff');
+					font-display: auto;
+				}
+
+				.gta-regular{font-family: 'gta-regular' !important;}
+
+						@font-face {
+					font-family: 'gta-medium';
+					src: url('../fonts/7017Gta-medium.woff2') format('woff2'),
+						url('../fonts/7017Gta-medium.woff') format('woff');
+					font-display: auto;
+				}
+
+				.gta-medium{font-family: 'gta-medium' !important;}
+
+						@font-face {
+					font-family: 'gta-compressed-bold';
+					src: url('../fonts/2190Gta-compressed-bold.woff2') format('woff2'),
+						url('../fonts/2190Gta-compressed-bold.woff') format('woff');
+					font-display: auto;
+				}
+
+				.gta-compressed-bold{font-family: 'gta-compressed-bold' !important;}
+
+						@font-face {
+					font-family: 'gta-bold';
+					src: url('../fonts/106gta-bold.woff2') format('woff2'),
+						url('../fonts/106gta-bold.woff') format('woff');
+					font-display: auto;
+				}
+
+				.gta-bold{font-family: 'gta-bold' !important;}
+
+						@font-face {
+					font-family: 'belwe-medium';
+					src: url('../fonts/3779Belwe-medium.woff2') format('woff2'),
+						url('../fonts/3779Belwe-medium.woff') format('woff');
+					font-display: auto;
+				}
+
+				.belwe-medium{font-family: 'belwe-medium' !important;}
+
+						@font-face {
+					font-family: 'belwe-light';
+					src: url('../fonts/5721belwe-light.woff2') format('woff2'),
+						url('../fonts/5721belwe-light.woff') format('woff');
+					font-display: auto;
+				}
+
+				.belwe-light{font-family: 'belwe-light' !important;}
+
+						@font-face {
+					font-family: 'gta-regular-italic';
+					src: url('../fonts/1302gta-regular-italic.woff2') format('woff2'),
+						url('../fonts/1302gta-regular-italic.woff') format('woff');
+					font-display: auto;
+				}
+
+				.gta-regular-italic{font-family: 'gta-regular-italic' !important;}
+
+						@font-face {
+					font-family: 'akzidenzgroteskbqext';
+					src: url('../fonts/2691AkzidenzGroteskBQExt.woff2') format('woff2'),
+						url('../fonts/2691AkzidenzGroteskBQExt.woff') format('woff');
+					font-display: auto;
+				}
+
+				.akzidenzgroteskbqext{font-family: 'akzidenzgroteskbqext' !important;}
+
+						@font-face {
+					font-family: 'akzidenzgroteskbqmex';
+					src: url('../fonts/9770AkzidenzGroteskBQMEX.woff2') format('woff2'),
+						url('../fonts/9770AkzidenzGroteskBQMEX.woff') format('woff');
+					font-display: auto;
+				}
+
+				.akzidenzgroteskbqmex{font-family: 'akzidenzgroteskbqmex' !important;}
+
+						@font-face {
+					font-family: 'akzidenzgroteskbqbc';
+					src: url('../fonts/1586AkzidenzGroteskBQBC.woff2') format('woff2'),
+						url('../fonts/1586AkzidenzGroteskBQBC.woff') format('woff');
+					font-display: auto;
+				}
+
+				.akzidenzgroteskbqbc{font-family: 'akzidenzgroteskbqbc' !important;}
+
+						body, p{
+					font-family: 'gta-regular' !important;
+				}
+						.menu-primary-container li a, .menu-primary-container li span, #menu-primary li a, #menu-primary li span{
+					font-family: 'gta-medium' !important;
+				}
+						h1, h2, h3{
+					font-family: 'gta-expanded-bold' !important;
+				}
+		

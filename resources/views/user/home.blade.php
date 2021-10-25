@@ -53,12 +53,12 @@
              
           
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="../../slider1/{{ $slider1[0]->image }}" alt=""></div>
+            <div class="carousel-background"><img src="../../slider1/{{ $slider1 ->image }}" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>ASSEGTUR</h2>
-                <p> @if(App::getLocale() == 'tr') {{$slider1[0]->trtitle}}  @elseif(App::getLocale() == 'en') {{$slider1[0]->entitle}}  
-                  @else {{$slider1[0]->frtitle}} @endif</p>
+                <p> @if(App::getLocale() == 'tr') {{$slider1 ->trtitle}}  @elseif(App::getLocale() == 'en') {{$slider1 ->entitle}}  
+                  @else {{$slider1 ->frtitle}} @endif</p>
               </div>
             </div>
           </div>

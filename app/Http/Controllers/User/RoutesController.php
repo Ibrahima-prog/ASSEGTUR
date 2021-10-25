@@ -25,7 +25,8 @@ class RoutesController extends Controller
     public function index()
     {    
         $sliderimages = DB::table('sliderimages')->get();
-        $slider1 = DB::table('slider1')->get();
+        $slider1 = DB::table('slider1')->first();
+        //dd($slider1->image);
         $faculties=DB::table('faculties')->get();
         $boardmembers = DB::table('boardmembers')->get();
         $history=$history = DB::table('histories')->first();
@@ -38,14 +39,14 @@ class RoutesController extends Controller
 
         $activities = DB::table('activities')->where('status','0')->orderBy('created_at','DESC')->paginate(3);
         $contacts = DB::table('settings')->first();
-        return view('user.home', compact('faculties','pastactivities','contacts','sliderimages','aboutus','mission','vision','news','activities','slider1','plan'
+        return view('user.home2', compact('faculties','pastactivities','contacts','sliderimages','aboutus','mission','vision','news','activities','slider1','plan'
     ,'history','boardmembers'));
     }
 
     public function conctact(){   
 
         $contacts = DB::table('settings')->first();
-        return view('user.conctact', compact('contacts'));
+        return view('user.conctact2', compact('contacts'));
     }
 
     public function ourhistory(){   
@@ -69,7 +70,7 @@ class RoutesController extends Controller
          $mission = DB::table('mitions')->first();
          $plan = DB::table('plan')->first();
          $vision = DB::table('vitions')->first();
-         return view('user.our-mission-vision' , compact('contacts','mission', 'vision','plan'));
+         return view('user.our-mission-vision2' , compact('contacts','mission', 'vision','plan'));
     }
 
     public function register(){   
@@ -77,7 +78,7 @@ class RoutesController extends Controller
       //  $someconditions = DB::table('conditions')->paginate(3);
       //  $conditions = DB::table('conditions')->get();
         $contacts = DB::table('settings')->first();
-        return view('user.register' , compact('contacts','someconditions'));
+        return view('user.register2' , compact('contacts'));
     }
 
     public function login(){   
@@ -113,7 +114,7 @@ class RoutesController extends Controller
        $news = DB::table('news')->orderBy('created_at','DESC')->get();
        $newsTitles = DB::table('news')->orderBy('created_at','DESC')->get();
        $contacts = DB::table('settings')->first();
-       return view('user.news' , compact('contacts','news','newsTitles'));
+       return view('user.news2' , compact('contacts','news','newsTitles'));
     }
 
         public function newsDetails(news $slug)
@@ -126,7 +127,7 @@ class RoutesController extends Controller
 
 
         
-         return view('user.new-details', compact('newsitem','newsTitles','contacts'));
+         return view('user.new-details2', compact('newsitem','newsTitles','contacts'));
     }
 
 
@@ -137,7 +138,7 @@ class RoutesController extends Controller
         $contacts = DB::table('settings')->first();
         $commingactivities = DB::table('activities')->where('status', '0')->orderBy('created_at','DESC')->get();
         $pastactivities = DB::table('activities')->where('status', '1')->orderBy('created_at','DESC')->get();
-        return view('user.activities', compact('commingactivities','pastactivities','contacts'));
+        return view('user.activities2', compact('commingactivities','pastactivities','contacts'));
     }
 
     public function activities_and_gallery_summary(activities $slug)
@@ -147,7 +148,7 @@ class RoutesController extends Controller
         $commingactivities = DB::table('activities')->where('status', '0')->orderBy('created_at','DESC')->get();
         $pastactivities = DB::table('activities')->where('status', '1')->orderBy('created_at','DESC')->get();
        // $promotions=DB::table('events_galleries')->get();
-        return view('user.grouped_gallery', compact('commingactivities','pastactivities','contacts','promotions','slug'));
+        return view('user.grouped_gallery2', compact('commingactivities','pastactivities','contacts','slug'));
     }
     public function activities_and_gallery()
     {   
@@ -156,7 +157,7 @@ class RoutesController extends Controller
         $commingactivities = DB::table('activities')->where('status', '0')->orderBy('created_at','DESC')->get();
         $pastactivities = DB::table('activities')->where('status', '1')->orderBy('created_at','DESC')->get();
        // $promotions=DB::table('events_galleries')->get();
-        return view('user.activities_and_gallery', compact('commingactivities','pastactivities','contacts','promotions'));
+        return view('user.activities_and_gallery2', compact('commingactivities','pastactivities','contacts'));
     }
 
     public function aktat(){
@@ -174,7 +175,7 @@ class RoutesController extends Controller
         $articles = DB::table('articles')->orderBy('created_at','DESC')->paginate(1);
         $articlesTitles = DB::table('articles')->get();
         $contacts = DB::table('settings')->first();
-        return view('user.article' , compact('contacts','articles','articlesTitles','departments','faculties'));
+        return view('user.article2' , compact('contacts','articles','articlesTitles','departments','faculties'));
     }
 
     public function articles_department(departments $slug){
