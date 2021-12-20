@@ -64,6 +64,22 @@
                   <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" value="{{ $update->slug }}" required>
                 </div>
               </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                <label for="slug"> Date Du Début</label>
+                <input type="text" class="form-control" name="sDay" id="sDay" placeholder="Jour. Ex: 21" value="{{ $update->sDay }}"  required>
+                <input type="text" class="form-control" name="sMonth" id="sMonth" placeholder="Mois. Ex: Juin" value="{{ $update->sMonth }}"  required>
+                <input type="text" class="form-control" name="sYear" id="sYear" placeholder="Année. Ex: 1999" value="{{ $update->sYear }}"  required>
+              </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="form-group">
+                <label for="slug"> Date De Fin</label>
+                <input type="text" class="form-control" name="eDay" id="eDay" placeholder="Jour. Ex: 21" value="{{ $update->eDay }}"  required>
+                <input type="text" class="form-control" name="eMonth" id="eMonth" placeholder="Mois. Ex: Juin" value="{{ $update->eMonth }}"  required>
+                <input type="text" class="form-control" name="eYear" id="eYear" placeholder="Année. Ex: 1999" value="{{ $update->eYear }}"  required>
+              </div>
+              </div>
             </div>
 
             <div class="box-body">

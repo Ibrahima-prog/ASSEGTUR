@@ -10,24 +10,7 @@
     <meta name="robots" content="max-image-preview:large" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//s.w.org" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Abundant Church &raquo; Feed"
-      href="https://abundant.org/feed/"
-    />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Abundant Church &raquo; Comments Feed"
-      href="https://abundant.org/comments/feed/"
-    />
-    <link
-      rel="alternate"
-      type="text/calendar"
-      title="Abundant Church &raquo; iCal Feed"
-      href="https://abundant.org/events/?ical=1"
-    />
+    
     <script type="text/javascript">
       window._wpemojiSettings = {
         baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/",
@@ -481,21 +464,21 @@
     />
     <link
       rel="icon"
-      href="images/images/cropped-Abundant-Favicon-01-32x32.png"
+      href="../images/images/logodown.svg"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="images/images/cropped-Abundant-Favicon-01-192x192.png"
+      href="../images/images/logodown.svg"
       sizes="192x192"
     />
     <link
       rel="apple-touch-icon"
-      href="images/images/cropped-Abundant-Favicon-01-180x180.png"
+      href="../images/images/logodown.svg"
     />
     <meta
       name="msapplication-TileImage"
-      content="https://abundant.org/wp-content/uploads/2020/12/cropped-Abundant-Favicon-01-270x270.png"
+      content="../images/images/logodown.svg"
     />
     <style type="text/css" data-type="vc_custom-css">
       .headerminimumheight {
@@ -655,13 +638,13 @@
                   <img
                     class="stnd default-logo dark-version"
                     alt="Abundant Church"
-                    src="images/images/logo181020210327.png"
-                    srcset="images/images/logo181020210327.png 1x, images/images/logo181020210327.png 2x"
+                    src="../images/images/New Project.svg"
+                    srcset="../images/images/New Project.svg 1x, ../images/images/New Project.svg 2x"
                   /><img
                     class="starting-logo default-logo"
                     alt="Abundant Church"
-                    src="images/images/logo181020210327.png"
-                    srcset="images/images/logo181020210327.png 1x, images/images/logo181020210327.png 2x"
+                    src="../images/images/New Project.svg"
+                    srcset="../images/images/New Project.svg 1x, ../images/images/New Project.svg 2x"
                   />
                 </a>
               </div>
@@ -702,7 +685,7 @@
                     menu-item-object-page menu-item-270
                   "
                 >
-                  <a href="about.html">À Propos</a>
+                  <a href="/association/about-us">À Propos</a>
                 </li>
                 
                 <li
@@ -714,12 +697,12 @@
                     menu-item-169
                   "
                 >
-                  <a
+                  {{-- <a
                     target="_blank"
                     rel="noopener"
                     href="https://shop.abundant.org"
                     >Gallery</a
-                  >
+                  > --}}
                 </li>
                 
                 <li
@@ -730,7 +713,7 @@
                     menu-item-object-page menu-item-168
                   "
                 >
-                  <a href="events.html">Activités</a>
+                  <a href="/activities_and_gallery">Activités</a>
                 </li>
                 <li
                       id="menu-item-41"
@@ -740,7 +723,7 @@
                         menu-item-object-page menu-item-41
                       "
                     >
-                      <a href="https://abundant.org/watch-connect/"
+                      <a href="/academic-works/article"
                         >Travaux Académiques</a
                       >
                     </li>
@@ -752,7 +735,7 @@
                     menu-item-object-page menu-item-246
                   "
                 >
-                  <a href="https://abundant.org/10things/">Journal</a>
+                  <a href="/news">Journal</a>
                 </li>
                     
                 <li
@@ -763,7 +746,7 @@
                   menu-item-object-page menu-item-50
                 "
               >
-                <a href="https://abundant.org/get-involved/"
+                <a href="/association/register"
                   >S'enregistrer</a
                 >
               </li>
@@ -777,7 +760,7 @@
                         menu-item-object-page menu-item-278
                       "
                     >
-                      <a href="https://abundant.org/contact/">Contact</a>
+                      <a href="/conctact-us">Contact</a>
                     </li>
                   </ul>
 

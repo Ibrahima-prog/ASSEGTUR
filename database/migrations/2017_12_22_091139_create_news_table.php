@@ -19,6 +19,9 @@ class CreateNewsTable extends Migration
             $table->string('trtitle');
             $table->string('frtitle');
              $table->string('slug');
+             $table->string('sDay')->nullable();
+            $table->string('sMonth')->nullable();
+            $table->string('sYear')->nullable();
             $table->text('enbody');
             $table->text('trbody');
             $table->text('frbody');

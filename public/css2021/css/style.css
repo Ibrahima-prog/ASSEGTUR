@@ -596,7 +596,7 @@ li ul, li ol {
 }
 
 ul li{
-  list-style:disc;
+  /* list-style:disc; */
   list-style-position:outside
 }
 

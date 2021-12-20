@@ -40,7 +40,7 @@ class NewsController extends Controller
 
     public function save(Request $request)
     {
-       
+       //dd($request);
         $this->validate($request,[
           
             'entitle'=>'required',       
@@ -72,10 +72,13 @@ class NewsController extends Controller
             $post->trtitle = $request->trtitle;
             
             $post->slug = $request->slug;
+            $post->sDay = $request->sDay;
+            $post->sMonth = $request->sMonth;
+            $post->sYear = $request->sYear;
             $post->frbody = $request->frbody;
             $post->enbody = $request->enbody;
             $post->trbody = $request->trbody;
-          
+            
            $result = $post->save();
 
              if ($result){
@@ -112,7 +115,7 @@ class NewsController extends Controller
 
     public function duzenleYap(Request $request, $id)
     {
-        
+       // dd($request);
           $this->validate($request,[
              'entitle'=>'required',
              'frtitle'=>'required',       
@@ -153,6 +156,9 @@ class NewsController extends Controller
                      'entitle' => $request->entitle,
                      'frtitle' => $request->frtitle,
                      'trtitle' => $request->trtitle,
+                     'slug' => $request->slug,
+                     'slug' => $request->slug,
+                     'slug' => $request->slug,
                      'slug' => $request->slug,
                      
                      'enbody' => $request->enbody, 

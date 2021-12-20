@@ -1,26 +1,48 @@
 @if ($paginator->hasPages())
-    <ul class="pagination">
+    <ul style="list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
         {{-- Previous Page Link --}}
         @if ($paginator->onFirstPage())
-            <li class="disabled"><span>&laquo;</span></li>
+        <li style=" float: left;" class="disabled">
+        
+         <li style=" float: left;" class="disabled"><span style="
+  
+  
+  padding: 16px;
+  ">&laquo;</span></li>
+  
         @else
-            <li><a href="{{ $paginator->previousPageUrl() }}" rel="prev">&laquo;</a></li>
+        <li style=" float: left;" class="disabled">
+
+            <li style=" float: left;"><a style="
+  
+  
+  
+  padding: 16px;
+  " href="{{ $paginator->previousPageUrl() }}" rel="prev">&laquo;</a></li>
         @endif
 
         {{-- Pagination Elements --}}
         @foreach ($elements as $element)
             {{-- "Three Dots" Separator --}}
             @if (is_string($element))
-                <li class="disabled"><span>{{ $element }}</span></li>
+                <li style=" float: left;"  class="disabled"><span>{{ $element }}</span></li>
             @endif
 
             {{-- Array Of Links --}}
             @if (is_array($element))
                 @foreach ($element as $page => $url)
                     @if ($page == $paginator->currentPage())
-                        <li class="active"><span>{{ $page }}</span></li>
+                        <li style=" float: left;" class="active"><span>{{ $page }}</span></li>
                     @else
-                        <li><a href="{{ $url }}">{{ $page }}</a></li>
+                        <li style=" float: left;"><a style="
+  
+  
+  
+  padding: 16px;
+  " href="{{ $url }}">{{ $page }}</a></li>
                     @endif
                 @endforeach
             @endif
@@ -28,9 +50,18 @@
 
         {{-- Next Page Link --}}
         @if ($paginator->hasMorePages())
-            <li><a href="{{ $paginator->nextPageUrl() }}" rel="next">&raquo;</a></li>
+        
+            <li style=" float: left;"><a style="
+  
+  
+  
+  padding: 16px;
+  " href="{{ $paginator->nextPageUrl() }}" rel="next">&raquo;</a></li>
         @else
-            <li class="disabled"><span>&raquo;</span></li>
+            <li style=" float: left;" class="disabled"><span style="
+  
+  
+                padding: 16px;">&raquo;</span></li>
         @endif
     </ul>
 @endif

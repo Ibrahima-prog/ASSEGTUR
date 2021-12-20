@@ -10,7 +10,8 @@ let mix = require('laravel-mix');
  | file for the application as well as bundling up all the JS files.
  |
  */
- mix.browserSync('laravel.test');
+ mix.browserSync('127.0.0.1:8000');
+
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');

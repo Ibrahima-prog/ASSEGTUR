@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <title>Watch &amp; Connect – Abundant Church</title>
+    <title>TRAVAUX ACADÉMIQUES &#8211; ASSOCIATION DES ETUDIANTS GUINEENS EN TURQUIE</title>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//s.w.org">
@@ -117,7 +117,7 @@
                     c(n.concatemoji) :
                     n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)));
         })(window, document, window._wpemojiSettings);
-    </script>___scripts_1______scripts_2___
+    </script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -133,13 +133,14 @@
         }
 
     </style>
-    <link rel="stylesheet" id="tribe-common-skeleton-style-css" href="../css2021/css/common-skeleton.min.css" type="text/css"
-        media="all">
+    <link rel="stylesheet" id="tribe-common-skeleton-style-css" href="../css2021/css/common-skeleton.min.css"
+        type="text/css" media="all">
     <link rel="stylesheet" id="tribe-tooltip-css" href="../css2021/css/tooltip.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="wp-block-library-css" href="../css2021/css/style.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="uaf_client_css-css" href="../css2021/css/uaf.css" type="text/css" media="all">
     <link rel="stylesheet" id="font-awesome-css" href="../css2021/css/font-awesome.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="salient-grid-system-css" href="../css2021/css/grid-system.css" type="text/css" media="all">
+    <link rel="stylesheet" id="salient-grid-system-css" href="../css2021/css/grid-system.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="main-styles-css" href="../css2021/css/style.css" type="text/css" media="all">
     <style id="main-styles-inline-css" type="text/css">
         html body[data-header-resize="1"] .container-wrap,
@@ -149,14 +150,17 @@
         }
 
     </style>
-    <link rel="stylesheet" id="nectar-header-secondary-nav-css" href="../css2021/css/header-secondary-nav.css" type="text/css"
-        media="all">
+    <link rel="stylesheet" id="nectar-header-secondary-nav-css" href="../css2021/css/header-secondary-nav.css"
+        type="text/css" media="all">
     <link rel="stylesheet" id="fancyBox-css" href="../css2021/css/jquery.fancybox.css" type="text/css" media="all">
-    <link rel="stylesheet" id="nectar_default_font_open_sans-css" href="../css2021/css/css.css" type="text/css" media="all">
+    <link rel="stylesheet" id="nectar_default_font_open_sans-css" href="../css2021/css/css.css" type="text/css"
+        media="all">
     <link rel="stylesheet" id="responsive-css" href="../css2021/css/responsive.css" type="text/css" media="all">
     <link rel="stylesheet" id="skin-material-css" href="../css2021/css/skin-material.css" type="text/css" media="all">
-    <link rel="stylesheet" id="js_composer_front-css" href="../css2021/css/js_composer.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="dynamic-css-css" href="../css2021/css/salient-dynamic-styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="js_composer_front-css" href="../css2021/css/js_composer.min.css" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="dynamic-css-css" href="../css2021/css/salient-dynamic-styles.css" type="text/css"
+        media="all">
     <style id="dynamic-css-inline-css" type="text/css">
         .no-rgba #header-space {
             display: none;
@@ -356,11 +360,10 @@
         gtag("config", "G-1EV2ZR0LF0");
     </script>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
-    <link rel="icon" href="../images/images/cropped-Abundant-Favicon-01-32x32.png" sizes="32x32">
-    <link rel="icon" href="../images/images/cropped-Abundant-Favicon-01-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="../images/images/cropped-Abundant-Favicon-01-180x180.png">
-    <meta name="msapplication-TileImage"
-        content="https://abundant.org/wp-content/uploads/2020/12/cropped-Abundant-Favicon-01-270x270.png">
+    <link rel="icon" href="../images/images/logodown.svg" sizes="32x32">
+    <link rel="icon" href="../images/images/logodown.svg" sizes="192x192">
+    <link rel="apple-touch-icon" href="../images/images/logodown.svg">
+    <meta name="msapplication-TileImage" content="../images/images/logodown.svg">
     <style type="text/css" data-type="vc_custom-css">
         .headerminimumheight {
             min-height: 620px;
@@ -462,49 +465,9 @@
                       menu-item-type-post_type
                       menu-item-object-page menu-item-270
                     ">
-                                    <a href="https://abundant.org/about/">About</a>
+                                    <a href="#"></a>
                                 </li>
-                                <li id="menu-item-303"
-                                    class="
-                      menu-item
-                      menu-item-type-post_type
-                      menu-item-object-page menu-item-303
-                    ">
-                                    <a href="https://abundant.org/internship/">Internship</a>
-                                </li>
-                                <li id="menu-item-169"
-                                    class="
-                      menu-item
-                      menu-item-type-custom
-                      menu-item-object-custom
-                      menu-item-169
-                    ">
-                                    <a target="_blank" rel="noopener" href="https://shop.abundant.org">Shop</a>
-                                </li>
-                                <li id="menu-item-58"
-                                    class="
-                      menu-item
-                      menu-item-type-post_type
-                      menu-item-object-page menu-item-58
-                    ">
-                                    <a href="https://abundant.org/classes/">Classes</a>
-                                </li>
-                                <li id="menu-item-168"
-                                    class="
-                      menu-item
-                      menu-item-type-post_type
-                      menu-item-object-page menu-item-168
-                    ">
-                                    <a href="https://abundant.org/calendar/">Events</a>
-                                </li>
-                                <li id="menu-item-246"
-                                    class="
-                      menu-item
-                      menu-item-type-post_type
-                      menu-item-object-page menu-item-246
-                    ">
-                                    <a href="https://abundant.org/10things/">Blog</a>
-                                </li>
+
                             </ul>
                         </nav>
                     </div>
@@ -546,99 +509,104 @@
                     <div class="container">
                         <div class="row">
                             <div class="col span_3">
-                                <a id="logo" href="https://abundant.org" data-supplied-ml-starting-dark="false"
+                                <a id="logo" href="/" data-supplied-ml-starting-dark="false"
                                     data-supplied-ml-starting="false" data-supplied-ml="false">
                                     <img class="stnd default-logo dark-version" alt="Abundant Church"
-                                        src="../images/images/logo.png" srcset="../images/images/logo.png 1x, ../images/images/logo%402x.png 2x"><img
-                                        class="starting-logo default-logo" alt="Abundant Church" src="../images/images/logo.png"
-                                        srcset="../images/images/logo.png 1x, ../images/images/logo%402x.png 2x">
+                                        src="../images/images/New Project.svg"
+                                        srcset="../images/images/New Project.svg 1x, ../images/images/New Project.svg 2x" /><img
+                                        class="starting-logo default-logo" alt="Abundant Church"
+                                        src="../images/images/New Project.svg"
+                                        srcset="../images/images/New Project.svg 1x, ../images/images/New Project.svg 2x" />
                                 </a>
                             </div>
                             <!--/span_3-->
 
                             <div class="col span_9 col_last">
                                 <div class="
-                      slide-out-widget-area-toggle
-                      mobile-icon
-                      slide-out-from-right
-                    "
+                              slide-out-widget-area-toggle
+                              mobile-icon
+                              slide-out-from-right
+                            "
                                     data-custom-color="false" data-icon-animation="simple-transform">
                                     <div>
                                         <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false"
                                             class="closed">
                                             <span aria-hidden="true">
                                                 <i class="lines-button x2"> <i class="lines"></i> </i>
-                                                <i class="lines-button x2 hover-effect"> <i class="lines"></i>
-                                                </i><i class="lines-button x2 hover-effect"> <i
-                                                        class="lines"></i> </i><i
-                                                    class="lines-button x2 hover-effect"> <i class="lines"></i>
-                                                </i></span>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
 
-                                <nav style="">
+                                <nav>
                                     <ul class="sf-menu">
+
+                                        <li id="menu-item-270"
+                                            class="
+                              menu-item
+                              menu-item-type-post_type
+                              menu-item-object-page menu-item-270
+                            ">
+                                            <a href="/association/about-us">À Propos</a>
+                                        </li>
+
+                                        <li id="menu-item-169"
+                                            class="
+                              menu-item
+                              menu-item-type-custom
+                              menu-item-object-custom
+                              menu-item-169
+                            ">
+                                            {{-- <a
+                              target="_blank"
+                              rel="noopener"
+                              href="https://shop.abundant.org"
+                              >Gallery</a
+                            > --}}
+                                        </li>
+
+                                        <li id="menu-item-168"
+                                            class="
+                              menu-item
+                              menu-item-type-post_type
+                              menu-item-object-page menu-item-168
+                            ">
+                                            <a href="/activities_and_gallery">Activités</a>
+                                        </li>
                                         <li id="menu-item-41"
                                             class="
-                          menu-item
-                          menu-item-type-post_type
-                          menu-item-object-page
-                          current-menu-item
-                          page_item page-item-38
-                          current_page_item
-                          menu-item-41
-                        ">
-                                            <a href="https://abundant.org/watch-connect/" aria-current="page">Watch
-                                                &amp; Connect</a>
+                                  menu-item
+                                  menu-item-type-post_type
+                                  menu-item-object-page menu-item-41
+                                ">
+                                            <a href="/academic-works/article">Travaux Académiques</a>
                                         </li>
-                                        <li id="menu-item-161"
+                                        <li id="menu-item-246"
                                             class="
-                          menu-item
-                          menu-item-type-post_type
-                          menu-item-object-page menu-item-161
-                        ">
-                                            <a href="https://abundant.org/locations/">Locations</a>
+                              menu-item
+                              menu-item-type-post_type
+                              menu-item-object-page menu-item-246
+                            ">
+                                            <a href="/news">Journal</a>
                                         </li>
+
                                         <li id="menu-item-50"
                                             class="
-                          menu-item
-                          menu-item-type-post_type
-                          menu-item-object-page menu-item-50
-                        ">
-                                            <a href="https://abundant.org/get-involved/">Get Involved</a>
+                            menu-item
+                            menu-item-type-post_type
+                            menu-item-object-page menu-item-50
+                          ">
+                                            <a href="/association/register">S'enregistrer</a>
                                         </li>
-                                        <li id="menu-item-63"
-                                            class="
-                          menu-item
-                          menu-item-type-post_type
-                          menu-item-object-page menu-item-63
-                        ">
-                                            <a href="https://abundant.org/community/">Community</a>
-                                        </li>
-                                        <li id="menu-item-49"
-                                            class="
-                          menu-item
-                          menu-item-type-post_type
-                          menu-item-object-page menu-item-49
-                        ">
-                                            <a href="https://abundant.org/care/">Care</a>
-                                        </li>
-                                        <li id="menu-item-43"
-                                            class="
-                          menu-item
-                          menu-item-type-post_type
-                          menu-item-object-page menu-item-43
-                        ">
-                                            <a href="https://abundant.org/give/">Give</a>
-                                        </li>
+
+
                                         <li id="menu-item-278"
                                             class="
-                          menu-item
-                          menu-item-type-post_type
-                          menu-item-object-page menu-item-278
-                        ">
-                                            <a href="https://abundant.org/contact/">Contact</a>
+                                  menu-item
+                                  menu-item-type-post_type
+                                  menu-item-object-page menu-item-278
+                                ">
+                                            <a href="/conctact-us">Contact</a>
                                         </li>
                                     </ul>
 
@@ -664,7 +632,7 @@
                                 <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="true">
                                     <div class="inner-wrap using-image">
                                         <div class="row-bg using-image using-bg-color" style="
-                          background-image: url(../images/images/watch-scaled.jpg);
+                          background-image: url(../images/images/pexels-cottonbro-4778611.jpg);
                           background-position: center center;
                           background-repeat: no-repeat;
                           background-color: #333333;
@@ -820,891 +788,414 @@
     padding-bottom: 0px;
     border-bottom-width: 50px;
 ">
-                                                        <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone instance-4"
-                                                            data-t-w-inherits="default" data-bg-cover=""
-                                                            data-padding-pos="all" data-has-bg-color="false"
-                                                            data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                                            data-hover-bg-opacity="1" data-animation="" data-delay="0"
-                                                            style="
+                                                        @foreach ($articles as $article)
+
+
+                                                            <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone instance-4"
+                                                                data-t-w-inherits="default" data-bg-cover=""
+                                                                data-padding-pos="all" data-has-bg-color="false"
+                                                                data-bg-color="" data-bg-opacity="1" data-hover-bg=""
+                                                                data-hover-bg-opacity="1" data-animation=""
+                                                                data-delay="0" style="
     padding-bottom: 12.688;
     padding-bottom: 12.688;
     padding-bottom: 13px;
 ">
-                                                            <div class="vc_column-inner">
-                                                                <a class="column-link" target="_self"
-                                                                    href="https://subspla.sh/5x9z6z2"></a>
-                                                                <div class="column-bg-overlay-wrap"
-                                                                    data-bg-animation="none">
-                                                                    <div class="column-bg-overlay"></div>
-                                                                </div>
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="img-with-aniamtion-wrap center"
-                                                                        data-max-width="100%"
-                                                                        data-max-width-mobile="default"
-                                                                        data-border-radius="none" data-shadow="none"
-                                                                        data-animation="fade-in">
-                                                                        <div class="inner">
-                                                                            <div class="hover-wrap"
-                                                                                data-hover-animation="none"
-                                                                                style="opacity: 1;">
-                                                                                <div class="hover-wrap-inner">
-                                                                                    <img class="img-with-animation skip-lazy animated-in"
-                                                                                        data-delay="0" height="1080"
-                                                                                        width="1920"
-                                                                                        data-animation="fade-in"
-                                                                                        src="../images/images/faithwithoutlimits-01.png"
-                                                                                        alt="" srcset="
-                                                ../images/images/faithwithoutlimits-01.png          1920w,
-                                                ../images/images/faithwithoutlimits-01-300x169.png   300w,
-                                                ../images/images/faithwithoutlimits-01-1024x576.png 1024w,
-                                                ../images/images/faithwithoutlimits-01-768x432.png   768w,
-                                                ../images/images/faithwithoutlimits-01-1536x864.png 1536w
-                                              " sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
+                                                                <div class="vc_column-inner">
+                                                                    
+                                                                    <div class="column-bg-overlay-wrap"
+                                                                        data-bg-animation="none">
+                                                                        <div class="column-bg-overlay"></div>
                                                                     </div>
-                                                                    <div
-                                                                        class="
-                                        wpb_text_column wpb_content_element
-                                      ">
-                                                                        <div class="wpb_wrapper">
-                                                                            <p>
-                                                                                <span style="
-                                              font-family: gta-compressed-bold;
-                                              font-size: 24px;
-                                            ">WE ARE ABUNDANT: FAITH WITHOUT
-                                                                                    LIMITS</span><br>
-                                                                                <span
-                                                                                    style="font-family: gta-medium">Pastor
-                                                                                    Shannon Nieman</span>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone instance-5"
-                                                            data-t-w-inherits="default" data-bg-cover=""
-                                                            data-padding-pos="all" data-has-bg-color="false"
-                                                            data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                                            data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                                            <div class="vc_column-inner">
-                                                                <a class="column-link" target="_self"
-                                                                    href="https://subspla.sh/hv8cr2g"></a>
-                                                                <div class="column-bg-overlay-wrap"
-                                                                    data-bg-animation="none">
-                                                                    <div class="column-bg-overlay"></div>
-                                                                </div>
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="img-with-aniamtion-wrap center"
-                                                                        data-max-width="100%"
-                                                                        data-max-width-mobile="default"
-                                                                        data-border-radius="none" data-shadow="none"
-                                                                        data-animation="fade-in">
-                                                                        <div class="inner">
-                                                                            <div class="hover-wrap"
-                                                                                data-hover-animation="none"
-                                                                                style="opacity: 1;">
-                                                                                <div class="hover-wrap-inner">
-                                                                                    <img class="img-with-animation skip-lazy animated-in"
-                                                                                        data-delay="0" height="1080"
-                                                                                        width="1920"
-                                                                                        data-animation="fade-in"
-                                                                                        src="../images/images/AChurchForAll-01.png"
-                                                                                        alt="" srcset="
-                                                ../images/images/AChurchForAll-01.png          1920w,
-                                                ../images/images/AChurchForAll-01-300x169.png   300w,
-                                                ../images/images/AChurchForAll-01-1024x576.png 1024w,
-                                                ../images/images/AChurchForAll-01-768x432.png   768w,
-                                                ../images/images/AChurchForAll-01-1536x864.png 1536w
-                                              " sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        class="
-                                        wpb_text_column wpb_content_element
-                                      ">
-                                                                        <div class="wpb_wrapper">
-                                                                            <p>
-                                                                                <span style="
-                                              font-family: gta-compressed-bold;
-                                              font-size: 24px;
-                                            ">WE ARE ABUNDANT: A CHURCH FOR
-                                                                                    ALL</span><br>
-                                                                                <span
-                                                                                    style="font-family: gta-medium">Pastor
-                                                                                    Jared Nieman</span>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone instance-6"
-                                                            data-t-w-inherits="default" data-bg-cover=""
-                                                            data-padding-pos="all" data-has-bg-color="false"
-                                                            data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                                            data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                                            <div class="vc_column-inner">
-                                                                <a class="column-link" target="_self"
-                                                                    href="https://subspla.sh/d96gjr2"></a>
-                                                                <div class="column-bg-overlay-wrap"
-                                                                    data-bg-animation="none">
-                                                                    <div class="column-bg-overlay"></div>
-                                                                </div>
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="img-with-aniamtion-wrap center"
-                                                                        data-max-width="100%"
-                                                                        data-max-width-mobile="default"
-                                                                        data-border-radius="none" data-shadow="none"
-                                                                        data-animation="fade-in">
-                                                                        <div class="inner">
-                                                                            <div class="hover-wrap"
-                                                                                data-hover-animation="none"
-                                                                                style="opacity: 1;">
-                                                                                <div class="hover-wrap-inner">
-                                                                                    <img class="img-with-animation skip-lazy animated-in"
-                                                                                        data-delay="0" height="1080"
-                                                                                        width="1920"
-                                                                                        data-animation="fade-in"
-                                                                                        src="../images/images/IMG_0308.png" alt=""
-                                                                                        srcset="
-                                                ../images/images/IMG_0308.png          1920w,
-                                                ../images/images/IMG_0308-300x169.png   300w,
-                                                ../images/images/IMG_0308-1024x576.png 1024w,
-                                                ../images/images/IMG_0308-768x432.png   768w,
-                                                ../images/images/IMG_0308-1536x864.png 1536w
-                                              " sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        class="
-                                        wpb_text_column wpb_content_element
-                                      ">
-                                                                        <div class="wpb_wrapper">
-                                                                            <p>
-                                                                                <span style="
-                                              font-family: gta-compressed-bold;
-                                              font-size: 24px;
-                                            ">WE ARE ABUNDANT: GOD IS ON OUR
-                                                                                    SIDE</span><br>
-                                                                                <span
-                                                                                    style="font-family: gta-medium">Pastor
-                                                                                    Jared Nieman</span>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone instance-4"
-                                                            data-t-w-inherits="default" data-bg-cover=""
-                                                            data-padding-pos="all" data-has-bg-color="false"
-                                                            data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                                            data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                                            <div class="vc_column-inner">
-                                                                <a class="column-link" target="_self"
-                                                                    href="https://subspla.sh/5x9z6z2"></a>
-                                                                <div class="column-bg-overlay-wrap"
-                                                                    data-bg-animation="none">
-                                                                    <div class="column-bg-overlay"></div>
-                                                                </div>
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="img-with-aniamtion-wrap center"
-                                                                        data-max-width="100%"
-                                                                        data-max-width-mobile="default"
-                                                                        data-border-radius="none" data-shadow="none"
-                                                                        data-animation="fade-in">
-                                                                        <div class="inner">
-                                                                            <div class="hover-wrap"
-                                                                                data-hover-animation="none"
-                                                                                style="opacity: 1;">
-                                                                                <div class="hover-wrap-inner">
-                                                                                    <img class="img-with-animation skip-lazy animated-in"
-                                                                                        data-delay="0" height="1080"
-                                                                                        width="1920"
-                                                                                        data-animation="fade-in"
-                                                                                        src="../images/images/faithwithoutlimits-01.png"
-                                                                                        alt="" srcset="
-                                                ../images/images/faithwithoutlimits-01.png          1920w,
-                                                ../images/images/faithwithoutlimits-01-300x169.png   300w,
-                                                ../images/images/faithwithoutlimits-01-1024x576.png 1024w,
-                                                ../images/images/faithwithoutlimits-01-768x432.png   768w,
-                                                ../images/images/faithwithoutlimits-01-1536x864.png 1536w
-                                              " sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div
-                                                                        class="
-                                        wpb_text_column wpb_content_element
-                                      ">
-                                                                        <div class="wpb_wrapper">
-                                                                            <p>
-                                                                                <span style="
-                                              font-family: gta-compressed-bold;
-                                              font-size: 24px;
-                                            ">WE ARE ABUNDANT: FAITH WITHOUT
-                                                                                    LIMITS</span><br>
-                                                                                <span
-                                                                                    style="font-family: gta-medium">Pastor
-                                                                                    Shannon Nieman</span>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="divider-wrap" data-alignment="default">
-                                                    <div style="height: 80px" class="divider"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="fws_61741014d7aba" data-column-margin="default" data-midnight="dark"
-                                class="
-                    wpb_row
-                    vc_row-fluid vc_row
-                    full-width-section
-                    standard_section
-                  "
-                                style="padding-top: 0px; padding-bottom: 0px">
-                                <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false">
-                                    <div class="inner-wrap">
-                                        <div class="row-bg using-bg-color" style="background-color: #eb5640"></div>
-                                    </div>
-                                    <div class="row-bg-overlay"></div>
-                                </div>
-                                <div class="row_col_wrap_12 col span_12 dark left">
-                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone instance-7"
-                                        data-t-w-inherits="default" data-bg-cover="" data-padding-pos="all"
-                                        data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                        data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                        <div class="vc_column-inner">
-                                            <div class="column-bg-overlay-wrap" data-bg-animation="none">
-                                                <div class="column-bg-overlay"></div>
-                                            </div>
-                                            <div class="wpb_wrapper">
-                                                <div class="divider-wrap" data-alignment="default">
-                                                    <div style="height: 80px" class="divider"></div>
-                                                </div>
-                                                <div id="fws_61741014d7fda" data-midnight=""
-                                                    data-column-margin="default"
-                                                    class="
-                              wpb_row
-                              vc_row-fluid vc_row
-                              inner_row
-                              standard_section
-                            "
-                                                    style="padding-top: 0px; padding-bottom: 0px">
-                                                    <div class="row-bg-wrap">
-                                                        <div class="row-bg"></div>
-                                                    </div>
-                                                    <div class="row_col_wrap_12_inner col span_12 left">
-                                                        <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone instance-8"
-                                                            data-t-w-inherits="default" data-bg-cover=""
-                                                            data-padding-pos="all" data-has-bg-color="false"
-                                                            data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                                            data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                                            <div class="vc_column-inner">
-                                                                <div class="column-bg-overlay-wrap"
-                                                                    data-bg-animation="none">
-                                                                    <div class="column-bg-overlay"></div>
-                                                                </div>
-                                                                <div class="wpb_wrapper">
-                                                                    <div
-                                                                        class="
-                                        wpb_text_column wpb_content_element
-                                      ">
-                                                                        <div class="wpb_wrapper">
-                                                                            <p>
-                                                                                <span style="
-                                              color: #eac3ad;
-                                              font-family: gta-medium;
-                                              font-size: 24px;
-                                            ">À ASSEGTUR, nous donnons et nous recevons.<br>Notre commuauté est basé
-                                                                                    sur l'entraide et la solidarité mais
-                                                                                    aussi l'éducation<br>Si vous voulez
-                                                                                    publier vos articles pour les
-                                                                                    guinéens, contactez le
-                                                                                    bureau.</span>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <a class="nectar-button jumbo see-through-2"
-                                                                        style="border-color: rgba(234, 195, 173, 0.75); color: rgb(234, 195, 173); visibility: visible;"
-                                                                        href="https://abundant.org/give/"
-                                                                        data-color-override="#eac3ad"
-                                                                        data-hover-color-override="#eac3ad"
-                                                                        data-hover-text-color-override="#ffffff"><span>CONTACT</span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="divider-wrap" data-alignment="default">
-                                                    <div style="height: 60px" class="divider"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/row-->
-                    </div>
-                    <!--/container-->
-                </div>
-                <!--/container-wrap-->
-
-                <div id="footer-outer" data-cols="2" data-custom-color="true" data-disable-copyright="true"
-                    data-matching-section-color="false" data-copyright-line="false" data-using-bg-img="false"
-                    data-bg-img-overlay="0.8" data-full-width="false" data-using-widget-area="true"
-                    data-link-hover="default">
-                    <div id="footer-widgets" data-has-widgets="true" data-cols="2">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col span_6">
-                                    <!-- Footer widget area 1 -->
-                                    <div id="custom_html-2" class="widget_text widget widget_custom_html">
-                                        <div class="textwidget custom-html-widget">
-                                            <div id="fws_61741014d9079" data-column-margin="default"
-                                                data-midnight="dark"
-                                                class="
-                            wpb_row
-                            vc_row-fluid vc_row
-                            standard_section
-                            vc_hidden-sm vc_hidden-xs
-                          "
-                                                style="padding-top: 0px; padding-bottom: 0px">
-                                                <div class="row-bg-wrap" data-bg-animation="none"
-                                                    data-bg-overlay="false">
-                                                    <div class="inner-wrap">
-                                                        <div class="row-bg" style=""></div>
-                                                    </div>
-                                                    <div class="row-bg-overlay"></div>
-                                                </div>
-                                                <div class="row_col_wrap_12 col span_12 dark left">
-                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone instance-9"
-                                                        data-t-w-inherits="default" data-bg-cover=""
-                                                        data-padding-pos="all" data-has-bg-color="false"
-                                                        data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                                        data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="column-bg-overlay-wrap"
-                                                                data-bg-animation="none">
-                                                                <div class="column-bg-overlay"></div>
-                                                            </div>
-                                                            <div class="wpb_wrapper">
-                                                                <div class="img-with-aniamtion-wrap"
-                                                                    data-max-width="100%"
-                                                                    data-max-width-mobile="default"
-                                                                    data-border-radius="none" data-shadow="none"
-                                                                    data-animation="none" style="margin-top: -30%">
-                                                                    <div class="inner">
-                                                                        <div class="hover-wrap"
-                                                                            data-hover-animation="none">
-                                                                            <div class="hover-wrap-inner">
-                                                                                <img class="img-with-animation skip-lazy animated-in"
-                                                                                    data-delay="0" height="139"
-                                                                                    width="139" data-animation="none"
-                                                                                    src="../images/images/footer_icon.png" alt=""
-                                                                                    srcset="
-                                              ../images/images/footer_icon.png         139w,
-                                              ../images/images/footer_icon-100x100.png 100w
-                                            " sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="divider-wrap" data-alignment="default">
-                                                                    <div style="height: 40px" class="divider">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="wpb_text_column wpb_content_element">
                                                                     <div class="wpb_wrapper">
-                                                                        <p>
-                                                                            <span style="
-                                            color: #222222;
-                                            font-family: gta-medium;
-                                            font-size: 18px;
-                                            line-height: 1.5;
-                                          ">Follow Us</span><br>
-                                                                            <span style="color: #222222"><a
-                                                                                    style="color: #222222"
-                                                                                    href="https://www.facebook.com/AbundantChurchEP/">Facebook</a>
-                                                                                &nbsp;
-                                                                                <a style="color: #222222"
-                                                                                    href="https://www.instagram.com/abundant.church/">Instagram</a>
-                                                                                &nbsp;
-                                                                                <a style="color: #222222"
-                                                                                    href="https://www.youtube.com/user/alfcep/">YouTube</a></span>
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="fws_61741014d9f0b" data-column-margin="default"
-                                                data-midnight="dark"
-                                                class="
-                            wpb_row
-                            vc_row-fluid vc_row
-                            standard_section
-                            vc_hidden-lg vc_hidden-md
-                          "
-                                                style="padding-top: 0px; padding-bottom: 0px">
-                                                <div class="row-bg-wrap" data-bg-animation="none"
-                                                    data-bg-overlay="false">
-                                                    <div class="inner-wrap">
-                                                        <div class="row-bg" style=""></div>
-                                                    </div>
-                                                    <div class="row-bg-overlay"></div>
-                                                </div>
-                                                <div class="row_col_wrap_12 col span_12 dark left">
-                                                    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone instance-10"
-                                                        data-t-w-inherits="default" data-bg-cover=""
-                                                        data-padding-pos="all" data-has-bg-color="false"
-                                                        data-bg-color="" data-bg-opacity="1" data-hover-bg=""
-                                                        data-hover-bg-opacity="1" data-animation="" data-delay="0">
-                                                        <div class="vc_column-inner">
-                                                            <div class="column-bg-overlay-wrap"
-                                                                data-bg-animation="none">
-                                                                <div class="column-bg-overlay"></div>
-                                                            </div>
-                                                            <div class="wpb_wrapper">
-                                                                <div class="img-with-aniamtion-wrap"
-                                                                    data-max-width="100%"
-                                                                    data-max-width-mobile="default"
-                                                                    data-border-radius="none" data-shadow="none"
-                                                                    data-animation="none">
-                                                                    <div class="inner">
-                                                                        <div class="hover-wrap"
-                                                                            data-hover-animation="none">
-                                                                            <div class="hover-wrap-inner">
-                                                                                <img class="img-with-animation skip-lazy animated-in"
-                                                                                    data-delay="0" height="139"
-                                                                                    width="139" data-animation="none"
-                                                                                    src="../images/images/footer_icon.png" alt=""
-                                                                                    srcset="
-                                              ../images/images/footer_icon.png         139w,
-                                              ../images/images/footer_icon-100x100.png 100w
-                                            " sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
+                                                                        <div class="img-with-aniamtion-wrap center"
+                                                                            data-max-width="100%"
+                                                                            data-max-width-mobile="default"
+                                                                            data-border-radius="none" data-shadow="none"
+                                                                            data-animation="fade-in">
+                                                                            <div class="inner">
+                                                                                <div class="hover-wrap"
+                                                                                    data-hover-animation="none"
+                                                                                    style="opacity: 1;">
+                                                                                    <div class="hover-wrap-inner">
+                                                                                        <img class="img-with-animation skip-lazy animated-in"
+                                                                                            data-delay="0" height="1080"
+                                                                                            width="1920"
+                                                                                            data-animation="fade-in"
+                                                                                            src="../images/images/faithwithoutlimits-01.png"
+                                                                                            alt="" srcset="
+                                                ../images/images/pdf-duzenleme-nasil-yapilir.jpg          1920w,
+                                                ../images/images/pdf-duzenleme-nasil-yapilir.jpg   300w,
+                                                ../images/images/pdf-duzenleme-nasil-yapilir.jpg 1024w,
+                                                ../images/images/pdf-duzenleme-nasil-yapilir.jpg   768w,
+                                                ../images/images/pdf-duzenleme-nasil-yapilir.jpg 1536w
+                                              " sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw">
+                                                                                    </div>
+                                                                                    <a href="/../../makaleBelgeler/{{ $article->file }}"
+                                                                                        target="_blank"><button
+                                                                                            type="submit">{{ Lang::get('app.DownloadPDF') }}
+                                                                                            <span
+                                                                                                class="glyphicon glyphicon-arrow-right"
+                                                                                                aria-hidden="true"></span></button></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div
+                                                                            class="
+                                        wpb_text_column wpb_content_element
+                                      ">
+                                                                            <div class="wpb_wrapper">
+                                                                                <p>
+                                                                                    <span style="
+                                              font-family: gta-compressed-bold;
+                                              font-size: 24px;
+                                            ">{{ $article->frtitle }}</span><br>
+                                            
+                                                                                    <span
+                                                                                        style="font-family: gta-medium">{{ $article->author }}</span>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="divider-wrap" data-alignment="default">
-                                                                    <div style="height: 40px" class="divider">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="wpb_text_column wpb_content_element">
-                                                                    <div class="wpb_wrapper">
-                                                                        <p>
-                                                                            <span style="
-                                            color: #222222;
-                                            font-family: gta-medium;
-                                            font-size: 18px;
-                                            line-height: 1.5;
-                                          ">Follow Us</span><br>
-                                                                            <span style="color: #222222"><a
-                                                                                    style="color: #222222"
-                                                                                    href="https://www.facebook.com/AbundantChurchEP/">Facebook</a>
-                                                                                &nbsp;
-                                                                                <a style="color: #222222"
-                                                                                    href="https://www.instagram.com/abundant.church/">Instagram</a>
-                                                                                &nbsp;
-                                                                                <a style="color: #222222"
-                                                                                    href="https://www.youtube.com/user/alfcep/">YouTube</a></span>
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
                                                             </div>
-                                                        </div>
+                                                        @endforeach
+                                                    </div>
+                                                    <div>
+
+                                                        @if (count($articles) > 9)
+                                                            Pages:
+                                                            {!! $articles->links() !!}
+                                                        @endif
+
+                                                    </div>
+                                                    <div class="divider-wrap" data-alignment="default">
+                                                        <div style="height: 80px" class="divider"></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!--/span_3-->
-
-                                <div class="col span_6">
-                                    <!-- Footer widget area 2 -->
-                                    <div class="widget"></div>
-                                </div>
-                                <!--/span_3-->
+                                @include('user.layouts.footer4')
                             </div>
                             <!--/row-->
                         </div>
                         <!--/container-->
                     </div>
-                    <!--/footer-widgets-->
+                    <!--/container-wrap-->
+
+                    @include('user.layouts.footer3')
+                    <!--/footer-outer-->
+
+
+
+
                 </div>
-                <!--/footer-outer-->
-
-
-
-
+                <!--/ajax-content-wrap-->
             </div>
-            <!--/ajax-content-wrap-->
         </div>
-    </div>
-    <div id="slide-out-widget-area" class="slide-out-from-right" data-dropdown-func="separate-dropdown-parent-link"
-        data-back-txt="Back" style="padding-top: 64.7px; padding-bottom: 64.7px;">
-        <div class="inner-wrap">
-            <div class="inner" data-prepend-menu-mobile="false">
+        <div id="slide-out-widget-area" class="slide-out-from-right" data-dropdown-func="separate-dropdown-parent-link"
+            data-back-txt="Back">
+            <div class="inner-wrap">
+                <div class="inner" data-prepend-menu-mobile="false">
+                    <a class="slide_out_area_close" href="#">
+                        <span class="close-wrap">
+                            <span class="close-line close-line1"></span>
+                            <span class="close-line close-line2"></span>
+                        </span>
+                    </a>
+
+                    <div class="off-canvas-menu-container mobile-only">
+                        <ul class="menu">
+
+                            <li
+                                class="
+                  menu-item
+                  menu-item-type-post_type
+                  menu-item-object-page menu-item-270
+                ">
+                                <a href="/association/about-us">À Propos</a>
+                            </li>
+
+                            <li
+                                class="
+                  menu-item
+                  menu-item-type-custom
+                  menu-item-object-custom
+                  menu-item-169
+                ">
+
+                            </li>
+
+                            <li
+                                class="
+                  menu-item
+                  menu-item-type-post_type
+                  menu-item-object-page menu-item-168
+                ">
+                                <a href="/activities_and_gallery">Activités</a>
+                            </li>
+                            <li
+                                class="
+                    menu-item
+                    menu-item-type-post_type
+                    menu-item-object-page menu-item-41
+                  ">
+                                <a href="academic-works/article">Travaux Académiques</a>
+                            </li>
+                            <li
+                                class="
+                  menu-item
+                  menu-item-type-post_type
+                  menu-item-object-page menu-item-246
+                ">
+                                <a href="/news">Journal</a>
+                            </li>
+
+                            <li
+                                class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-50
+              ">
+                                <a href="/association/register">S'enregister</a>
+                            </li>
 
 
-                <div class="off-canvas-menu-container mobile-only">
-                    <ul class="menu">
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page
-                        current-menu-item
-                        page_item page-item-38
-                        current_page_item
-                        menu-item-41
-                      ">
-                            <a href="https://abundant.org/watch-connect/" aria-current="page">Watch &amp; Connect</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-161
-                      ">
-                            <a href="https://abundant.org/locations/">Locations</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-50
-                      ">
-                            <a href="https://abundant.org/get-involved/">Get Involved</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-63
-                      ">
-                            <a href="https://abundant.org/community/">Community</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-49
-                      ">
-                            <a href="https://abundant.org/care/">Care</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-43
-                      ">
-                            <a href="https://abundant.org/give/">Give</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-278
-                      ">
-                            <a href="https://abundant.org/contact/">Contact</a>
-                        </li>
-                    </ul>
+                            <li
+                                class="
+                    menu-item
+                    menu-item-type-post_type
+                    menu-item-object-page menu-item-278
+                  ">
+                                <a href="/conctact-us">Contact</a>
+                            </li>
+                        </ul>
 
-                    <ul class="menu secondary-header-items">
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-270
-                      ">
-                            <a href="https://abundant.org/about/">About</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-303
-                      ">
-                            <a href="https://abundant.org/internship/">Internship</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-custom
-                        menu-item-object-custom
-                        menu-item-169
-                      ">
-                            <a target="_blank" rel="noopener" href="https://shop.abundant.org">Shop</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-58
-                      ">
-                            <a href="https://abundant.org/classes/">Classes</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-168
-                      ">
-                            <a href="https://abundant.org/calendar/">Events</a>
-                        </li>
-                        <li
-                            class="
-                        menu-item
-                        menu-item-type-post_type
-                        menu-item-object-page menu-item-246
-                      ">
-                            <a href="https://abundant.org/10things/">Blog</a>
-                        </li>
-                    </ul>
+                        <ul class="menu secondary-header-items">
+
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="bottom-meta-wrap"></div>
-            <!--/bottom-meta-wrap-->
+                <div class="bottom-meta-wrap"></div>
+                <!--/bottom-meta-wrap-->
+            </div>
+            <!--/inner-wrap-->
         </div>
-        <!--/inner-wrap-->
-    </div>
-    <div id="slide-out-widget-area-bg" class="slide-out-from-right dark"></div><a class="slide_out_area_close"
-        href="#">
-        <span class="close-wrap">
-            <span class="close-line close-line1"></span>
-            <span class="close-line close-line2"></span>
-        </span>
-    </a>
-    <!--/ocm-effect-wrap-->
-    <script>
-        (function(body) {
-            "use strict";
-            body.className = body.className.replace(/\btribe-no-js\b/, "tribe-js");
-        })(document.body);
-    </script>
-    <script>
-        /* <![CDATA[ */
-        var tribe_l10n_datatables = {
-            aria: {
-                sort_ascending: ": activate to sort column ascending",
-                sort_descending: ": activate to sort column descending",
-            },
-            length_menu: "Show _MENU_ entries",
-            empty_table: "No data available in table",
-            info: "Showing _START_ to _END_ of _TOTAL_ entries",
-            info_empty: "Showing 0 to 0 of 0 entries",
-            info_filtered: "(filtered from _MAX_ total entries)",
-            zero_records: "No matching records found",
-            search: "Search:",
-            all_selected_text: "All items on this page were selected. ",
-            select_all_link: "Select all pages",
-            clear_selection: "Clear Selection.",
-            pagination: {
-                all: "All",
-                next: "Next",
-                previous: "Previous"
-            },
-            select: {
-                rows: {
-                    0: "",
-                    _: ": Selected %d rows",
-                    1: ": Selected 1 row"
+        <div id="slide-out-widget-area-bg" class="slide-out-from-right dark"></div><a class="slide_out_area_close"
+            href="#">
+            <span class="close-wrap">
+                <span class="close-line close-line1"></span>
+                <span class="close-line close-line2"></span>
+            </span>
+        </a>
+        <!--/ocm-effect-wrap-->
+        <script>
+            (function(body) {
+                "use strict";
+                body.className = body.className.replace(/\btribe-no-js\b/, "tribe-js");
+            })(document.body);
+        </script>
+        <script>
+            /* <![CDATA[ */
+            var tribe_l10n_datatables = {
+                aria: {
+                    sort_ascending: ": activate to sort column ascending",
+                    sort_descending: ": activate to sort column descending",
                 },
-            },
-            datepicker: {
-                dayNames: [
-                    "Sunday",
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                ],
-                dayNamesShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-                dayNamesMin: ["S", "M", "T", "W", "T", "F", "S"],
-                monthNames: [
-                    "January",
-                    "February",
-                    "March",
-                    "April",
-                    "May",
-                    "June",
-                    "July",
-                    "August",
-                    "September",
-                    "October",
-                    "November",
-                    "December",
-                ],
-                monthNamesShort: [
-                    "January",
-                    "February",
-                    "March",
-                    "April",
-                    "May",
-                    "June",
-                    "July",
-                    "August",
-                    "September",
-                    "October",
-                    "November",
-                    "December",
-                ],
-                monthNamesMin: [
-                    "Jan",
-                    "Feb",
-                    "Mar",
-                    "Apr",
-                    "May",
-                    "Jun",
-                    "Jul",
-                    "Aug",
-                    "Sep",
-                    "Oct",
-                    "Nov",
-                    "Dec",
-                ],
-                nextText: "Next",
-                prevText: "Prev",
-                currentText: "Today",
-                closeText: "Done",
-                today: "Today",
-                clear: "Clear",
-            },
-        }; /* ]]> */
-    </script>
-    <script type="text/html" id="wpb-modifications"></script>
-    <script type="text/javascript" src="../js2021/js/jquery.easing.js" id="jquery-easing-js"></script>
-    <script type="text/javascript" src="../js2021/js/jquery.mousewheel.js" id="jquery-mousewheel-js"></script>
-    <script type="text/javascript" src="../js2021/js/priority.js" id="nectar_priority-js"></script>
-    <script type="text/javascript" src="../js2021/js/transit.js" id="nectar-transit-js"></script>
-    <script type="text/javascript" src="../js2021/js/waypoints.js" id="nectar-waypoints-js"></script>
-    <script type="text/javascript" src="../js2021/js/imagesLoaded.min.js" id="imagesLoaded-js"></script>
-    <script type="text/javascript" src="../js2021/js/hoverintent.js" id="hoverintent-js"></script>
-    <script type="text/javascript" src="../js2021/js/jquery.fancybox.min.js" id="fancyBox-js"></script>
-    <script type="text/javascript" src="../js2021/js/superfish.js" id="superfish-js"></script>
-    <script type="text/javascript" id="nectar-frontend-js-extra">
-        /* <![CDATA[ */
-        var nectarLove = {
-            ajaxurl: "https:\/\/abundant.org\/wp-admin\/admin-ajax.php",
-            postID: "38",
-            rooturl: "https:\/\/abundant.org",
-            disqusComments: "false",
-            loveNonce: "b259f958ef",
-            mapApiKey: "",
-        };
-        /* ]]> */
-    </script>
-    <script type="text/javascript" src="../js2021/js/init.js" id="nectar-frontend-js"></script>
-    <script type="text/javascript" src="../js2021/js/touchswipe.min.js" id="touchswipe-js"></script>
-    <script type="text/javascript" src="../js2021/js/wp-embed.min.js" id="wp-embed-js"></script>
-    <script type="text/javascript" src="../js2021/js/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
-    <!-- Code injected by live-server -->
-    <script type="text/javascript">
-        // <![CDATA[  <-- For SVG support
-        if ('WebSocket' in window) {
-            (function() {
-                function refreshCSS() {
-                    var sheets = [].slice.call(document.getElementsByTagName("link"));
-                    var head = document.getElementsByTagName("head")[0];
-                    for (var i = 0; i < sheets.length; ++i) {
-                        var elem = sheets[i];
-                        var parent = elem.parentElement || head;
-                        parent.removeChild(elem);
-                        var rel = elem.rel;
-                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
-                            "stylesheet") {
-                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date()
-                                .valueOf());
+                length_menu: "Show _MENU_ entries",
+                empty_table: "No data available in table",
+                info: "Showing _START_ to _END_ of _TOTAL_ entries",
+                info_empty: "Showing 0 to 0 of 0 entries",
+                info_filtered: "(filtered from _MAX_ total entries)",
+                zero_records: "No matching records found",
+                search: "Search:",
+                all_selected_text: "All items on this page were selected. ",
+                select_all_link: "Select all pages",
+                clear_selection: "Clear Selection.",
+                pagination: {
+                    all: "All",
+                    next: "Next",
+                    previous: "Previous"
+                },
+                select: {
+                    rows: {
+                        0: "",
+                        _: ": Selected %d rows",
+                        1: ": Selected 1 row"
+                    },
+                },
+                datepicker: {
+                    dayNames: [
+                        "Sunday",
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday",
+                    ],
+                    dayNamesShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                    dayNamesMin: ["S", "M", "T", "W", "T", "F", "S"],
+                    monthNames: [
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December",
+                    ],
+                    monthNamesShort: [
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December",
+                    ],
+                    monthNamesMin: [
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Apr",
+                        "May",
+                        "Jun",
+                        "Jul",
+                        "Aug",
+                        "Sep",
+                        "Oct",
+                        "Nov",
+                        "Dec",
+                    ],
+                    nextText: "Next",
+                    prevText: "Prev",
+                    currentText: "Today",
+                    closeText: "Done",
+                    today: "Today",
+                    clear: "Clear",
+                },
+            }; /* ]]> */
+        </script>
+        <script type="text/html" id="wpb-modifications"></script>
+        <script type="text/javascript" src="../js2021/js/jquery.easing.js" id="jquery-easing-js"></script>
+        <script type="text/javascript" src="../js2021/js/jquery.mousewheel.js" id="jquery-mousewheel-js"></script>
+        <script type="text/javascript" src="../js2021/js/priority.js" id="nectar_priority-js"></script>
+        <script type="text/javascript" src="../js2021/js/transit.js" id="nectar-transit-js"></script>
+        <script type="text/javascript" src="../js2021/js/waypoints.js" id="nectar-waypoints-js"></script>
+        <script type="text/javascript" src="../js2021/js/imagesLoaded.min.js" id="imagesLoaded-js"></script>
+        <script type="text/javascript" src="../js2021/js/hoverintent.js" id="hoverintent-js"></script>
+        <script type="text/javascript" src="../js2021/js/jquery.fancybox.min.js" id="fancyBox-js"></script>
+        <script type="text/javascript" src="../js2021/js/superfish.js" id="superfish-js"></script>
+        <script type="text/javascript" id="nectar-frontend-js-extra">
+            /* <![CDATA[ */
+            var nectarLove = {
+                ajaxurl: "https:\/\/abundant.org\/wp-admin\/admin-ajax.php",
+                postID: "38",
+                rooturl: "https:\/\/abundant.org",
+                disqusComments: "false",
+                loveNonce: "b259f958ef",
+                mapApiKey: "",
+            };
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="../js2021/js/init.js" id="nectar-frontend-js"></script>
+        <script type="text/javascript" src="../js2021/js/touchswipe.min.js" id="touchswipe-js"></script>
+        <script type="text/javascript" src="../js2021/js/wp-embed.min.js" id="wp-embed-js"></script>
+        <script type="text/javascript" src="../js2021/js/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
+        <!-- Code injected by live-server -->
+        <script type="text/javascript">
+            // <![CDATA[  <-- For SVG support
+            if ('WebSocket' in window) {
+                (function() {
+                    function refreshCSS() {
+                        var sheets = [].slice.call(document.getElementsByTagName("link"));
+                        var head = document.getElementsByTagName("head")[0];
+                        for (var i = 0; i < sheets.length; ++i) {
+                            var elem = sheets[i];
+                            var parent = elem.parentElement || head;
+                            parent.removeChild(elem);
+                            var rel = elem.rel;
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
+                                "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date()
+                                    .valueOf());
+                            }
+                            parent.appendChild(elem);
                         }
-                        parent.appendChild(elem);
                     }
-                }
-                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                var address = protocol + window.location.host + window.location.pathname + '/ws';
-                var socket = new WebSocket(address);
-                socket.onmessage = function(msg) {
-                    if (msg.data == 'reload') window.location.reload();
-                    else if (msg.data == 'refreshcss') refreshCSS();
-                };
-                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                    console.log('Live reload enabled.');
-                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                }
-            })();
-        } else {
-            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-        }
-        // ]]>
-    </script>
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + '/ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function(msg) {
+                        if (msg.data == 'reload') window.location.reload();
+                        else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                        console.log('Live reload enabled.');
+                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                    }
+                })();
+            } else {
+                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+            }
+            // ]]>
+        </script>
 
-    <!-- Code injected by live-server -->
-    <script type="text/javascript">
-        // <![CDATA[  <-- For SVG support
-        if ('WebSocket' in window) {
-            (function() {
-                function refreshCSS() {
-                    var sheets = [].slice.call(document.getElementsByTagName("link"));
-                    var head = document.getElementsByTagName("head")[0];
-                    for (var i = 0; i < sheets.length; ++i) {
-                        var elem = sheets[i];
-                        var parent = elem.parentElement || head;
-                        parent.removeChild(elem);
-                        var rel = elem.rel;
-                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
-                            "stylesheet") {
-                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date()
-                                .valueOf());
+        <!-- Code injected by live-server -->
+        <script type="text/javascript">
+            // <![CDATA[  <-- For SVG support
+            if ('WebSocket' in window) {
+                (function() {
+                    function refreshCSS() {
+                        var sheets = [].slice.call(document.getElementsByTagName("link"));
+                        var head = document.getElementsByTagName("head")[0];
+                        for (var i = 0; i < sheets.length; ++i) {
+                            var elem = sheets[i];
+                            var parent = elem.parentElement || head;
+                            parent.removeChild(elem);
+                            var rel = elem.rel;
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() ==
+                                "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date()
+                                    .valueOf());
+                            }
+                            parent.appendChild(elem);
                         }
-                        parent.appendChild(elem);
                     }
-                }
-                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                var address = protocol + window.location.host + window.location.pathname + '/ws';
-                var socket = new WebSocket(address);
-                socket.onmessage = function(msg) {
-                    if (msg.data == 'reload') window.location.reload();
-                    else if (msg.data == 'refreshcss') refreshCSS();
-                };
-                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                    console.log('Live reload enabled.');
-                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                }
-            })();
-        } else {
-            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-        }
-        // ]]>
-    </script><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + '/ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function(msg) {
+                        if (msg.data == 'reload') window.location.reload();
+                        else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                        console.log('Live reload enabled.');
+                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                    }
+                })();
+            } else {
+                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+            }
+            // ]]>
+        </script><grammarly-desktop-integration data-grammarly-shadow-root="true">
+        </grammarly-desktop-integration>
 </body>
 
 </html>

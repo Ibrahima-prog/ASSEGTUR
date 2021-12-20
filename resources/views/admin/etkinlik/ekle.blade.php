@@ -61,6 +61,22 @@
                   <input type="text" class="form-control" name="slug" id="slug" placeholder="Enter slug" required>
                 </div>
                 </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="form-group">
+                  <label for="slug"> Date Du Début</label>
+                  <input type="text" class="form-control" name="sDay" id="sDay" placeholder="Jour. Ex: 21" required>
+                  <input type="text" class="form-control" name="sMonth" id="sMonth" placeholder="Mois. Ex: Juin" required>
+                  <input type="text" class="form-control" name="sYear" id="sYear" placeholder="Année. Ex: 1999" required>
+                </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="form-group">
+                  <label for="slug"> Date De Fin</label>
+                  <input type="text" class="form-control" name="eDay" id="eDay" placeholder="Jour. Ex: 21" required>
+                  <input type="text" class="form-control" name="eMonth" id="eMonth" placeholder="Mois. Ex: Juin" required>
+                  <input type="text" class="form-control" name="eYear" id="eYear" placeholder="Année. Ex: 1999" required>
+                </div>
+                </div>
                 
             </div>
                           

@@ -2438,7 +2438,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		    	}#top nav > ul > li[class*="button_bordered"] > a:before, #header-outer.transparent #top nav > ul > li[class*="button_bordered"] > a:before { 
 		    		height: 37px; 
 		    	}.material .sf-menu > li > a > .sf-sub-indicator [class^="icon-"] { font-size: 18px; }#page-header-bg h1, body h1, body .row .col.section-title h1, 
-			.full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2, body #error-404 h1 {font-family: gta-expanded-bold; text-transform: uppercase; font-size:64px; line-height:64px;  }
+			.full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2, body #error-404 h1 {font-family: gta-expanded-bold; text-transform: uppercase; font-size:54px; line-height:83px;  }
 			@media only screen and (max-width: 1300px) and (min-width: 1000px) {
 				body .row .col.section-title h1, body h1, .full-width-content .recent-post-container .inner-wrap h2 {
 					font-size: 48px;
@@ -2474,12 +2474,12 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
         #page-header-bg .span_6 h1,
         #page-header-bg.fullscreen-header .span_6 h1,
         .full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2 {
-					font-size: 38.4px;
+					font-size: 35px;
 					line-height: 38.4px;
 				}
 				
 				.wpb_wrapper h1.vc_custom_heading {
-					font-size: 38.4px!important;
+					font-size: 35px!important;
 					line-height: 38.4px!important;
 				}
 

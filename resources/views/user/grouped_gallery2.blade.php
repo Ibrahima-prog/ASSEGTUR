@@ -9,7 +9,7 @@
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
     />
     <title>
-      Abundant Kids &#8211; Vacation Bible School &#8211; Abundant Church
+      ACTIVITÉS &#8211; {{$slug->frtitle}}
     </title>
     <meta name="robots" content="max-image-preview:large" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
@@ -35,7 +35,7 @@
     <link
       rel="alternate"
       type="application/rss+xml"
-      title="Abundant Church &raquo; Abundant Kids &#8211; Vacation Bible School Comments Feed"
+      title="Abundant Church &raquo; {{$slug->frtitle}} Comments Feed"
       href="https://abundant.org/event/abundant-kids-vacation-bible-school/feed/"
     />
     <script type="text/javascript">
@@ -694,7 +694,7 @@
         {
           "@context": "http://schema.org",
           "@type": "Event",
-          "name": "Abundant Kids &#8211; Vacation Bible School",
+          "name": "{{$slug->frtitle}}",
           "description": "&lt;p&gt;Abundant Vacation Bible School and Summer Camp!! If you, or someone you know, is age 4 to 6; come join the fun!! July 13th through July 15th at our Westside...&lt;/p&gt;\\n",
           "image": "https://abundant.org/wp-content/uploads/2021/07/IMG_6813_1920x1080.jpg",
           "url": "https://abundant.org/event/abundant-kids-vacation-bible-school/",
@@ -731,21 +731,21 @@
     </script>
     <link
       rel="icon"
-      href="../images/images/cropped-Abundant-Favicon-01-32x32.png"
+      href="../images/images/logodown.svg"
       sizes="32x32"
     />
     <link
       rel="icon"
-      href="../images/images/cropped-Abundant-Favicon-01-192x192.png"
+      href="../images/images/logodown.svg"
       sizes="192x192"
     />
     <link
       rel="apple-touch-icon"
-      href="../images/images/cropped-Abundant-Favicon-01-180x180.png"
+      href="../images/images/logodown.svg"
     />
     <meta
       name="msapplication-TileImage"
-      content="https://abundant.org/wp-content/uploads/2020/12/cropped-Abundant-Favicon-01-270x270.png"
+      content="../images/images/logodown.svg"
     />
     <noscript
       ><style>
@@ -823,293 +823,196 @@
     </script>
     <div class="ocm-effect-wrap">
       <div class="ocm-effect-wrap-inner">
-        <div id="header-space" data-header-mobile-fixed="1"></div>
+        <div id="header-space" style="background-color: #ffffff;" data-header-mobile-fixed="1"></div>
 
-        <div
-          id="header-outer"
-          data-has-menu="true"
-          data-has-buttons="no"
-          data-header-button_style="default"
-          data-using-pr-menu="false"
-          data-mobile-fixed="1"
-          data-ptnm="false"
-          data-lhe="animated_underline"
-          data-user-set-bg="#222222"
-          data-format="default"
-          data-permanent-transparent="false"
-          data-megamenu-rt="0"
-          data-remove-fixed="0"
-          data-header-resize="0"
-          data-cart="false"
-          data-transparency-option
-          data-box-shadow="large"
-          data-shrink-num="6"
-          data-using-secondary="1"
-          data-using-logo="1"
-          data-logo-height="30"
-          data-m-logo-height="24"
-          data-padding="28"
-          data-full-width="false"
-          data-condense="false"
-        >
-		<div
-		id="header-secondary-outer"
-		class="default"
-		data-mobile="default"
-		data-remove-fixed="0"
-		data-lhe="animated_underline"
-		data-secondary-text="false"
-		data-full-width="false"
-		data-mobile-fixed="1"
-		data-permanent-transparent="false"
-	  >
-		<div class="container">
-		  <nav>
-			<ul class="sf-menu">
-			  <li
-			  id="menu-item-270"
-			  class="
-				menu-item
-				menu-item-type-post_type
-				menu-item-object-page menu-item-270
-			  "
-			>
-			  <a href="#"></a>
-			</li>                </ul>
-		  </nav>
-		</div>
-	  </div>
+		<div id="header-outer" data-has-menu="true" data-has-buttons="no" data-header-button_style="default"
+        data-using-pr-menu="false" data-mobile-fixed="1" data-ptnm="false" data-lhe="animated_underline"
+        data-user-set-bg="#222222" data-format="default" data-permanent-transparent="false" data-megamenu-rt="0"
+        data-remove-fixed="0" data-header-resize="0" data-cart="false" data-transparency-option
+        data-box-shadow="large" data-shrink-num="6" data-using-secondary="1" data-using-logo="1"
+        data-logo-height="30" data-m-logo-height="24" data-padding="28" data-full-width="false"
+        data-condense="false">
+       
 
-	  <div id="search-outer" class="nectar">
-		<div id="search">
-		  <div class="container">
-			<div id="search-box">
-			  <div class="inner-wrap">
-				<div class="col span_12">
-				  <form
-					role="search"
-					action="https://abundant.org/"
-					method="GET"
-				  >
-					<input
-					  type="text"
-					  name="s"
-					  value
-					  placeholder="Search"
-					/>
+<div id="search-outer" class="nectar">
+    <div id="search">
+        <div class="container">
+            <div id="search-box">
+                <div class="inner-wrap">
+                    <div class="col span_12">
+                        <form role="search" action="https://abundant.org/" method="GET">
+                            <input type="text" name="s" value placeholder="Search" />
+                            
+                            <span>Hit enter to search or ESC to close</span>
+                        </form>
+                    </div>
+                    <!--/span_12-->
+                </div>
+                <!--/inner-wrap-->
+            </div>
+            <!--/search-box-->
+            <div id="close">
+                <a href="#">
+                    <span class="close-wrap">
+                        <span class="close-line close-line1"></span>
+                        <span class="close-line close-line2"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--/container-->
+    </div>
+    <!--/search-->
+</div>
+<!--/search-outer-->
 
-					<span>Hit enter to search or ESC to close</span>
-				  </form>
-				</div>
-				<!--/span_12-->
-			  </div>
-			  <!--/inner-wrap-->
-			</div>
-			<!--/search-box-->
-			<div id="close">
-			  <a href="#">
-				<span class="close-wrap">
-				  <span class="close-line close-line1"></span>
-				  <span class="close-line close-line2"></span>
-				</span>
-			  </a>
-			</div>
-		  </div>
-		  <!--/container-->
-		</div>
-		<!--/search-->
-	  </div>
-	  <!--/search-outer-->
+<header id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col span_3">
+                <a id="logo" href="/" data-supplied-ml-starting-dark="false"
+                data-supplied-ml-starting="false" data-supplied-ml="false">
+                <img class="stnd default-logo dark-version" alt="Abundant Church"
+                src="/images/images/New Project.svg"
+                srcset="/images/images/New Project.svg 1x, /images/images/New Project.svg 2x" /><img
+                class="starting-logo default-logo" alt="Abundant Church"
+                src="/images/images/New Project.svg"
+                srcset="/images/images/New Project.svg 1x, /images/images/New Project.svg 2x" />
+            </a>
+        </div>
+        <!--/span_3-->
+        
+        <div class="col span_9 col_last">
+            <div class="
+            slide-out-widget-area-toggle
+            mobile-icon
+            slide-out-from-right
+            "
+            data-custom-color="false" data-icon-animation="simple-transform">
+            <div>
+                <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false"
+                class="closed">
+                <span aria-hidden="true">
+                    <i class="lines-button x2"> <i class="lines"></i> </i>
+                </span>
+            </a>
+        </div>
+    </div>
+    
+    <nav>
+        <ul class="sf-menu">
+            
+            <li id="menu-item-270"
+            class="
+            menu-item
+            menu-item-type-post_type
+            menu-item-object-page menu-item-270
+            ">
+            <a href="/association/about-us">À Propos</a>
+        </li>
+        
+        <li id="menu-item-169"
+        class="
+        menu-item
+        menu-item-type-custom
+        menu-item-object-custom
+        menu-item-169
+        ">
+        {{-- <a
+            target="_blank"
+            rel="noopener"
+            href="https://shop.abundant.org"
+            >Gallery</a
+            > --}}
+        </li>
+        
+        <li id="menu-item-168"
+        class="
+        menu-item
+        menu-item-type-post_type
+        menu-item-object-page menu-item-168
+        ">
+        <a href="/activities_and_gallery">Activités</a>
+    </li>
+    <li id="menu-item-41"
+    class="
+    menu-item
+    menu-item-type-post_type
+    menu-item-object-page menu-item-41
+    ">
+    <a href="/academic-works/article">Travaux Académiques</a>
+</li>
+<li id="menu-item-246"
+class="
+menu-item
+menu-item-type-post_type
+menu-item-object-page menu-item-246
+">
+<a href="/news">Journal</a>
+</li>
 
-	  <header id="top">
-		<div class="container">
-		  <div class="row">
-			<div class="col span_3">
-			  <a
-				id="logo"
-				href="/"
-				data-supplied-ml-starting-dark="false"
-				data-supplied-ml-starting="false"
-				data-supplied-ml="false"
-			  >
-				<img
-				  class="stnd default-logo dark-version"
-				  alt="Abundant Church"
-				  src="../images/images/logo181020210327.png"
-				  srcset="../images/images/logo181020210327.png 1x, ../images/images/logo181020210327.png 2x"
-				/><img
-				  class="starting-logo default-logo"
-				  alt="Abundant Church"
-				  src="../images/images/logo181020210327.png"
-				  srcset="../images/images/logo181020210327.png 1x, ../images/images/logo181020210327.png 2x"
-				/>
-			  </a>
-			</div>
-			<!--/span_3-->
+<li id="menu-item-50"
+class="
+menu-item
+menu-item-type-post_type
+menu-item-object-page menu-item-50
+">
+<a href="/association/register">S'enregistrer</a>
+</li>
 
-			<div class="col span_9 col_last">
-			  <div
-				class="
-				  slide-out-widget-area-toggle
-				  mobile-icon
-				  slide-out-from-right
-				"
-				data-custom-color="false"
-				data-icon-animation="simple-transform"
-			  >
-				<div>
-				  <a
-					href="#sidewidgetarea"
-					aria-label="Navigation Menu"
-					aria-expanded="false"
-					class="closed"
-				  >
-					<span aria-hidden="true">
-					  <i class="lines-button x2"> <i class="lines"></i> </i>
-					</span>
-				  </a>
-				</div>
-			  </div>
 
-			  <nav>
-				<ul class="sf-menu">
-				  
-				  <li
-				id="menu-item-270"
-				class="
-				  menu-item
-				  menu-item-type-post_type
-				  menu-item-object-page menu-item-270
-				"
-			  >
-				<a href="about.html">À Propos</a>
-			  </li>
-			  
-			  <li
-				id="menu-item-169"
-				class="
-				  menu-item
-				  menu-item-type-custom
-				  menu-item-object-custom
-				  menu-item-169
-				"
-			  >
-				<a
-				  target="_blank"
-				  rel="noopener"
-				  href="https://shop.abundant.org"
-				  >Gallery</a
-				>
-			  </li>
-			  
-			  <li
-				id="menu-item-168"
-				class="
-				  menu-item
-				  menu-item-type-post_type
-				  menu-item-object-page menu-item-168
-				"
-			  >
-				<a href="events.html">Activités</a>
-			  </li>
-			  <li
-					id="menu-item-41"
-					class="
-					  menu-item
-					  menu-item-type-post_type
-					  menu-item-object-page menu-item-41
-					"
-				  >
-					<a href="https://abundant.org/watch-connect/"
-					  >Travaux Académiques</a
-					>
-				  </li>
-			  <li
-				id="menu-item-246"
-				class="
-				  menu-item
-				  menu-item-type-post_type
-				  menu-item-object-page menu-item-246
-				"
-			  >
-				<a href="https://abundant.org/10things/">Journal</a>
-			  </li>
-				  
-			  <li
-			  id="menu-item-50"
-			  class="
-				menu-item
-				menu-item-type-post_type
-				menu-item-object-page menu-item-50
-			  "
-			>
-			  <a href="https://abundant.org/get-involved/"
-				>S'enregistrer</a
-			  >
-			</li>
-				  
-				  
-				  <li
-					id="menu-item-278"
-					class="
-					  menu-item
-					  menu-item-type-post_type
-					  menu-item-object-page menu-item-278
-					"
-				  >
-					<a href="https://abundant.org/contact/">Contact</a>
-				  </li>
-				</ul>
+<li id="menu-item-278"
+class="
+menu-item
+menu-item-type-post_type
+menu-item-object-page menu-item-278
+">
+<a href="/conctact-us">Contact</a>
+</li>
+</ul>
 
-				<ul class="buttons sf-menu" data-user-set-ocm="off"></ul>
-			  </nav>
-			</div>
-			<!--/span_9-->
-		  </div>
-		  <!--/row-->
-		</div>
-		<!--/container-->
-	  </header>
-	</div>
+<ul class="buttons sf-menu" data-user-set-ocm="off"></ul>
+</nav>
+</div>
+<!--/span_9-->
+</div>
+<!--/row-->
+</div>
+<!--/container-->
+</header>
+</div>
         </div>
 
         <div id="ajax-content-wrap">
           <main id="tribe-events-pg-template" class="tribe-events-pg-template">
-            <div class="tribe-events-before-html">
-              <p>
-                &nbsp;<br />
-                &nbsp;
-              </p>
-            </div>
             <span class="tribe-events-ajax-loading"
               ><img
                 class="tribe-events-spinner-medium"
                 src="../images/images/tribe-loading.gif"
                 alt="Loading Events"
             /></span>
-            <div id="tribe-events-content" class="tribe-events-single">
+            <div id="tribe-events-content" style="margin-bottom: 0px" class="tribe-events-single">
               <p class="tribe-events-back">
-                <a href="https://abundant.org/events/"> &laquo; All Events</a>
+                <a href="/activities_and_gallery"> &laquo; Toutes Les Activités</a>
               </p>
 
               <!-- Notices -->
 
               <h1 class="tribe-events-single-event-title">
-                Abundant Kids &#8211; Vacation Bible School
+                {{$slug->frtitle}}
               </h1>
               <div class="tribe-events-schedule tribe-clearfix">
                 <h2>
-                  <span class="tribe-event-date-start">July 13 @ 8:00 am</span>
-                  - <span class="tribe-event-date-end">July 15 @ 12:00 pm</span>
+                  <span class="tribe-event-date-start">{{$slug->sDay}} {{ $slug->sMonth}} {{$slug->sYear}}</span>
+                  - <span class="tribe-event-date-end">{{$slug->eDay}} {{$slug->eMonth}} {{$slug->sYear}}</span>
                 </h2>
-                <span class="tribe-events-cost">$55</span>
               </div>
 
               <!-- Event header -->
               <div
                 id="tribe-events-header"
-                data-title="Abundant Kids &#8211; Vacation Bible School &#8211; Abundant Church"
-                data-viewtitle="Abundant Kids &#8211; Vacation Bible School"
+                data-title="{{$slug->frtitle}} &#8211; Abundant Church"
+                data-viewtitle="{{$slug->frtitle}}"
                 data-redirected-view
                 data-default-mobile-view="month"
                 data-default-view="list"
@@ -1148,16 +1051,12 @@
                   <img
                     width="1920"
                     height="1080"
-                    src="../images/images/IMG_6813_1920x1080.jpg"
+                    src="../etkinlikFotograflari/{{$slug->image}}"
                     class="attachment-full size-full wp-post-image"
                     alt
                     loading="lazy"
                     srcset="
-                      ../images/images/IMG_6813_1920x1080.jpg          1920w,
-                      ../images/images/IMG_6813_1920x1080-300x169.jpg   300w,
-                      ../images/images/IMG_6813_1920x1080-1024x576.jpg 1024w,
-                      ../images/images/IMG_6813_1920x1080-768x432.jpg   768w,
-                      ../images/images/IMG_6813_1920x1080-1536x864.jpg 1536w
+                      ../etkinlikFotograflari/{{$slug->image}}
                     "
                     sizes="(max-width: 1920px) 100vw, 1920px"
                   />
@@ -1168,17 +1067,7 @@
                     tribe-events-single-event-description tribe-events-content
                   "
                 >
-                  <p>Abundant Vacation Bible School and Summer Camp!!</p>
-                  <p>
-                    If you, or someone you know, is age 4 to 6; come join the
-                    fun!! July 13th through July 15th at our Westside Campus.
-                    From 8 am to 12 noon each day. There will be arts and
-                    crafts, fun activities, play with your friends in an indoor
-                    playground and on jumping balloons, lots of games, and
-                    learning more about Jesus!!! And on the last day, we will be
-                    going to XZone (4564 Doniphan)!!!! Cost is $55 per child.
-                    Don’t miss it!!!
-                  </p>
+				<p>{!! $slug->frsummary !!}</p>
                   
                 </div>
                 <!-- .tribe-events-single-event-description -->
@@ -1326,6 +1215,9 @@
 						  <div class="row-bg"></div>
 						</div>
 						<div class="row_col_wrap_12_inner col span_12 left">
+							@foreach(explode(' , ' ,$slug->images) as $image)
+							
+             
 						  <div
 							class="
 							  vc_col-sm-3
@@ -1379,22 +1271,10 @@
 										  height="1632"
 										  width="1632"
 										  data-animation="fade-in"
-										  src="../images/images/Elena.jpg"
+										  src="../today/{{$image}}"
 										  alt
 										  srcset="
-											../images/images/Elena.jpg           1632w,
-											../images/images/Elena-300x300.jpg    300w,
-											../images/images/Elena-1024x1024.jpg 1024w,
-											../images/images/Elena-150x150.jpg    150w,
-											../images/images/Elena-768x768.jpg    768w,
-											../images/images/Elena-1536x1536.jpg 1536w,
-											../images/images/Elena-100x100.jpg    100w,
-											../images/images/Elena-140x140.jpg    140w,
-											../images/images/Elena-500x500.jpg    500w,
-											../images/images/Elena-350x350.jpg    350w,
-											../images/images/Elena-1000x1000.jpg 1000w,
-											../images/images/Elena-800x800.jpg    800w
-										  "
+											../today/{{$image}}"
 										  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
 										/>
 									  </div>
@@ -1406,858 +1286,13 @@
 									wpb_text_column wpb_content_element
 								  "
 								>
-								  <div class="wpb_wrapper">
-									<p>
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-bold;
-										  font-size: 18px;
-										"
-										>Elena Delman</span
-									  ><br />
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-medium;
-										  font-size: 14px;
-										"
-										>EXECUTIVE PASTOR</span
-									  >
-									</p>
-								  </div>
-								</div>
-							  </div>
-							</div>
-						  </div><div
-						  class="
-							vc_col-sm-3
-							wpb_column
-							column_container
-							vc_column_container
-							col
-							child_column
-							no-extra-padding
-							inherit_tablet inherit_phone
-						  "
-						  data-t-w-inherits="default"
-						  data-bg-cover
-						  data-padding-pos="all"
-						  data-has-bg-color="false"
-						  data-bg-color
-						  data-bg-opacity="1"
-						  data-hover-bg
-						  data-hover-bg-opacity="1"
-						  data-animation
-						  data-delay="0"
-						>
-						  <div class="vc_column-inner">
-							<div
-							  class="column-bg-overlay-wrap"
-							  data-bg-animation="none"
-							>
-							  <div class="column-bg-overlay"></div>
-							</div>
-							<div class="wpb_wrapper">
-							  <div
-								class="img-with-aniamtion-wrap"
-								data-max-width="100%"
-								data-max-width-mobile="default"
-								data-border-radius="none"
-								data-shadow="none"
-								data-animation="fade-in"
-							  >
-								<div class="inner">
-								  <div
-									class="hover-wrap"
-									data-hover-animation="none"
-								  >
-									<div class="hover-wrap-inner">
-									  <img
-										class="
-										  img-with-animation
-										  skip-lazy
-										"
-										data-delay="0"
-										height="1632"
-										width="1632"
-										data-animation="fade-in"
-										src="../images/images/Elena.jpg"
-										alt
-										srcset="
-										  ../images/images/Elena.jpg           1632w,
-										  ../images/images/Elena-300x300.jpg    300w,
-										  ../images/images/Elena-1024x1024.jpg 1024w,
-										  ../images/images/Elena-150x150.jpg    150w,
-										  ../images/images/Elena-768x768.jpg    768w,
-										  ../images/images/Elena-1536x1536.jpg 1536w,
-										  ../images/images/Elena-100x100.jpg    100w,
-										  ../images/images/Elena-140x140.jpg    140w,
-										  ../images/images/Elena-500x500.jpg    500w,
-										  ../images/images/Elena-350x350.jpg    350w,
-										  ../images/images/Elena-1000x1000.jpg 1000w,
-										  ../images/images/Elena-800x800.jpg    800w
-										"
-										sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-									  />
-									</div>
-								  </div>
-								</div>
-							  </div>
-							  <div
-								class="
-								  wpb_text_column wpb_content_element
-								"
-							  >
-								<div class="wpb_wrapper">
-								  <p>
-									<span
-									  style="
-										color: #e3e8dc;
-										font-family: gta-bold;
-										font-size: 18px;
-									  "
-									  >Elena Delman</span
-									><br />
-									<span
-									  style="
-										color: #e3e8dc;
-										font-family: gta-medium;
-										font-size: 14px;
-									  "
-									  >EXECUTIVE PASTOR</span
-									>
-								  </p>
+								  
 								</div>
 							  </div>
 							</div>
 						  </div>
-						</div><div
-						class="
-						  vc_col-sm-3
-						  wpb_column
-						  column_container
-						  vc_column_container
-						  col
-						  child_column
-						  no-extra-padding
-						  inherit_tablet inherit_phone
-						"
-						data-t-w-inherits="default"
-						data-bg-cover
-						data-padding-pos="all"
-						data-has-bg-color="false"
-						data-bg-color
-						data-bg-opacity="1"
-						data-hover-bg
-						data-hover-bg-opacity="1"
-						data-animation
-						data-delay="0"
-					  >
-						<div class="vc_column-inner">
-						  <div
-							class="column-bg-overlay-wrap"
-							data-bg-animation="none"
-						  >
-							<div class="column-bg-overlay"></div>
-						  </div>
-						  <div class="wpb_wrapper">
-							<div
-							  class="img-with-aniamtion-wrap"
-							  data-max-width="100%"
-							  data-max-width-mobile="default"
-							  data-border-radius="none"
-							  data-shadow="none"
-							  data-animation="fade-in"
-							>
-							  <div class="inner">
-								<div
-								  class="hover-wrap"
-								  data-hover-animation="none"
-								>
-								  <div class="hover-wrap-inner">
-									<img
-									  class="
-										img-with-animation
-										skip-lazy
-									  "
-									  data-delay="0"
-									  height="1632"
-									  width="1632"
-									  data-animation="fade-in"
-									  src="../images/images/Elena.jpg"
-									  alt
-									  srcset="
-										../images/images/Elena.jpg           1632w,
-										../images/images/Elena-300x300.jpg    300w,
-										../images/images/Elena-1024x1024.jpg 1024w,
-										../images/images/Elena-150x150.jpg    150w,
-										../images/images/Elena-768x768.jpg    768w,
-										../images/images/Elena-1536x1536.jpg 1536w,
-										../images/images/Elena-100x100.jpg    100w,
-										../images/images/Elena-140x140.jpg    140w,
-										../images/images/Elena-500x500.jpg    500w,
-										../images/images/Elena-350x350.jpg    350w,
-										../images/images/Elena-1000x1000.jpg 1000w,
-										../images/images/Elena-800x800.jpg    800w
-									  "
-									  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-									/>
-								  </div>
-								</div>
-							  </div>
-							</div>
-							<div
-							  class="
-								wpb_text_column wpb_content_element
-							  "
-							>
-							  <div class="wpb_wrapper">
-								<p>
-								  <span
-									style="
-									  color: #e3e8dc;
-									  font-family: gta-bold;
-									  font-size: 18px;
-									"
-									>Elena Delman</span
-								  ><br />
-								  <span
-									style="
-									  color: #e3e8dc;
-									  font-family: gta-medium;
-									  font-size: 14px;
-									"
-									>EXECUTIVE PASTOR</span
-								  >
-								</p>
-							  </div>
-							</div>
-						  </div>
-						</div>
-					  </div><div
-					  class="
-						vc_col-sm-3
-						wpb_column
-						column_container
-						vc_column_container
-						col
-						child_column
-						no-extra-padding
-						inherit_tablet inherit_phone
-					  "
-					  data-t-w-inherits="default"
-					  data-bg-cover
-					  data-padding-pos="all"
-					  data-has-bg-color="false"
-					  data-bg-color
-					  data-bg-opacity="1"
-					  data-hover-bg
-					  data-hover-bg-opacity="1"
-					  data-animation
-					  data-delay="0"
-					>
-					  <div class="vc_column-inner">
-						<div
-						  class="column-bg-overlay-wrap"
-						  data-bg-animation="none"
-						>
-						  <div class="column-bg-overlay"></div>
-						</div>
-						<div class="wpb_wrapper">
-						  <div
-							class="img-with-aniamtion-wrap"
-							data-max-width="100%"
-							data-max-width-mobile="default"
-							data-border-radius="none"
-							data-shadow="none"
-							data-animation="fade-in"
-						  >
-							<div class="inner">
-							  <div
-								class="hover-wrap"
-								data-hover-animation="none"
-							  >
-								<div class="hover-wrap-inner">
-								  <img
-									class="
-									  img-with-animation
-									  skip-lazy
-									"
-									data-delay="0"
-									height="1632"
-									width="1632"
-									data-animation="fade-in"
-									src="../images/images/Elena.jpg"
-									alt
-									srcset="
-									  ../images/images/Elena.jpg           1632w,
-									  ../images/images/Elena-300x300.jpg    300w,
-									  ../images/images/Elena-1024x1024.jpg 1024w,
-									  ../images/images/Elena-150x150.jpg    150w,
-									  ../images/images/Elena-768x768.jpg    768w,
-									  ../images/images/Elena-1536x1536.jpg 1536w,
-									  ../images/images/Elena-100x100.jpg    100w,
-									  ../images/images/Elena-140x140.jpg    140w,
-									  ../images/images/Elena-500x500.jpg    500w,
-									  ../images/images/Elena-350x350.jpg    350w,
-									  ../images/images/Elena-1000x1000.jpg 1000w,
-									  ../images/images/Elena-800x800.jpg    800w
-									"
-									sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-								  />
-								</div>
-							  </div>
-							</div>
-						  </div>
-						  <div
-							class="
-							  wpb_text_column wpb_content_element
-							"
-						  >
-							<div class="wpb_wrapper">
-							  <p>
-								<span
-								  style="
-									color: #e3e8dc;
-									font-family: gta-bold;
-									font-size: 18px;
-								  "
-								  >Elena Delman</span
-								><br />
-								<span
-								  style="
-									color: #e3e8dc;
-									font-family: gta-medium;
-									font-size: 14px;
-								  "
-								  >EXECUTIVE PASTOR</span
-								>
-							  </p>
-							</div>
-						  </div>
-						</div>
-					  </div>
-					</div><div
-					class="
-					  vc_col-sm-3
-					  wpb_column
-					  column_container
-					  vc_column_container
-					  col
-					  child_column
-					  no-extra-padding
-					  inherit_tablet inherit_phone
-					"
-					data-t-w-inherits="default"
-					data-bg-cover
-					data-padding-pos="all"
-					data-has-bg-color="false"
-					data-bg-color
-					data-bg-opacity="1"
-					data-hover-bg
-					data-hover-bg-opacity="1"
-					data-animation
-					data-delay="0"
-				  >
-					<div class="vc_column-inner">
-					  <div
-						class="column-bg-overlay-wrap"
-						data-bg-animation="none"
-					  >
-						<div class="column-bg-overlay"></div>
-					  </div>
-					  <div class="wpb_wrapper">
-						<div
-						  class="img-with-aniamtion-wrap"
-						  data-max-width="100%"
-						  data-max-width-mobile="default"
-						  data-border-radius="none"
-						  data-shadow="none"
-						  data-animation="fade-in"
-						>
-						  <div class="inner">
-							<div
-							  class="hover-wrap"
-							  data-hover-animation="none"
-							>
-							  <div class="hover-wrap-inner">
-								<img
-								  class="
-									img-with-animation
-									skip-lazy
-								  "
-								  data-delay="0"
-								  height="1632"
-								  width="1632"
-								  data-animation="fade-in"
-								  src="../images/images/Elena.jpg"
-								  alt
-								  srcset="
-									../images/images/Elena.jpg           1632w,
-									../images/images/Elena-300x300.jpg    300w,
-									../images/images/Elena-1024x1024.jpg 1024w,
-									../images/images/Elena-150x150.jpg    150w,
-									../images/images/Elena-768x768.jpg    768w,
-									../images/images/Elena-1536x1536.jpg 1536w,
-									../images/images/Elena-100x100.jpg    100w,
-									../images/images/Elena-140x140.jpg    140w,
-									../images/images/Elena-500x500.jpg    500w,
-									../images/images/Elena-350x350.jpg    350w,
-									../images/images/Elena-1000x1000.jpg 1000w,
-									../images/images/Elena-800x800.jpg    800w
-								  "
-								  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-								/>
-							  </div>
-							</div>
-						  </div>
-						</div>
-						<div
-						  class="
-							wpb_text_column wpb_content_element
-						  "
-						>
-						  <div class="wpb_wrapper">
-							<p>
-							  <span
-								style="
-								  color: #e3e8dc;
-								  font-family: gta-bold;
-								  font-size: 18px;
-								"
-								>Elena Delman</span
-							  ><br />
-							  <span
-								style="
-								  color: #e3e8dc;
-								  font-family: gta-medium;
-								  font-size: 14px;
-								"
-								>EXECUTIVE PASTOR</span
-							  >
-							</p>
-						  </div>
-						</div>
-					  </div>
-					</div>
-				  </div><div
-				  class="
-					vc_col-sm-3
-					wpb_column
-					column_container
-					vc_column_container
-					col
-					child_column
-					no-extra-padding
-					inherit_tablet inherit_phone
-				  "
-				  data-t-w-inherits="default"
-				  data-bg-cover
-				  data-padding-pos="all"
-				  data-has-bg-color="false"
-				  data-bg-color
-				  data-bg-opacity="1"
-				  data-hover-bg
-				  data-hover-bg-opacity="1"
-				  data-animation
-				  data-delay="0"
-				>
-				  <div class="vc_column-inner">
-					<div
-					  class="column-bg-overlay-wrap"
-					  data-bg-animation="none"
-					>
-					  <div class="column-bg-overlay"></div>
-					</div>
-					<div class="wpb_wrapper">
-					  <div
-						class="img-with-aniamtion-wrap"
-						data-max-width="100%"
-						data-max-width-mobile="default"
-						data-border-radius="none"
-						data-shadow="none"
-						data-animation="fade-in"
-					  >
-						<div class="inner">
-						  <div
-							class="hover-wrap"
-							data-hover-animation="none"
-						  >
-							<div class="hover-wrap-inner">
-							  <img
-								class="
-								  img-with-animation
-								  skip-lazy
-								"
-								data-delay="0"
-								height="1632"
-								width="1632"
-								data-animation="fade-in"
-								src="../images/images/Elena.jpg"
-								alt
-								srcset="
-								  ../images/images/Elena.jpg           1632w,
-								  ../images/images/Elena-300x300.jpg    300w,
-								  ../images/images/Elena-1024x1024.jpg 1024w,
-								  ../images/images/Elena-150x150.jpg    150w,
-								  ../images/images/Elena-768x768.jpg    768w,
-								  ../images/images/Elena-1536x1536.jpg 1536w,
-								  ../images/images/Elena-100x100.jpg    100w,
-								  ../images/images/Elena-140x140.jpg    140w,
-								  ../images/images/Elena-500x500.jpg    500w,
-								  ../images/images/Elena-350x350.jpg    350w,
-								  ../images/images/Elena-1000x1000.jpg 1000w,
-								  ../images/images/Elena-800x800.jpg    800w
-								"
-								sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-							  />
-							</div>
-						  </div>
-						</div>
-					  </div>
-					  <div
-						class="
-						  wpb_text_column wpb_content_element
-						"
-					  >
-						<div class="wpb_wrapper">
-						  <p>
-							<span
-							  style="
-								color: #e3e8dc;
-								font-family: gta-bold;
-								font-size: 18px;
-							  "
-							  >Elena Delman</span
-							><br />
-							<span
-							  style="
-								color: #e3e8dc;
-								font-family: gta-medium;
-								font-size: 14px;
-							  "
-							  >EXECUTIVE PASTOR</span
-							>
-						  </p>
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
+						  @endforeach
 
-						  <div
-							class="
-							  vc_col-sm-3
-							  wpb_column
-							  column_container
-							  vc_column_container
-							  col
-							  child_column
-							  no-extra-padding
-							  inherit_tablet inherit_phone
-							"
-							data-t-w-inherits="default"
-							data-bg-cover
-							data-padding-pos="all"
-							data-has-bg-color="false"
-							data-bg-color
-							data-bg-opacity="1"
-							data-hover-bg
-							data-hover-bg-opacity="1"
-							data-animation
-							data-delay="0"
-						  >
-							<div class="vc_column-inner">
-							  <div
-								class="column-bg-overlay-wrap"
-								data-bg-animation="none"
-							  >
-								<div class="column-bg-overlay"></div>
-							  </div>
-							  <div class="wpb_wrapper">
-								<div
-								  class="img-with-aniamtion-wrap"
-								  data-max-width="100%"
-								  data-max-width-mobile="default"
-								  data-border-radius="none"
-								  data-shadow="none"
-								  data-animation="fade-in"
-								>
-								  <div class="inner">
-									<div
-									  class="hover-wrap"
-									  data-hover-animation="none"
-									>
-									  <div class="hover-wrap-inner">
-										<img
-										  class="
-											img-with-animation
-											skip-lazy
-										  "
-										  data-delay="0"
-										  height="1145"
-										  width="1145"
-										  data-animation="fade-in"
-										  src="../images/images/ezra.jpg"
-										  alt
-										  srcset="
-											../images/images/ezra.jpg           1145w,
-											../images/images/ezra-300x300.jpg    300w,
-											../images/images/ezra-1024x1024.jpg 1024w,
-											../images/images/ezra-150x150.jpg    150w,
-											../images/images/ezra-768x768.jpg    768w,
-											../images/images/ezra-100x100.jpg    100w,
-											../images/images/ezra-140x140.jpg    140w,
-											../images/images/ezra-500x500.jpg    500w,
-											../images/images/ezra-350x350.jpg    350w,
-											../images/images/ezra-1000x1000.jpg 1000w,
-											../images/images/ezra-800x800.jpg    800w
-										  "
-										  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-										/>
-									  </div>
-									</div>
-								  </div>
-								</div>
-								<div
-								  class="
-									wpb_text_column wpb_content_element
-								  "
-								>
-								  <div class="wpb_wrapper">
-									<p>
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-bold;
-										  font-size: 18px;
-										"
-										>Ezra Jurado</span
-									  ><br />
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-medium;
-										  font-size: 14px;
-										"
-										>EXECUTIVE PASTOR</span
-									  >
-									</p>
-								  </div>
-								</div>
-							  </div>
-							</div>
-						  </div>
-
-						  <div
-							class="
-							  vc_col-sm-3
-							  wpb_column
-							  column_container
-							  vc_column_container
-							  col
-							  child_column
-							  no-extra-padding
-							  inherit_tablet inherit_phone
-							"
-							data-t-w-inherits="default"
-							data-bg-cover
-							data-padding-pos="all"
-							data-has-bg-color="false"
-							data-bg-color
-							data-bg-opacity="1"
-							data-hover-bg
-							data-hover-bg-opacity="1"
-							data-animation
-							data-delay="0"
-						  >
-							<div class="vc_column-inner">
-							  <div
-								class="column-bg-overlay-wrap"
-								data-bg-animation="none"
-							  >
-								<div class="column-bg-overlay"></div>
-							  </div>
-							  <div class="wpb_wrapper">
-								<div
-								  class="img-with-aniamtion-wrap"
-								  data-max-width="100%"
-								  data-max-width-mobile="default"
-								  data-border-radius="none"
-								  data-shadow="none"
-								  data-animation="fade-in"
-								>
-								  <div class="inner">
-									<div
-									  class="hover-wrap"
-									  data-hover-animation="none"
-									>
-									  <div class="hover-wrap-inner">
-										<img
-										  class="
-											img-with-animation
-											skip-lazy
-										  "
-										  data-delay="0"
-										  height="1127"
-										  width="1127"
-										  data-animation="fade-in"
-										  src="../images/images/Jimmy.jpg"
-										  alt
-										  srcset="
-											../images/images/Jimmy.jpg           1127w,
-											../images/images/Jimmy-300x300.jpg    300w,
-											../images/images/Jimmy-1024x1024.jpg 1024w,
-											../images/images/Jimmy-150x150.jpg    150w,
-											../images/images/Jimmy-768x768.jpg    768w,
-											../images/images/Jimmy-100x100.jpg    100w,
-											../images/images/Jimmy-140x140.jpg    140w,
-											../images/images/Jimmy-500x500.jpg    500w,
-											../images/images/Jimmy-350x350.jpg    350w,
-											../images/images/Jimmy-1000x1000.jpg 1000w,
-											../images/images/Jimmy-800x800.jpg    800w
-										  "
-										  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-										/>
-									  </div>
-									</div>
-								  </div>
-								</div>
-								<div
-								  class="
-									wpb_text_column wpb_content_element
-								  "
-								>
-								  <div class="wpb_wrapper">
-									<p>
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-bold;
-										  font-size: 18px;
-										"
-										>Jimmy Salas</span
-									  ><br />
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-medium;
-										  font-size: 14px;
-										"
-										>EXECUTIVE PASTOR</span
-									  >
-									</p>
-								  </div>
-								</div>
-							  </div>
-							</div>
-						  </div>
-
-						  <div
-							class="
-							  vc_col-sm-3
-							  wpb_column
-							  column_container
-							  vc_column_container
-							  col
-							  child_column
-							  no-extra-padding
-							  inherit_tablet inherit_phone
-							"
-							data-t-w-inherits="default"
-							data-bg-cover
-							data-padding-pos="all"
-							data-has-bg-color="false"
-							data-bg-color
-							data-bg-opacity="1"
-							data-hover-bg
-							data-hover-bg-opacity="1"
-							data-animation
-							data-delay="0"
-						  >
-							<div class="vc_column-inner">
-							  <div
-								class="column-bg-overlay-wrap"
-								data-bg-animation="none"
-							  >
-								<div class="column-bg-overlay"></div>
-							  </div>
-							  <div class="wpb_wrapper">
-								<div
-								  class="img-with-aniamtion-wrap"
-								  data-max-width="100%"
-								  data-max-width-mobile="default"
-								  data-border-radius="none"
-								  data-shadow="none"
-								  data-animation="fade-in"
-								>
-								  <div class="inner">
-									<div
-									  class="hover-wrap"
-									  data-hover-animation="none"
-									>
-									  <div class="hover-wrap-inner">
-										<img
-										  class="
-											img-with-animation
-											skip-lazy
-										  "
-										  data-delay="0"
-										  height="1808"
-										  width="1809"
-										  data-animation="fade-in"
-										  src="../images/images/cruz.jpg"
-										  alt
-										  srcset="
-											../images/images/cruz.jpg           1809w,
-											../images/images/cruz-300x300.jpg    300w,
-											../images/images/cruz-1024x1024.jpg 1024w,
-											../images/images/cruz-150x150.jpg    150w,
-											../images/images/cruz-768x768.jpg    768w,
-											../images/images/cruz-1536x1536.jpg 1536w,
-											../images/images/cruz-100x100.jpg    100w,
-											../images/images/cruz-140x140.jpg    140w,
-											../images/images/cruz-500x500.jpg    500w,
-											../images/images/cruz-350x350.jpg    350w,
-											../images/images/cruz-1000x1000.jpg 1000w,
-											../images/images/cruz-800x800.jpg    800w
-										  "
-										  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-										/>
-									  </div>
-									</div>
-								  </div>
-								</div>
-								<div
-								  class="
-									wpb_text_column wpb_content_element
-								  "
-								>
-								  <div class="wpb_wrapper">
-									<p>
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-bold;
-										  font-size: 18px;
-										"
-										>Cruz Ramirez</span
-									  ><br />
-									  <span
-										style="
-										  color: #e3e8dc;
-										  font-family: gta-medium;
-										  font-size: 14px;
-										"
-										>EXECUTIVE PASTOR</span
-									  >
-									</p>
-								  </div>
-								</div>
-							  </div>
-							</div>
-						  </div>
 						</div>
 					  </div>
 					  
@@ -2270,348 +1305,13 @@
 			  </div>
 			</div>
               <!-- Event footer -->
-              <div id="tribe-events-footer">
-                <!-- Navigation -->
-                <nav
-                  class="tribe-events-nav-pagination"
-                  aria-label="Event Navigation"
-                >
-                  <ul class="tribe-events-sub-nav">
-                    <li class="tribe-events-nav-previous">
-                      <a
-                        href="https://abundant.org/event/4th-of-july-celebration/"
-                        ><span>&laquo;</span> 4th of July Celebration</a
-                      >
-                    </li>
-                    <li class="tribe-events-nav-next"></li>
-                  </ul>
-                  <!-- .tribe-events-sub-nav -->
-                </nav>
-              </div>
-              <!-- #tribe-events-footer -->
-            </div>
-            <!-- #tribe-events-content -->
-            <div class="tribe-events-after-html">
-              <p>
-                &nbsp;<br />
-                &nbsp;
-              </p>
-            </div>
+              
             <!--
 This calendar is powered by The Events Calendar.
 http://m.tri.be/18wn
 -->
           </main>
-		  <div
-		  id="footer-outer"
-		  data-midnight="light"
-		  data-cols="2"
-		  data-custom-color="true"
-		  data-disable-copyright="true"
-		  data-matching-section-color="false"
-		  data-copyright-line="false"
-		  data-using-bg-img="false"
-		  data-bg-img-overlay="0.8"
-		  data-full-width="false"
-		  data-using-widget-area="true"
-		  data-link-hover="default"
-		>
-		  <div id="footer-widgets" data-has-widgets="true" data-cols="2">
-			<div class="container">
-			  <div class="row">
-				<div class="col span_6">
-				  <!-- Footer widget area 1 -->
-				  <div
-					id="custom_html-2"
-					class="widget_text widget widget_custom_html"
-				  >
-					<div class="textwidget custom-html-widget">
-					  <div
-						id="fws_616a05088500b"
-						data-column-margin="default"
-						data-midnight="dark"
-						class="
-						  wpb_row
-						  vc_row-fluid vc_row
-						  standard_section
-						  vc_hidden-sm vc_hidden-xs
-						"
-						style="padding-top: 0px; padding-bottom: 0px"
-					  >
-						<div
-						  class="row-bg-wrap"
-						  data-bg-animation="none"
-						  data-bg-overlay="false"
-						>
-						  <div class="inner-wrap">
-							<div class="row-bg" style></div>
-						  </div>
-						  <div class="row-bg-overlay"></div>
-						</div>
-						<div class="row_col_wrap_12 col span_12 dark left">
-						  <div
-							class="
-							  vc_col-sm-12
-							  wpb_column
-							  column_container
-							  vc_column_container
-							  col
-							  no-extra-padding
-							  inherit_tablet inherit_phone
-							"
-							data-t-w-inherits="default"
-							data-bg-cover
-							data-padding-pos="all"
-							data-has-bg-color="false"
-							data-bg-color
-							data-bg-opacity="1"
-							data-hover-bg
-							data-hover-bg-opacity="1"
-							data-animation
-							data-delay="0"
-						  >
-							<div class="vc_column-inner">
-							  <div
-								class="column-bg-overlay-wrap"
-								data-bg-animation="none"
-							  >
-								<div class="column-bg-overlay"></div>
-							  </div>
-							  <div class="wpb_wrapper">
-								<div
-								  class="img-with-aniamtion-wrap"
-								  data-max-width="100%"
-								  data-max-width-mobile="default"
-								  data-border-radius="none"
-								  data-shadow="none"
-								  data-animation="none"
-								  style="margin-top: -30%"
-								>
-								  <div class="inner">
-									<div
-									  class="hover-wrap"
-									  data-hover-animation="none"
-									>
-									  <div class="hover-wrap-inner">
-										<img
-										  class="img-with-animation skip-lazy"
-										  data-delay="0"
-										  height="139"
-										  width="139"
-										  data-animation="none"
-										  src="../images/images/191020211732.png"
-										  alt
-										  srcset="
-											../images/images/191020211732.png         139w,
-											../images/images/191020211732.png 100w
-										  "
-										  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-										/>
-									  </div>
-									</div>
-								  </div>
-								</div>
-								<div
-								  class="divider-wrap"
-								  data-alignment="default"
-								>
-								  <div
-									style="height: 40px"
-									class="divider"
-								  ></div>
-								</div>
-								<div
-								  class="wpb_text_column wpb_content_element"
-								>
-								  <div class="wpb_wrapper">
-									<p>
-									  <span
-										style="
-										  color: #222222;
-										  font-family: gta-medium;
-										  font-size: 18px;
-										  line-height: 1.5;
-										"
-										>Suivez Nous</span
-									  ><br />
-									  <span style="color: #222222"
-										><a
-										  style="color: #222222"
-										  href="https://www.facebook.com/AbundantChurchEP/"
-										  >Facebook</a
-										>
-										 
-										<a
-										  style="color: #222222"
-										  href="https://www.instagram.com/abundant.church/"
-										  >Instagram</a
-										>
-										 
-										<a
-										  style="color: #222222"
-										  href="https://www.youtube.com/user/alfcep/"
-										  >YouTube</a
-										></span
-									  >
-									</p>
-								  </div>
-								</div>
-							  </div>
-							</div>
-						  </div>
-						</div>
-					  </div>
-					  <div
-						id="fws_616a050885677"
-						data-column-margin="default"
-						data-midnight="dark"
-						class="
-						  wpb_row
-						  vc_row-fluid vc_row
-						  standard_section
-						  vc_hidden-lg vc_hidden-md
-						"
-						style="padding-top: 0px; padding-bottom: 0px"
-					  >
-						<div
-						  class="row-bg-wrap"
-						  data-bg-animation="none"
-						  data-bg-overlay="false"
-						>
-						  <div class="inner-wrap">
-							<div class="row-bg" style></div>
-						  </div>
-						  <div class="row-bg-overlay"></div>
-						</div>
-						<div class="row_col_wrap_12 col span_12 dark left">
-						  <div
-							class="
-							  vc_col-sm-12
-							  wpb_column
-							  column_container
-							  vc_column_container
-							  col
-							  no-extra-padding
-							  inherit_tablet inherit_phone
-							"
-							data-t-w-inherits="default"
-							data-bg-cover
-							data-padding-pos="all"
-							data-has-bg-color="false"
-							data-bg-color
-							data-bg-opacity="1"
-							data-hover-bg
-							data-hover-bg-opacity="1"
-							data-animation
-							data-delay="0"
-						  >
-							<div class="vc_column-inner">
-							  <div
-								class="column-bg-overlay-wrap"
-								data-bg-animation="none"
-							  >
-								<div class="column-bg-overlay"></div>
-							  </div>
-							  <div class="wpb_wrapper">
-								<div
-								  class="img-with-aniamtion-wrap"
-								  data-max-width="100%"
-								  data-max-width-mobile="default"
-								  data-border-radius="none"
-								  data-shadow="none"
-								  data-animation="none"
-								>
-								  <div class="inner">
-									<div
-									  class="hover-wrap"
-									  data-hover-animation="none"
-									>
-									  <div class="hover-wrap-inner">
-										<img
-										  class="img-with-animation skip-lazy"
-										  data-delay="0"
-										  height="139"
-										  width="139"
-										  data-animation="none"
-										  src="../images/images/191020211732.png"
-										  alt
-										  srcset="
-											../images/images/191020211732.png         139w,
-											../images/images/191020211732.png 100w
-										  "
-										  sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-										/>
-									  </div>
-									</div>
-								  </div>
-								</div>
-								<div
-								  class="divider-wrap"
-								  data-alignment="default"
-								>
-								  <div
-									style="height: 40px"
-									class="divider"
-								  ></div>
-								</div>
-								<div
-								  class="wpb_text_column wpb_content_element"
-								>
-								  <div class="wpb_wrapper">
-									<p>
-									  <span
-										style="
-										  color: #222222;
-										  font-family: gta-medium;
-										  font-size: 18px;
-										  line-height: 1.5;
-										"
-										>Suivez Nous</span
-									  ><br />
-									  <span style="color: #222222"
-										><a
-										  style="color: #222222"
-										  href="https://www.facebook.com/AbundantChurchEP/"
-										  >Facebook</a
-										>
-										 
-										<a
-										  style="color: #222222"
-										  href="https://www.instagram.com/abundant.church/"
-										  >Instagram</a
-										>
-										 
-										<a
-										  style="color: #222222"
-										  href="https://www.youtube.com/user/alfcep/"
-										  >YouTube</a
-										></span
-									  >
-									</p>
-								  </div>
-								</div>
-							  </div>
-							</div>
-						  </div>
-						</div>
-					  </div>
-					</div>
-				  </div>
-				</div>
-				<!--/span_3-->
-
-				<div class="col span_6">
-				  <!-- Footer widget area 2 -->
-				  <div class="widget"></div>
-				</div>
-				<!--/span_3-->
-			  </div>
-			  <!--/row-->
-			</div>
-			<!--/container-->
-		  </div>
-		  <!--/footer-widgets-->
-		</div>
+		  @include('user.layouts.footer3')
 		<!--/footer-outer-->
 
 		<div
@@ -2619,115 +1319,95 @@ http://m.tri.be/18wn
 		  class="slide-out-from-right dark"
 		></div>
 
-		<div
-		  id="slide-out-widget-area"
-		  class="slide-out-from-right"
-		  data-dropdown-func="separate-dropdown-parent-link"
-		  data-back-txt="Back"
-		>
-		  <div class="inner-wrap">
-			<div class="inner" data-prepend-menu-mobile="false">
-			  <a class="slide_out_area_close" href="#">
-				<span class="close-wrap">
-				  <span class="close-line close-line1"></span>
-				  <span class="close-line close-line2"></span>
-				</span>
-			  </a>
+		<div id="slide-out-widget-area" class="slide-out-from-right"
+data-dropdown-func="separate-dropdown-parent-link" data-back-txt="Back">
+<div class="inner-wrap">
+    <div class="inner" data-prepend-menu-mobile="false">
+        <a class="slide_out_area_close" href="#">
+            <span class="close-wrap">
+                <span class="close-line close-line1"></span>
+                <span class="close-line close-line2"></span>
+            </span>
+        </a>
+        
+        <div class="off-canvas-menu-container mobile-only">
+            <ul class="menu">
+                
+                <li
+                class="
+                menu-item
+                menu-item-type-post_type
+                menu-item-object-page menu-item-270
+                ">
+                <a href="/association/about-us">À Propos</a>
+            </li>
+            
+            <li
+            class="
+            menu-item
+            menu-item-type-custom
+            menu-item-object-custom
+            menu-item-169
+            ">
+            
+        </li>
+        
+        <li
+        class="
+        menu-item
+        menu-item-type-post_type
+        menu-item-object-page menu-item-168
+        ">
+        <a href="/activities_and_gallery">Activités</a>
+    </li>
+    <li
+    class="
+    menu-item
+    menu-item-type-post_type
+    menu-item-object-page menu-item-41
+    ">
+    <a href="/academic-works/article">Travaux Académiques</a>
+</li>
+<li
+class="
+menu-item
+menu-item-type-post_type
+menu-item-object-page menu-item-246
+">
+<a href="/news">Journal</a>
+</li>
 
-			  <div class="off-canvas-menu-container mobile-only">
-				<ul class="menu">
-				  
-				  <li
-				  class="
-					menu-item
-					menu-item-type-post_type
-					menu-item-object-page menu-item-270
-				  "
-				>
-				  <a href="about.html">À Propos</a>
-				</li>
-				
-				<li
-				  class="
-					menu-item
-					menu-item-type-custom
-					menu-item-object-custom
-					menu-item-169
-				  "
-				>
-				  <a
-					target="_blank"
-					rel="noopener"
-					href="https://shop.abundant.org"
-					>Gallery</a
-				  >
-				</li>
-				
-				<li
-				  class="
-					menu-item
-					menu-item-type-post_type
-					menu-item-object-page menu-item-168
-				  "
-				>
-				  <a href="https://abundant.org/calendar/">Activités</a>
-				</li>
-				<li
-					class="
-					  menu-item
-					  menu-item-type-post_type
-					  menu-item-object-page menu-item-41
-					"
-				  >
-					<a href="https://abundant.org/watch-connect/"
-					  >Travaux Académiques</a
-					>
-				  </li>
-				<li
-				  class="
-					menu-item
-					menu-item-type-post_type
-					menu-item-object-page menu-item-246
-				  "
-				>
-				  <a href="https://abundant.org/10things/">Journal</a>
-				</li>
-				  
-				<li
-				class="
-				  menu-item
-				  menu-item-type-post_type
-				  menu-item-object-page menu-item-50
-				"
-			  >
-				<a href="https://abundant.org/get-involved/"
-				  >S'enregister</a
-				>
-			  </li>
-				 
-				 
-				  <li
-					class="
-					  menu-item
-					  menu-item-type-post_type
-					  menu-item-object-page menu-item-278
-					"
-				  >
-					<a href="https://abundant.org/contact/">Contact</a>
-				  </li>
-				</ul>
+<li
+class="
+menu-item
+menu-item-type-post_type
+menu-item-object-page menu-item-50
+">
+<a href="/association/register">S'enregister</a>
+</li>
 
-				<ul class="menu secondary-header-items">
-				  
-				</ul>
-			  </div>
-			</div>
 
-			<div class="bottom-meta-wrap"></div>
-			<!--/bottom-meta-wrap-->
-		  </div>
-		  <!--/inner-wrap-->
-		</div>
+<li
+class="
+menu-item
+menu-item-type-post_type
+menu-item-object-page menu-item-278
+">
+<a href="/conctact-us">Contact</a>
+</li>
+</ul>
+
+<ul class="menu secondary-header-items">
+    
+</ul>
+</div>
+</div>
+
+<div class="bottom-meta-wrap"></div>
+<!--/bottom-meta-wrap-->
+</div>
+<!--/inner-wrap-->
+</div>
 	  </div>
         </div>
         <!--/ajax-content-wrap-->

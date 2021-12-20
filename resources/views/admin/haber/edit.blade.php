@@ -69,7 +69,14 @@
                       <input type="text" class="form-control" id="slug" name="slug" placeholder="Haber Url" value="{{ $update->slug }}" required>
                     </div>  
                 </div>
-
+                <div class="col-lg-6 col-md-6">
+                  <div class="form-group">
+                  <label for="slug"> Date Du Début</label>
+                  <input type="text" class="form-control" name="sDay" id="sDay" placeholder="Jour. Ex: 21" value="{{ $update->sDay }}"  required>
+                  <input type="text" class="form-control" name="sMonth" id="sMonth" placeholder="Mois. Ex: Juin" value="{{ $update->sMonth }}"  required>
+                  <input type="text" class="form-control" name="sYear" id="sYear" placeholder="Année. Ex: 1999" value="{{ $update->sYear }}"  required>
+                </div>
+                </div>
             </div>
 
             <!-- /.box-body -->

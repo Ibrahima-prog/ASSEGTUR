@@ -95,11 +95,11 @@
                                             height="139"
                                             width="139"
                                             data-animation="none"
-                                            src="images/images/191020211732.png"
+                                            src="../images/images/logodown.svg"
                                             alt
                                             srcset="
-                                              images/images/191020211732.png         139w,
-                                              images/images/191020211732.png 100w
+                                              ../images/images/logodown.svg         139w,
+                                              ../images/images/logodown.svg 100w
                                             "
                                             sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
                                           />
@@ -133,21 +133,17 @@
                                         <span style="color: #222222"
                                           ><a
                                             style="color: #222222"
-                                            href="https://www.facebook.com/AbundantChurchEP/"
+                                            href="https://www.facebook.com/groups/124016280989833/"
                                             >Facebook</a
                                           >
                                            
                                           <a
                                             style="color: #222222"
-                                            href="https://www.instagram.com/abundant.church/"
+                                            href="https://www.instagram.com/guinean_students_in_turkey/"
                                             >Instagram</a
                                           >
                                            
-                                          <a
-                                            style="color: #222222"
-                                            href="https://www.youtube.com/user/alfcep/"
-                                            >YouTube</a
-                                          ></span
+                                            </span
                                         >
                                       </p>
                                     </div>
@@ -229,11 +225,11 @@
                                             height="139"
                                             width="139"
                                             data-animation="none"
-                                            src="images/images/191020211732.png"
+                                            src="../images/images/logodown.svg"
                                             alt
                                             srcset="
-                                              images/images/191020211732.png         139w,
-                                              images/images/191020211732.png 100w
+                                              ../images/images/logodown.svg         139w,
+                                              ../images/images/logodown.svg 100w
                                             "
                                             sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
                                           />
@@ -267,21 +263,17 @@
                                         <span style="color: #222222"
                                           ><a
                                             style="color: #222222"
-                                            href="https://www.facebook.com/AbundantChurchEP/"
+                                            href="https://www.facebook.com/assegtur"
                                             >Facebook</a
                                           >
                                            
                                           <a
                                             style="color: #222222"
-                                            href="https://www.instagram.com/abundant.church/"
+                                            href="https://www.instagram.com/guinean_students_in_turkey/"
                                             >Instagram</a
                                           >
                                            
-                                          <a
-                                            style="color: #222222"
-                                            href="https://www.youtube.com/user/alfcep/"
-                                            >YouTube</a
-                                          ></span
+                                            </span
                                         >
                                       </p>
                                     </div>
@@ -340,7 +332,7 @@
                       menu-item-object-page menu-item-270
                     "
                   >
-                    <a href="about.html">À Propos</a>
+                    <a href="/association/about-us">À Propos</a>
                   </li>
                   
                   <li
@@ -351,12 +343,7 @@
                       menu-item-169
                     "
                   >
-                    <a
-                      target="_blank"
-                      rel="noopener"
-                      href="https://shop.abundant.org"
-                      >Gallery</a
-                    >
+                   
                   </li>
                   
                   <li
@@ -366,7 +353,7 @@
                       menu-item-object-page menu-item-168
                     "
                   >
-                    <a href="https://abundant.org/calendar/">Activités</a>
+                    <a href="/activities_and_gallery">Activités</a>
                   </li>
                   <li
                       class="
@@ -375,7 +362,7 @@
                         menu-item-object-page menu-item-41
                       "
                     >
-                      <a href="https://abundant.org/watch-connect/"
+                      <a href="/academic-works/article"
                         >Travaux Académiques</a
                       >
                     </li>
@@ -386,7 +373,7 @@
                       menu-item-object-page menu-item-246
                     "
                   >
-                    <a href="https://abundant.org/10things/">Journal</a>
+                    <a href="/news">Journal</a>
                   </li>
                     
                   <li
@@ -396,7 +383,7 @@
                     menu-item-object-page menu-item-50
                   "
                 >
-                  <a href="https://abundant.org/get-involved/"
+                  <a href="/association/register"
                     >S'enregister</a
                   >
                 </li>
@@ -409,7 +396,7 @@
                         menu-item-object-page menu-item-278
                       "
                     >
-                      <a href="https://abundant.org/contact/">Contact</a>
+                      <a href="/conctact-us">Contact</a>
                     </li>
                   </ul>
 
