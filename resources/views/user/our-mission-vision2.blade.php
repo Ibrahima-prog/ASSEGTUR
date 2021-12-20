@@ -2135,7 +2135,7 @@
                             menu-item-object-page menu-item-41
                           "
                         >
-                          <a href="academic-works/article"
+                          <a href="/academic-works/article"
                             >Travaux Académiques</a
                           >
                         </li>
