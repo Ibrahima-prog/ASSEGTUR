@@ -1535,7 +1535,7 @@ tribe-common-h6
 tribe-common-h4--min-medium
 ">
 <a href="/news/{{$activity->slug}}"
-    title="Abundant Kids &#8211; Vacation Bible School"
+    title="{{ $activity->frtitle }}"
     rel="bookmark"
     class="
     tribe-events-calendar-latest-past__event-title-link
@@ -1593,8 +1593,10 @@ tribe-events-c-small-cta__price
 </div>
 @endforeach
 
+@if (count($news) > 10)
 Pages:
 {!! $news->links() !!}
+@endif
 
 
 </div>
@@ -2414,13 +2416,13 @@ tribe-common-h6
 tribe-common-h4--min-medium
 ">
 <a href="/news/{{$activity->slug}}"
-title="Abundant Kids &#8211; Vacation Bible School"
-rel="bookmark"
-class="
-tribe-events-calendar-latest-past__event-title-link
-tribe-common-anchor-thin
-">
-{{ $activity->frtitle }}
+    title="{{ $activity->frtitle }}"
+    rel="bookmark"
+    class="
+    tribe-events-calendar-latest-past__event-title-link
+    tribe-common-anchor-thin
+    ">
+    {{ $activity->frtitle }}
 </a>
 </h3>
 <address
@@ -2471,8 +2473,10 @@ tribe-events-c-small-cta__price
 
 </div>
 @endforeach
+@if (count($news) > 10)
 Pages:
 {!! $news->links() !!}
+@endif
 </div>
 </div>
 </div>

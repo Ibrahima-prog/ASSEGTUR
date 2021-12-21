@@ -1418,7 +1418,7 @@
                                                                                                                 /* width: 40%; */
                                                                                                             ">
                                                                                                                 <a href="/activities_and_gallery_summary/{{$activities->first()->slug}}"
-                                                                                                                    target="_blank"
+                                                                                                                    target=""
                                                                                                                     class>
                                                                                                                     <img class="
                                                               img-with-animation

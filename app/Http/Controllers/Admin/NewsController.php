@@ -157,9 +157,10 @@ class NewsController extends Controller
                      'frtitle' => $request->frtitle,
                      'trtitle' => $request->trtitle,
                      'slug' => $request->slug,
-                     'slug' => $request->slug,
-                     'slug' => $request->slug,
-                     'slug' => $request->slug,
+                     'sDay' => $request->sDay,
+                     'sMonth' => $request->sMonth,
+                     'sYear' => $request->sYear,
+                     
                      
                      'enbody' => $request->enbody, 
                      'frbody' => $request->frbody,
@@ -174,6 +175,9 @@ class NewsController extends Controller
                      'frtitle' => $request->frtitle,
                      'trtitle' => $request->trtitle,
                      'slug' => $request->slug,
+                     'sDay' => $request->sDay,
+                     'sMonth' => $request->sMonth,
+                     'sYear' => $request->sYear,
                      
                      'enbody' => $request->enbody, 
                      'frbody' => $request->frbody,

@@ -702,16 +702,10 @@
                                                                         <div style="height: 20px"
                                                                             class="divider"></div>
                                                                     </div>
-                                                                    <a href="https://youtu.be/ve3zCKtSAAk"
-                                                                        data-color-override="false" data-style="default"
-                                                                        data-parent-hover data-font-style="p"
-                                                                        data-color="default-accent-color"
-                                                                        class="
-                                        nectar-button
-                                        large
-                                        nectar_video_lightbox
-                                        pp
-                                      "><span>CONTACT</span></a>
+                                                                    <a class="nectar-button  large "
+                                       style="background-color: rgb(0, 0, 0); visibility: visible;" href="/conctact-us" 
+                                       data-color-override="#000000" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>
+                                          CONTACT</span></a>
                                                                 </div>
                                                             </div>
                                                         </div>

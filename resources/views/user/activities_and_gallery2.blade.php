@@ -1543,7 +1543,7 @@
                                                                                                       tribe-common-h4--min-medium
                                                                                                     ">
                                                                                                                     <a href="../activities_and_gallery_summary/{{$activity->slug}}"
-                                                                                                                        title="Abundant Kids &#8211; Vacation Bible School"
+                                                                                                                        title="{{ $activity->frtitle }}"
                                                                                                                         rel="bookmark"
                                                                                                                         class="
                                                                                                         tribe-events-calendar-latest-past__event-title-link
@@ -1600,7 +1600,7 @@
 
                                                                                             </div>
                                                                                         @endforeach
-                                                                                        @if (count($activities) > 9)
+                                                                                        @if (count($activities) > 10)
                                                                                             Pages:
                                                                                             {!! $activities->links() !!}
                                                                                         @endif
@@ -2429,7 +2429,7 @@
                                                             tribe-common-h4--min-medium
                                                           ">
                                                                                                                     <a href="../activities_and_gallery_summary/{{$activity->slug}}"
-                                                                                                                        title="Abundant Kids &#8211; Vacation Bible School"
+                                                                                                                        title="{{ $activity->frtitle }}"
                                                                                                                         rel="bookmark"
                                                                                                                         class="
                                                               tribe-events-calendar-latest-past__event-title-link
@@ -2486,8 +2486,10 @@
 
                                                                                             </div>
                                                                                         @endforeach
-                                                                                        Pages:
-                                                                                        {!! $activities->links() !!}
+                                                                                        @if (count($activities) > 10)
+                                                                                            Pages:
+                                                                                            {!! $activities->links() !!}
+                                                                                        @endif
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
